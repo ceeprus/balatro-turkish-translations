@@ -6,7 +6,7 @@ A humble community-made version of the Turkish localization of Balatro.
 
 _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), and buy it to support its creator!_
 
-## Comment installer le mod ?
+## Nasıl kurulur ?
 
 ### [Size en uygun modu indirin](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
 
