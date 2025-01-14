@@ -4,7 +4,7 @@
 
 Avant tout, vérifiez juste que :
 
-- Vous êtes **sous Windows**. (sinon, [utilisez une autre méthode](KURULUM.md))
+- Vous êtes **sous Windows**. (sinon, [utilisez une autre méthode](INSTALL.md))
 - Vous avez installé Balatro **avec Steam**.
 - Votre jeu Balatro est **à jour**.
 
