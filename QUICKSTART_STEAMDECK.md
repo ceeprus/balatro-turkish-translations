@@ -1,29 +1,28 @@
-# Installation rapide de la traduction FR de Balatro
+# Balatro TR çevirisinin hızlı kurulumu
 
-## Prérequis
+## Gereksinimler
 
-Avant tout, vérifiez juste que :
+Öncelikle şunları kontrol edin :
 
-- Vous êtes **sur SteamDeck/Linux**. (sinon, [utilisez une autre méthode](INSTALL.md))
-- Vous avez installé Balatro **avec Steam**.
-- Votre jeu Balatro est **à jour**.
+- **SteamDeck/Linux** kullanıyorsunuz. (veya, [başka bir yöntem](INSTALL.md))
+- Balatro **Steam** ile yüklü.
+- Balatro oyununuz **güncel**.
 
-## Installation
+## Kurulum
 
-- **Fermez Balatro**
-- Passez en mode bureau.
-- Téléchargez le fichier [Better_FR_Linux.sh](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Linux.sh)
-- **Cliquez-droit** sur le script `Better_FR_Linux.sh` que vous venez de télécharger et choisir `Properties`.
-  - Dans l'onglet `Permissions` cochez la case `Is executable`. Validez avec le bouton Ok.
-- **Fermez** la fenêtre de propriétés, **Cliquez-droit** sur le script `Better_FR_Linux.sh` et choisir `Run In Konsole`.
-- Répondez _O_ pour confirmer (ou _N_) que vous voulez bien traduire les images du jeu.
-- **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
+- **Balatro'yu kapat**
+- Masaüstü moduna geçin
+- Dosyayı indirin [Better_TR_Linux.sh](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Linux.sh)
+- `Better_FR_Linux.sh` dosyasına sağ tıklayın\*\* ve `Konsole'da Çalıştır`'ı seçin.
+- `İzinler` sekmesinde, `Executable` kutusunu işaretleyin. Tamam düğmesi ile onaylayın.
+- Oyun görüntülerini çevirmek istediğinizi onaylamak için _Y_ (veya _N_) yanıtını verin.
+- **Balatro'yu Steam'den başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-Si vous avez choisi de traduire les images, vous pouvez confirmer que les images traduites sont bien installées en vérifiant qu’il y a bien une baguette 🥖 sur le bouton de traduction.
+Görüntüleri çevirmeyi seçtiyseniz, çevir düğmesinin üzerinde bir Kebap fotoğrafı olup olmadığını kontrol ederek çevrilen görüntülerin yüklendiğini onaylayabilirsiniz.
 
-> [!NOTE]
-> Une fois l’installation terminée, vous pouvez supprimer le script. Pensez juste à revenir ici le retélécharger quand le jeu sera mis à jour : il faudra le relancer pour que le jeu soit à nouveau bien traduit.
+> [!NOT]
+> Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yeniden indirmek için buraya geri gelmeyi unutmayın: oyunun tekrar düzgün bir şekilde çevrilmesi için yeniden başlatmanız gerekecektir.
 
-Si la traduction vous plaît, n’hésitez pas à en parler à vos amis, streamers et vidéastes préférés pour qu’ils en profitent aussi !
+Çeviriyi beğendiyseniz, arkadaşlarınıza, yayıncılara ve favori youtuberlarınıza bundan bahsetmekten çekinmeyin, böylece onlar da bundan keyif alabilir!
 
-[↩ Revenir à la page d’accueil du projet](https://github.com/FrBmt-BIGetNouf/balatro-french-translations)
+[↩ Proje ana sayfasına dönün](https://github.com/ceeprus/balatro-turkish-translations)

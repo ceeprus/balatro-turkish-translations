@@ -1,29 +1,29 @@
-# Installation rapide de la traduction FR de Balatro
+# Balatro TR çevirisinin hızlı kurulumu
 
-## Prérequis
+## Gereksinimler
 
-Avant tout, vérifiez juste que :
+Öncelikle şunları kontrol edin :
 
-- Vous êtes **sous Windows**. (sinon, [utilisez une autre méthode](INSTALL.md))
-- Vous avez installé Balatro **avec Steam**.
-- Votre jeu Balatro est **à jour**.
+- **Windows** kullanıyorsunuz. (veya, [başka bir yöntem](INSTALL.md))
+- Balatro **Steam** ile yüklü.
+- Balatro oyununuz **güncel**.
 
-## Installation
+## Kurulum
 
-- Téléchargez le fichier [Better_FR_Windows.cmd](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Windows.cmd)
-- **Double-cliquez** sur le script `Better_FR_Windows.cmd` que vous venez de télécharger. <br />
-  Il est possible que Windows Defender bloque l’exécution du script. Cliquez sur _Informations complémentaires_ puis _Exécuter quand même_.
-- Répondez _O_ pour confirmer (ou _N_) que vous voulez bien traduire les images du jeu.
-- **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
+- Dosyayı indirin [Better_TR_Windows.cmd](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Windows.cmd)
+- Ve indirmiş olduğunuz `Better_TR_Windows.cmd`'ye **Çift Tıkla** <br />
+  Windows Defender komut dosyasının çalışmasını engelleyebilir. Önce _Ek bilgi_ ardından _Yine de çalıştır_ seçeneğine tıklayın.
+- Oyun görüntülerini çevirmek istediğinizi onaylamak için _Y_ (veya _N_) yanıtını verin.
+- **Balatro'yu Steam'den başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-Si vous avez choisi de traduire les images, vous pouvez confirmer que les images traduites sont bien installées en vérifiant qu’il y a bien une baguette 🥖 sur le bouton de traduction.
+Görüntüleri çevirmeyi seçtiyseniz, çevir düğmesinin üzerinde bir Kebap fotoğrafı olup olmadığını kontrol ederek çevrilen görüntülerin yüklendiğini onaylayabilirsiniz.
 
-> [!CAUTION]
-> Si votre jeu n’est pas installé sur `C:\` à l'endroit habituel, notre script vous demandera où se trouve `Balatro.exe`. Vous pouvez le trouver depuis Steam, en faisant un **clic-droit sur Balatro** dans votre bibliothèque, puis _Gérer_ puis _Parcourir les fichiers locaux_.
+> [!UYARI]
+> Eğer oyununuz `C:\` üzerinde her zamanki yerde kurulu değilse, scriptimiz size `Balatro.exe`nin nerede olduğunu soracaktır. Bunu Steam'den, kütüphanenizdeki Balatro'ya \*\*sağ tıklayarak, ardından _Yönet_ ve _Yerel dosyalara göz at_ ile bulabilirsiniz.
 
-> [!NOTE]
-> Une fois l’installation terminée, vous pouvez supprimer le script. Pensez juste à revenir ici le retélécharger quand le jeu sera mis à jour : il faudra le relancer pour que le jeu soit à nouveau bien traduit.
+> [!NOT]
+> Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yeniden indirmek için buraya geri gelmeyi unutmayın: oyunun tekrar düzgün bir şekilde çevrilmesi için yeniden başlatmanız gerekecektir.
 
-Si la traduction vous plaît, n’hésitez pas à en parler à vos amis, streamers et vidéastes préférés pour qu’ils en profitent aussi !
+Çeviriyi beğendiyseniz, arkadaşlarınıza, yayıncılara ve favori youtuberlarınıza bundan bahsetmekten çekinmeyin, böylece onlar da bundan keyif alabilir!
 
-[↩ Revenir à la page d’accueil du projet](https://github.com/FrBmt-BIGetNouf/balatro-french-translations)
+[↩ Proje ana sayfasına dönün](https://github.com/ceeprus/balatro-turkish-translations)
