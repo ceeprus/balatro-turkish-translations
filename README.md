@@ -14,7 +14,7 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 - [SteamDeck kullanıyorsanız](QUICKSTART_STEAMDECK.md).
 
-- [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](KURULUM.md).
+- [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
 
 ## Current state
 
@@ -27,9 +27,9 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 | Category                                      | Status | Comment                                        |
 | --------------------------------------------- | ------ | ---------------------------------------------- |
 | [Easy, 1-click script](QUICKSTART.md)         | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
-| [Steamodded](KURULUM.md#via-un-mod)           | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
+| [Steamodded](INSTALL.md#via-un-mod)           | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
 | [Balamod](https://github.com/balamod/balamod) | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
-| [Manual](KURULUM.md#à-la-main)                | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
+| [Manual](INSTALL.md#à-la-main)                | ❌     | Çalışıyor, çevirisi yapılmadı. **Kullanmayın** |
 
 ## Contributing
 
