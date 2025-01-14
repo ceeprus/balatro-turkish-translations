@@ -4,7 +4,7 @@
 
 Avant tout, vérifiez juste que :
 
-- Vous êtes **sur SteamDeck/Linux**. (sinon, [utilisez une autre méthode](INSTALL.md))
+- Vous êtes **sur SteamDeck/Linux**. (sinon, [utilisez une autre méthode](KURULUM.md))
 - Vous avez installé Balatro **avec Steam**.
 - Votre jeu Balatro est **à jour**.
 
@@ -16,7 +16,7 @@ Avant tout, vérifiez juste que :
 - **Cliquez-droit** sur le script `Better_FR_Linux.sh` que vous venez de télécharger et choisir `Properties`.
   - Dans l'onglet `Permissions` cochez la case `Is executable`. Validez avec le bouton Ok.
 - **Fermez** la fenêtre de propriétés, **Cliquez-droit** sur le script `Better_FR_Linux.sh` et choisir `Run In Konsole`.
-- Répondez *O* pour confirmer (ou *N*) que vous voulez bien traduire les images du jeu.
+- Répondez _O_ pour confirmer (ou _N_) que vous voulez bien traduire les images du jeu.
 - **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
 Si vous avez choisi de traduire les images, vous pouvez confirmer que les images traduites sont bien installées en vérifiant qu’il y a bien une baguette 🥖 sur le bouton de traduction.
