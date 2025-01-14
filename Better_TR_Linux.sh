@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Balatro French Translations
+# Balatro Turkish Translations
 #
 # Script d'installation du pack de langue FR pour Balatro (version SteamDeck/Linux)
 # Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
@@ -21,8 +21,8 @@ ressources_folder=$'Balatro_Localization_Resources'
 # Initialisation
 init() {
     echo "========================================="
-    echo "==     Balatro French Translations     =="
-    echo "==  Installation du pack de langue FR  =="
+    echo "==     Balatro Turkish Translations    =="
+    echo "==  Installation du pack de langue TR  =="
     echo "==        Traductions et images        =="
     echo "========================================="
 
@@ -72,67 +72,67 @@ download_balamod() {
 # Téléchargement du pack de langue FR
 download_mod_fr() {
     echo ""
-    echo "Téléchargement du mod FR..."
+    echo "Téléchargement du mod tr..."
     echo ""
 
-    fr_repository="https://raw.githubusercontent.com/FrBmt-BIGetNouf/balatro-french-translations/main/localization"
-    fr_translation="${fr_repository}/fr.lua"
-    fr_assets_boosters_1x="${fr_repository}/assets/1x/boosters.png"
-    fr_assets_boosters_2x="${fr_repository}/assets/2x/boosters.png"
-    fr_assets_tarots_1x="${fr_repository}/assets/1x/Tarots.png"
-    fr_assets_tarots_2x="${fr_repository}/assets/2x/Tarots.png"
-    fr_assets_vouchers_1x="${fr_repository}/assets/1x/Vouchers.png"
-    fr_assets_vouchers_2x="${fr_repository}/assets/2x/Vouchers.png"
-    fr_assets_icons_1x="${fr_repository}/assets/1x/icons.png"
-    fr_assets_icons_2x="${fr_repository}/assets/2x/icons.png"
-    fr_assets_BlindChips_1x="${fr_repository}/assets/1x/BlindChips.png"
-    fr_assets_BlindChips_2x="${fr_repository}/assets/2x/BlindChips.png"
-    fr_assets_Jokers_1x="${fr_repository}/assets/1x/Jokers.png"
-    fr_assets_Jokers_2x="${fr_repository}/assets/2x/Jokers.png"
-    fr_assets_ShopSignAnimation_1x="${fr_repository}/assets/1x/ShopSignAnimation.png"
-    fr_assets_ShopSignAnimation_2x="${fr_repository}/assets/2x/ShopSignAnimation.png"
-    fr_assets_8BitDeck_1x="${fr_repository}/assets/1x/8BitDeck.png"
-    fr_assets_8BitDeck_2x="${fr_repository}/assets/2x/8BitDeck.png"
-    fr_assets_8BitDeck_opt2_1x="${fr_repository}/assets/1x/8BitDeck_opt2.png"
-    fr_assets_8BitDeck_opt2_2x="${fr_repository}/assets/2x/8BitDeck_opt2.png"
-    font_m6x11plus="${fr_repository}/resources/fonts/m6x11plus.ttf"
+    tr_repository="https://raw.githubusercontent.com/FrBmt-BIGetNouf/balatro-french-translations/main/localization"
+    tr_translation="${tr_repository}/tr.lua"
+    tr_assets_boosters_1x="${tr_repository}/assets/1x/boosters.png"
+    tr_assets_boosters_2x="${tr_repository}/assets/2x/boosters.png"
+    tr_assets_tarots_1x="${tr_repository}/assets/1x/Tarots.png"
+    tr_assets_tarots_2x="${tr_repository}/assets/2x/Tarots.png"
+    tr_assets_vouchers_1x="${tr_repository}/assets/1x/Vouchers.png"
+    tr_assets_vouchers_2x="${tr_repository}/assets/2x/Vouchers.png"
+    tr_assets_icons_1x="${tr_repository}/assets/1x/icons.png"
+    tr_assets_icons_2x="${tr_repository}/assets/2x/icons.png"
+    tr_assets_BlindChips_1x="${tr_repository}/assets/1x/BlindChips.png"
+    tr_assets_BlindChips_2x="${tr_repository}/assets/2x/BlindChips.png"
+    tr_assets_Jokers_1x="${tr_repository}/assets/1x/Jokers.png"
+    tr_assets_Jokers_2x="${tr_repository}/assets/2x/Jokers.png"
+    tr_assets_ShopSignAnimation_1x="${tr_repository}/assets/1x/ShopSignAnimation.png"
+    tr_assets_ShopSignAnimation_2x="${tr_repository}/assets/2x/ShopSignAnimation.png"
+    tr_assets_8BitDeck_1x="${tr_repository}/assets/1x/8BitDeck.png"
+    tr_assets_8BitDeck_2x="${tr_repository}/assets/2x/8BitDeck.png"
+    tr_assets_8BitDeck_opt2_1x="${tr_repository}/assets/1x/8BitDeck_opt2.png"
+    tr_assets_8BitDeck_opt2_2x="${tr_repository}/assets/2x/8BitDeck_opt2.png"
+    font_m6x11plus="${tr_repository}/resources/fonts/m6x11plus.ttf"
 
-    curl --create-dirs -o "${ressources_folder}/fr.lua" -LJ "${fr_translation}"
+    curl --create-dirs -o "${ressources_folder}/tr.lua" -LJ "${tr_translation}"
     curl --create-dirs -o "${ressources_folder}/resources/fonts/m6x11plus.ttf" -LJ "${font_m6x11plus}"
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
-        curl --create-dirs -o "${ressources_folder}/assets/1x/boosters.png" -LJ "${fr_assets_boosters_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/boosters.png" -LJ "${fr_assets_boosters_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/Tarots.png" -LJ "${fr_assets_tarots_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/Tarots.png" -LJ "${fr_assets_tarots_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/Vouchers.png" -LJ "${fr_assets_vouchers_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/Vouchers.png" -LJ "${fr_assets_vouchers_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/icons.png" -LJ "${fr_assets_icons_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/icons.png" -LJ "${fr_assets_icons_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/BlindChips.png" -LJ "${fr_assets_BlindChips_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/BlindChips.png" -LJ "${fr_assets_BlindChips_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/Jokers.png" -LJ "${fr_assets_Jokers_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/Jokers.png" -LJ "${fr_assets_Jokers_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/ShopSignAnimation.png" -LJ "${fr_assets_ShopSignAnimation_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/ShopSignAnimation.png" -LJ "${fr_assets_ShopSignAnimation_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck.png" -LJ "${fr_assets_8BitDeck_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck.png" -LJ "${fr_assets_8BitDeck_2x}"
-        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck_opt2.png" -LJ "${fr_assets_8BitDeck_opt2_1x}"
-        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck_opt2.png" -LJ "${fr_assets_8BitDeck_opt2_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/boosters.png" -LJ "${tr_assets_boosters_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/boosters.png" -LJ "${tr_assets_boosters_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/Tarots.png" -LJ "${tr_assets_tarots_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/Tarots.png" -LJ "${tr_assets_tarots_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/Vouchers.png" -LJ "${tr_assets_vouchers_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/Vouchers.png" -LJ "${tr_assets_vouchers_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/icons.png" -LJ "${tr_assets_icons_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/icons.png" -LJ "${tr_assets_icons_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/BlindChips.png" -LJ "${tr_assets_BlindChips_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/BlindChips.png" -LJ "${tr_assets_BlindChips_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/Jokers.png" -LJ "${tr_assets_Jokers_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/Jokers.png" -LJ "${tr_assets_Jokers_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/ShopSignAnimation.png" -LJ "${tr_assets_ShopSignAnimation_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/ShopSignAnimation.png" -LJ "${tr_assets_ShopSignAnimation_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck.png" -LJ "${tr_assets_8BitDeck_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck.png" -LJ "${tr_assets_8BitDeck_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck_opt2.png" -LJ "${tr_assets_8BitDeck_opt2_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck_opt2.png" -LJ "${tr_assets_8BitDeck_opt2_2x}"
     fi
 
     echo ""
-    echo "Téléchargement du mod FR terminé."
+    echo "Téléchargement du mod TR terminé."
     echo ""
 }
 
-# Injection du pack de langue FR
+# Injection du pack de langue TR
 mod_injection() {
     echo ""
     echo "Installation du pack de langue..."
     echo ""
 
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/fr.lua -o localization/fr.lua
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/tr.lua -o localization/tr.lua
     ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
@@ -167,6 +167,6 @@ download_cleanup() {
 
 init
 download_balamod
-download_mod_fr
+download_mod_tr
 mod_injection
 download_cleanup
