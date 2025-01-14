@@ -20,7 +20,7 @@
 
 Görüntüleri çevirmeyi seçtiyseniz, çevir düğmesinin üzerinde bir Kebap fotoğrafı olup olmadığını kontrol ederek çevrilen görüntülerin yüklendiğini onaylayabilirsiniz.
 
-> [!NOT]
+> [!NOTE]
 > Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yeniden indirmek için buraya geri gelmeyi unutmayın: oyunun tekrar düzgün bir şekilde çevrilmesi için yeniden başlatmanız gerekecektir.
 
 Çeviriyi beğendiyseniz, arkadaşlarınıza, yayıncılara ve favori youtuberlarınıza bundan bahsetmekten çekinmeyin, böylece onlar da bundan keyif alabilir!
