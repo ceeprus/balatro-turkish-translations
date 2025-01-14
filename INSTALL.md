@@ -1,49 +1,49 @@
-# Méthodes d’installation
+# Kurulum Yöntemleri
 
-Il y a de nombreuses méthodes différentes pour installer la traduction française communautaire de Balatro ; choisissez celle qui vous convient le mieux.
+Balatro'nun Türkçe çevirisini kullanmanın birçok yolu vardır; size en uygun olanı seçin.
 
-## Je n’y connais rien (et je suis sous Windows)
+## Hiçbir şey bilmiyorum (ve Windows kullanıyorum)
 
-Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sous Windows**](QUICKSTART.md).
+Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın Windows**](QUICKSTART.md).
 
-## Je n’y connais rien (et je suis sur SteamDeck/sous Linux)
+## Hiçbir şey bilmiyorum (ve SteamDeck/Linux kullanıyorum)
 
-Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sur SteamDeck/Linux**](QUICKSTART_STEAMDECK.md).
+Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın SteamDeck/Linux**](QUICKSTART_STEAMDECK.md).
 
-## Via un mod
+## Mod ile
 
-### Avec Balamod (marche aussi sur SteamDeck, Linux, et MacOS)
-1. Moddez votre jeu avec **Balamod** en suivant la [procédure d'installation de Balamod (en anglais)](https://github.com/balamod/balamod).
-2. **Lancez le jeu**, cliquez sur le bouton "MOD" et téléchargez `Balatro FR Loc MOD`
-3. Si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
+### Balamod ile (SteamDeck, Linux ve MacOS'ta da çalışır)
 
+1. Aşağıdaki adımları takip ederek oyununuzu **Balamod** ile değiştirin [Balamod kurulum](https://github.com/balamod/balamod).
+2. **Oyunu başlatın**, “MOD” düğmesine tıklayın ve `Balatro TR Loc MOD`'u indirin
+3. Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-### Avec Steamodded (marche aussi sur SteamDeck, Linux, et macOS)
+### Steamodded ile (SteamDeck, Linux ve macOS üzerinde de çalışır)
 
-1. Moddez votre jeu avec **Steammoded** en suivant la [procédure d'installation de Steammoded (en anglais)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation).
-2. Téléchargez l'archive [Better_FR_Steamodded.zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Steamodded.zip)
-3. Extrayez le dossier `Better_FR_Steamodded` (en entier) de cette archive dans le dossier des mods comme indiqué dans la [procédure d’installation des mods (en anglais)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod). <br/> Vous ne devez pas en extraire que le contenu, mais aussi le dossier lui-même : une fois terminé, vous devriez donc avoir un dossier `Better_FR_Steamodded` dans le dossier `mods`.
-4. **Lancez le jeu** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
+1. **Steammoded** kurulum [Steammodded kurulum)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation).
+2. Arşivi indirin [Better_TR_Steamodded.zip](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Steamodded.zip)
+3. Dosyayı Çıkartın `Better_TR_Steamodded` (en entier) de cette archive dans le dossier des mods comme indiqué dans la [Mod'u kurun](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod). <br/> Sadece içeriği değil, klasörün kendisini de çıkarmanız gerekiyor: işiniz bittiğinde, `Better_TR_Steamodded` dosyasını `mods` klasörüne atın.
+4. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
+> [!ÖNEMLİ]
+> Oyun her güncellendiğinde dosyalar da güncellenmelidir.
+
+## El ile
+
+### Balatro.exe üzerinde 7zip kullanarak
+
+1. [7zip](https://7-zip.org/) indirin. Hayır, WinRAR çalışmıyor.
+2. **Balatro'yu kapatın.**
+3. Arşivi indirin [Better_TR_Manual_Install.zip](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Manual_Install.zip)
+4. Balatro yüklü klasöre gidin. (Örn.: `SteamLibrary\steamapps\common\Balatro\`). <br/> Balatro'nun nerede olduğunu bilmiyorsanız, Steam kütüphanenizdeki Balatro'ya sağ tıklayıp _Yönet_ ve ardından _Yerel dosyalara gözat_ seçeneğine tıklayabilirsiniz.
+5. Balatro.exe`ye sağ tıklayın, ardından _7-Zip_ menüsünde _Arşivi aç_ seçeneğine tıklayın.
+6. 7zip içinde `localization` klasörünü açın.
+7. Adım 3'te indirdiğiniz arşivdeki `localization` klasöründen `en.lua` dosyasını sürükleyip bırakın ve dosyanın kopyasını onaylayın.
+8. m6x11plus.ttf`dosyasını 3. adımda indirdiğiniz arşivin`resources/fonts` klasörüne sürükleyip bırakın ve dosyanın kopyasını onaylayın.
+9. Aynı şekilde `resources/textures` klasöründeki oyun görsellerini de 3. adımda indirdiğiniz arşivin `localization/assets` klasöründekilerle değiştirin. **Yalnızca arşivimizdeki mevcut resimleri değiştirin ve diğerlerini silmeyin.**
+10. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
 > [!IMPORTANT]
-> La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
+> Oyun her güncellendiğinde dosyalar güncellenmelidir.
 
-## À la main
-
-### En utilisant 7zip sur Balatro.exe
-
-1. Installez [7zip](https://7-zip.org/), vous en aurez besoin. Non, WinRAR ne suffit pas.
-2. **Fermez Balatro.**
-3. Téléchargez l'archive [Better_FR_Manual_Install.zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Manual_Install.zip)
-4. Allez dans le répertoire de Balatro (Ex: `SteamLibrary\steamapps\common\Balatro\`). <br/> Si vous ne savez pas où se trouve Balatro, vous pouvez cliquer-droit sur Balatro dans votre bibliothèque Steam, puis cliquer sur *Gérer* puis *Parcourir les fichiers locaux*.
-5. Faites un clic-droit sur `Balatro.exe`, puis dans le menu *7-Zip*, cliquez sur *Ouvrir archive* (ou *Open archive*).
-6. Dans 7zip, ouvrez le dossier `localization`.
-7. Glissez et déposez le fichier `fr.lua` qui se trouve dans le dossier `localization` de l’archive que vous avez téléchargée à l’étape 3, et confirmez la copie du fichier.
-8. Glissez et déposez le fichier `m6x11plus.ttf` qui se trouve dans le dossier `resources/fonts` de l’archive que vous avez téléchargée à l’étape 3, et confirmez la copie du fichier.
-9. De la même manière, remplacez les images du jeu qui se trouvent dans le dossier `resources/textures` par celles qui se trouvent dans le dossier `localization/assets` de l’archive que vous avez téléchargée à l’étape 3. **Ne remplacez que les images existantes dans notre archive et ne supprimez pas les autres.**
-10. **Lancez le jeu** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
-
-> [!IMPORTANT]
-> La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
-
-[↩ Revenir à la page d’accueil du projet](https://github.com/FrBmt-BIGetNouf/balatro-french-translations)
+[↩ Proje ana sayfasına dönün](https://github.com/ceeprus/balatro-turkish-translations)
