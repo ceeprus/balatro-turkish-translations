@@ -208,14 +208,14 @@ return {
                 name="Değnek",
                 text={
                     "Tüm Maça kartları",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_head={
                 name="Kafa",
                 text={
                     "Tüm Kupa kartları",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_hook={
@@ -226,302 +226,302 @@ return {
                 },
             },
             bl_house={
-                name="The House",
+                name="Kasa",
                 text={
-                    "First hand is",
-                    "drawn face down",
+                    "İlk dağıtılan el",
+                    "ters çevrilir",
                 },
             },
             bl_manacle={
-                name="The Manacle",
+                name="Kelepçe",
                 text={
-                    "-1 Hand Size",
+                    "-1 El Limiti",
                 },
             },
             bl_mark={
-                name="The Mark",
+                name="Hedef",
                 text={
-                    "All face cards are",
-                    "drawn face down",
+                    "Tüm resimli kartlar",
+                    "ters çevrilir",
                 },
             },
             bl_mouth={
-                name="The Mouth",
+                name="Ağız",
                 text={
-                    "Play only 1 hand",
-                    "type this round",
+                    "Bu tur sadece tek",
+                    "tür el oyna",
                 },
             },
             bl_needle={
-                name="The Needle",
+                name="İğne",
                 text={
-                    "Play only 1 hand",
+                    "Sadece tek bir el oyna",
                 },
             },
             bl_ox={
-                name="The Ox",
+                name="Öküz",
                 text={
-                    "Playing a #1#",
-                    "sets money to $0",
+                    "#1# poker elini oynamak",
+                    "paranı $0'a düşürür",
                 },
             },
             bl_pillar={
-                name="The Pillar",
+                name="Sütun",
                 text={
-                    "Cards played previously",
-                    "this Ante are debuffed",
+                    "Bu bop oynanan kartlar",
+                    "geçersiz kılınır",
                 },
             },
             bl_plant={
-                name="The Plant",
+                name="Bitki",
                 text={
-                    "All face cards",
-                    "are debuffed",
+                    "Tüm resimli kartlar",
+                    "geçersiz kılınır",
                 },
             },
             bl_psychic={
-                name="The Psychic",
+                name="Medyum",
                 text={
-                    "Must play 5 cards",
+                    "Her el 5 kart oynamak",
+					"zorundasın",
                 },
             },
             bl_serpent={
-                name="The Serpent",
+                name="Yılan",
                 text={
-                    "After Play or Discard,",
-                    "always draw 3 cards",
+                    "Kart oynadıktan veya çıkarttıktan",
+                    "sonra her zaman 3 kart çek",
                 },
             },
             bl_small={
-                name="Small Blind",
+                name="Küçük Bahis",
                 text={
                 },
             },
             bl_tooth={
-                name="The Tooth",
+                name="Diş",
                 text={
-                    "Lose $1 per",
-                    "card played",
+                    "Oynanan kart başına",
+                    "$1 kaybet",
                 },
             },
             bl_wall={
-                name="The Wall",
+                name="Duvar",
                 text={
-                    "Extra large blind",
+                    "Ekstra büyük bahis",
                 },
             },
             bl_water={
-                name="The Water",
+                name="Su",
                 text={
-                    "Start with",
-                    "0 discards",
+                    "0 çıkarma",
+                    "ile başla",
                 },
             },
             bl_wheel={
-                name="The Wheel",
+                name="Tekerlek",
                 text={
-                    " in 7 cards get",
-                    "drawn face down",
+                    " /7 şansla kartlar",
+                    "ters çekilir",
                 },
             },
             bl_window={
-                name="The Window",
+                name="Pencere",
                 text={
-                    "All Diamond cards",
-                    "are debuffed",
+                    "Tüm Karo kartlar",
+                    "geçersiz kılınır",
                 },
             },
         },
         Edition={
             e_base={
-                name="Base",
+                name="Temel",
                 text={
-                    "No extra effects",
+                    "Ekstra bir efekt yok",
                 },
             },
             e_foil={
-                name="Foil",
+                name="Folyo",
                 text={
-                    "{C:chips}+#1#{} chips",
+                    "{C:chips}+#1#{} Fiş",
                 },
             },
             e_holo={
-                name="Holographic",
+                name="Holografik",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Katlama",
                 },
             },
             e_negative={
-                name="Negative",
+                name="Negatif",
                 text={
-                    "{C:dark_edition}+#1#{} Joker slot",
+                    "{C:dark_edition}+#1#{} Joker limiti",
                 },
             },
             e_negative_consumable={
-                name="Negative",
+                name="Negatif",
                 text={
-                    "{C:dark_edition}+#1#{} consumable slot",
+                    "{C:dark_edition}+#1#{} kullanılabilir limiti",
                 },
             },
             e_polychrome={
-                name="Polychrome",
+                name="Polikrom",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Katlama",
                 },
             },
         },
         Enhanced={
             m_bonus={
-                name="Bonus Card",
+                name="Bonus Kart",
                 text={
                 },
             },
             m_glass={
-                name="Glass Card",
+                name="Cam Kart",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "{C:green}#2# in #3#{} chance to",
-                    "destroy card",
+                    "{X:mult,C:white} X#1# {} Çarpan",
+                    "{C:green}#2# in #3#{} şansla",
+                    "kartı yok eder",
                 },
             },
             m_gold={
-                name="Gold Card",
+                name="Altın Kart",
                 text={
-                    "{C:money}$#1#{} if this",
-                    "card is held in hand",
-                    "at end of round",
+                    "Kart tur sonu",
+                    "elinde kalırsa",
+                    "{C:money}$#1#{}",
                 },
             },
             m_lucky={
-                name="Lucky Card",
+                name="Şanslı Kart",
                 text={
-                    "{C:green}#1# in #3#{} chance",
-                    "for {C:mult}+#2#{} Mult",
-                    "{C:green}#1# in #5#{} chance",
-                    "to win {C:money}$#4#",
+                    "{C:green}#1# in #3#{} şansta",
+                    "{C:mult}+#2#{} Çarpan kazan",
+                    "{C:green}#1# in #5#{} şansta",
+                    "{C:money}$#4# kazan",
                 },
             },
             m_mult={
-                name="Mult Card",
+                name="Çarpan Kartı",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Çarpan",
                 },
             },
             m_steel={
-                name="Steel Card",
+                name="Çelik Kart",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "while this card",
-                    "stays in hand",
+				    "Bu kart elinde",
+                    "durduğu sürece",    
+                    "{X:mult,C:white} X#1# {} Çarpan",
                 },
             },
             m_stone={
-                name="Stone Card",
+                name="Taş Kart",
                 text={
-                    "{C:chips}+#1#{} Chips",
-                    "no rank or suit",
+                    "{C:chips}+#1#{} Fiş",
+                    "sayısı veya sembolü yok",
                 },
             },
             m_wild={
-                name="Wild Card",
+                name="Torpilli Kart",
                 text={
-                    "Can be used",
-                    "as any suit",
+                    "Herhangi bir sembol",
+                    "olarak oynanabilir",
                 },
             },
         },
         Joker={
             j_8_ball={
-                name="8 Ball",
+                name="8 Top",
                 text={
-                    "{C:green}#1# in #2#{} chance for each",
-                    "played {C:attention}8{} to create a",
-                    "{C:tarot}Tarot{} card when scored",
-                    "{C:inactive}(Must have room)",
+                    "Her {C:attention}8{} oynandığında",
+                    "{C:green}#1# / #2#{} şansta",
+                    "{C:tarot}Tarot{} kartı oluşturur",
+                    "{C:inactive}(Boş yerin olmalı)",
                 },
             },
             j_abstract={
-                name="Abstract Joker",
+                name="Muğlak Joker",
                 text={
-                    "{C:mult}+#1#{} Mult for",
-                    "each {C:attention}Joker{} card",
-                    "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)",
+				    "Her {C:attention}Joker{} kartı başına",
+                    "{C:mult}+#1#{} Çarpan",
+                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_acrobat={
-                name="Acrobat",
+                name="Akrobat",
                 text={
-                    "{X:red,C:white} X#1# {} Mult on {C:attention}final",
-                    "{C:attention}hand{} of round",
+				    "Turun {C:attention}son {C:attention}elinde{}",
+                    "{X:red,C:white} X#1# {} Çarpan",
                 },
                 unlock={
-                    "Play {C:attention,E:1}#1#{} hands",
+                    "{C:attention,E:1}#1#{} el oyna",
                     "{C:inactive}(#2#)",
                 },
             },
             j_ancient={
-                name="Ancient Joker",
+                name="Antik Joker",
                 text={
-                    "Each played card with",
-                    "{V:1}#2#{} suit gives",
-                    "{X:mult,C:white} X#1# {} Mult when scored,",
-                    "{s:0.8}suit changes at end of round",
+                    "Oynanan her",
+                    "{V:1}#2#{} sembol",
+                    "{X:mult,C:white} X#1# {} Çarpan verir,",
+                    "{s:0.8}sembol her turun sonunda değişir",
                 },
             },
             j_arrowhead={
-                name="Arrowhead",
+                name="Temren",
                 text={
-                    "Played cards with",
-                    "{C:spades}Spade{} suit give",
-                    "{C:chips}+#1#{} Chips when scored",
+                    "Oynanan",
+                    "{C:spades}Maç{} sembollü kartlar",
+                    "skorlandıklarında {C:chips}+#1#{} Fiş verirler",
                 },
                 unlock={
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "Destende en az {E:1,C:attention}#1#",
+                    "tane {E:1,C:attention}#2#",
+                    "sembollü kart bulundur",
                 },
             },
             j_astronomer={
-                name="Astronomer",
+                name="Gökbilimci",
                 text={
-                    "All {C:planet}Planet{} cards and",
-                    "{C:planet}Celestial Packs{} in",
-                    "the shop are {C:attention}free",
+                    "Dükkandaki tüm {C:planet}Gezegen{}",
+                    "kartlar ve {C:planet}Göksel paketler{}",
+                    "{C:attention}ücretsiz",
                 },
                 unlock={
-                    "Discover every",
-                    "{E:1,C:planet}Planet{} card",
+				    "Tüm {E:1,C:planet}Gezegen{}",
+                    "kartlarını keşfet",
                 },
             },
             j_banner={
-                name="Banner",
+                name="Bayrak",
                 text={
-                    "{C:chips}+#1#{} Chips for",
-                    "each remaining",
-                    "{C:attention}discard",
+                    "Kalan {C:attention}çıkarma başına",
+                    "{C:chips}+#1#{} Fiş",
                 },
             },
             j_baron={
                 name="Baron",
                 text={
-                    "Each {C:attention}King{}",
-                    "held in hand",
-                    "gives {X:mult,C:white} X#1# {} Mult",
+                    "Elinde tuttuğun her",
+                    "{C:attention}Papaz{}",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_baseball={
-                name="Baseball Card",
+                name="Beyzbol Kartı",
                 text={
-                    "{C:green}Uncommon{} Jokers",
-                    "each give {X:mult,C:white} X#1# {} Mult",
+                    "Her {C:green}Sıradışı{} Joker",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_blackboard={
-                name="Blackboard",
+                name="Kara Tahta",
                 text={
-                    "{X:red,C:white} X#1# {} Mult if all",
-                    "cards held in hand",
-                    "are {C:spades}#2#{} or {C:clubs}#3#{}",
+                    "Elinde tuttuğun tüm kartlar",
+                    "{C:spades}#2#{} veya {C:clubs}#3#{} ise",
+                    "{X:red,C:white} X#1# {} Çarpan",
                 },
             },
             j_bloodstone={
