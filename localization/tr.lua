@@ -3592,7 +3592,7 @@ return {
             k_level_prefix="lvl.",
             k_level_up_ex="Seviye Atladı!",
             k_locked="Kilitli",
-            k_lower_score="skor",
+            k_lower_score="skoru",
             k_lvl="svy.",
             k_melted_ex="Eridi!",
             k_money="Para",
