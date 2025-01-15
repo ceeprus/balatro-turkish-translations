@@ -208,14 +208,14 @@ return {
                 name="Değnek",
                 text={
                     "Tüm Maça kartları",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_head={
                 name="Kafa",
                 text={
                     "Tüm Kupa kartları",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_hook={
@@ -226,10 +226,10 @@ return {
                 },
             },
             bl_house={
-                name="Ev",
+                name="Kasa",
                 text={
-                    "İlk verilen el",
-                    "çevrildi",
+                    "İlk dağıtılan el",
+                    "ters çevrilir",
                 },
             },
             bl_manacle={
@@ -239,10 +239,10 @@ return {
                 },
             },
             bl_mark={
-                name="Leke",
+                name="Hedef",
                 text={
                     "Tüm resimli kartlar",
-                    "çevrildi",
+                    "ters çevrilir",
                 },
             },
             bl_mouth={
@@ -269,14 +269,14 @@ return {
                 name="Sütun",
                 text={
                     "Bu bop oynanan kartlar",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_plant={
                 name="Bitki",
                 text={
                     "Tüm resimli kartlar",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
             bl_psychic={
@@ -321,15 +321,15 @@ return {
             bl_wheel={
                 name="Tekerlek",
                 text={
-                    " in 7 cards get",
-                    "drawn face down",
+                    " /7 şansla kartlar",
+                    "ters çekilir",
                 },
             },
             bl_window={
                 name="Pencere",
                 text={
                     "Tüm Karo kartlar",
-                    "geçersiz kılındı",
+                    "geçersiz kılınır",
                 },
             },
         },
@@ -359,13 +359,13 @@ return {
                 },
             },
             e_negative_consumable={
-                name="Negative",
+                name="Negatif",
                 text={
                     "{C:dark_edition}+#1#{} kullanılabilir limiti",
                 },
             },
             e_polychrome={
-                name="Poliktom",
+                name="Polikrom",
                 text={
                     "{X:mult,C:white} X#1# {} Katlama",
                 },
@@ -380,8 +380,8 @@ return {
             m_glass={
                 name="Cam Kart",
                 text={
-                    "{X:mult,C:white} X#1# {} Katlama",
-                    "{C:green}#2# in #3#{} şansda",
+                    "{X:mult,C:white} X#1# {} Çarpan",
+                    "{C:green}#2# in #3#{} şansla",
                     "kartı yok eder",
                 },
             },
@@ -389,45 +389,45 @@ return {
                 name="Altın Kart",
                 text={
                     "Kart tur sonu",
-                    "elinde kaldıysa",
+                    "elinde kalırsa",
                     "{C:money}$#1#{}",
                 },
             },
             m_lucky={
                 name="Şanslı Kart",
                 text={
-                    "{C:green}#1# in #3#{} şansda",
-                    "{C:mult}+#2#{} Katlama kazan",
-                    "{C:green}#1# in #5#{} şansda",
+                    "{C:green}#1# in #3#{} şansta",
+                    "{C:mult}+#2#{} Çarpan kazan",
+                    "{C:green}#1# in #5#{} şansta",
                     "{C:money}$#4# kazan",
                 },
             },
             m_mult={
-                name="Katlayıcı Kart",
+                name="Çarpan Kartı",
                 text={
-                    "{C:mult}+#1#{} Katlama",
+                    "{C:mult}+#1#{} Çarpan",
                 },
             },
             m_steel={
                 name="Çelik Kart",
                 text={
 				    "Bu kart elinde",
-                    "durursa",    
-                    "{X:mult,C:white} X#1# {} Katlama",
+                    "durduğu sürece",    
+                    "{X:mult,C:white} X#1# {} Çarpan",
                 },
             },
             m_stone={
-                name="Kaya Kart",
+                name="Taş Kart",
                 text={
                     "{C:chips}+#1#{} Fiş",
                     "sayısı veya sembolü yok",
                 },
             },
             m_wild={
-                name="Joker Kart",
+                name="Torpilli Kart",
                 text={
                     "Herhangi bir sembol",
-                    "olarak kullanılabilir",
+                    "olarak oynanabilir",
                 },
             },
         },
@@ -436,24 +436,24 @@ return {
                 name="8 Top",
                 text={
                     "Her {C:attention}8{} oynandığında",
-                    "{C:green}#1# in #2#{} şansda",
-                    "{C:tarot}Tarot{} kart oluşturur",
+                    "{C:green}#1# / #2#{} şansta",
+                    "{C:tarot}Tarot{} kartı oluşturur",
                     "{C:inactive}(Boş yerin olmalı)",
                 },
             },
             j_abstract={
-                name="Soyut Joker",
+                name="Muğlak Joker",
                 text={
 				    "Her {C:attention}Joker{} kartı başına",
-                    "{C:mult}+#1#{} Katlama",
-                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Katlama)",
+                    "{C:mult}+#1#{} Çarpan",
+                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_acrobat={
                 name="Akrobat",
                 text={
 				    "Turun {C:attention}son {C:attention}elinde{}",
-                    "{X:red,C:white} X#1# {} Katlama",
+                    "{X:red,C:white} X#1# {} Çarpan",
                 },
                 unlock={
                     "{C:attention,E:1}#1#{} el oyna",
@@ -465,12 +465,12 @@ return {
                 text={
                     "Oynanan her",
                     "{V:1}#2#{} sembol",
-                    "{X:mult,C:white} X#1# {} Katlama verir,",
+                    "{X:mult,C:white} X#1# {} Çarpan verir,",
                     "{s:0.8}sembol her turun sonunda değişir",
                 },
             },
             j_arrowhead={
-                name="Ok Başı",
+                name="Temren",
                 text={
                     "Oynanan",
                     "{C:spades}Maç{} sembollü kartlar",
@@ -495,25 +495,25 @@ return {
                 },
             },
             j_banner={
-                name="Pankart",
+                name="Bayrak",
                 text={
                     "Kalan {C:attention}çıkarma başına",
                     "{C:chips}+#1#{} Fiş",
                 },
             },
             j_baron={
-                name="Kral",
+                name="Baron",
                 text={
                     "Elinde tuttuğun her",
                     "{C:attention}Papaz{}",
-                    "{X:mult,C:white} X#1# {} Katlama verir",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_baseball={
-                name="Beysbol Kartı",
+                name="Beyzbol Kartı",
                 text={
                     "Her {C:green}Sıradışı{} Joker",
-                    "{X:mult,C:white} X#1# {} Katlama verir",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_blackboard={
@@ -521,7 +521,7 @@ return {
                 text={
                     "Elinde tuttuğun tüm kartlar",
                     "{C:spades}#2#{} veya {C:clubs}#3#{} ise",
-                    "{X:red,C:white} X#1# {} Katlama",
+                    "{X:red,C:white} X#1# {} Çarpan",
                 },
             },
             j_bloodstone={
