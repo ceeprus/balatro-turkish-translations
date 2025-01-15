@@ -32,7 +32,7 @@ echo =========================================
 :: Kullanıcı sorusu: Türkçe resimler kullanılmalı mı? ?
 echo.
 echo.
-choice /C ON /M "Görselleri Türkçe olarak mı kullanmak istiyorsunuz? ?"
+choice /C ON /M "Görselleri Türkçe olarak mı kullanmak istiyorsunuz ?"
 if errorlevel 2 (
     echo Görüntüleri Ekleme
     set "download_assets=false"
@@ -47,7 +47,7 @@ set "steamLibraryFile=C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf"
 :: Eğer mevcut değilse, Balatro.exe dosyasını elle seçmek için gezgini açın
 if not exist "!steamLibraryFile!" (
     echo.
-    echo Oops, lütfen bize Balatro.exe dosyasını nerede bulacağımızı söyleyin
+    echo Oops, lütfen bize Balatro.exe dosyasını nerede bulacağımızı gösterin.
 
     set "balatroFile="
     set "dialogTitle=balatro.exe seçiniz."
@@ -59,7 +59,7 @@ if not exist "!steamLibraryFile!" (
         set "balatroFile=!selectedFile!"
         echo Balatro.exe : !balatroFile!
     ) else (
-        echo Balatro.exe : Dosya seçili değil. Kurulum iptal edildi
+        echo Balatro.exe : Dosyası seçili değil. Kurulum iptal edildi.
         goto :fin
     )
 )
@@ -101,7 +101,7 @@ set "font_m6x11plus=%tr_repository%/resources/fonts/m6x11plus.ttf"
 :: Balamod İndir
 if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
-    echo Balamod İndir...
+    echo Balamod İndiriliyor...
     echo.
     curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
     echo.
