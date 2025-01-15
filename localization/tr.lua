@@ -219,10 +219,10 @@ return {
                 },
             },
             bl_hook={
-                name="The Hook",
+                name="Kanca",
                 text={
-                    "Discards 2 random",
-                    "cards per hand played",
+                    "Her el oynadığında",
+                    "2 rastgele kartı çıkarır",
                 },
             },
             bl_house={
