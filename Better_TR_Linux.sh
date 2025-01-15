@@ -2,14 +2,16 @@
 
 # Balatro Turkish Translations
 #
-# Script d'installation du pack de langue FR pour Balatro (version SteamDeck/Linux)
-# Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
-# Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
+# Balatro için TR dil paketi kurulum scripti
+# Çeviride yardımda bulunmak için Discord (Balatro TR - Dil modu sunucumuza katılabilirsiniz: https://discord.gg/dfy7b3zsVN 
+
+# Tüm güncel kaynaklara buradan ulaşabilirsiniz : https://github.com/ceeprus/balatro-turkish-translations
 #
-# Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/balamod/balamod)
+# Bu dosya oyuna mod eklemek için Balamod kullanmaktadır (https://github.com/balamod/balamod)
+#
 #
 #    ==================================
-#    ==  PERDU(E) ? NE PANIQUEZ PAS  ==
+#    ==  Kayboldun mu? Panik yapma!  ==
 #    ==================================
 #    Revenez en arrière et CLIQUEZ-DROIT sur le lien qui vous a mené ici, puis "Enregistrer le lien sous...".
 #    Double-cliquez ensuite sur le fichier téléchargé pour lancer l'installation.
@@ -20,19 +22,19 @@ ressources_folder=$'Balatro_Localization_Resources'
 
 # Initialisation
 init() {
-    echo "========================================="
-    echo "==     Balatro Turkish Translations    =="
-    echo "==  Installation du pack de langue TR  =="
-    echo "==        Traductions et images        =="
-    echo "========================================="
+echo "========================================="
+echo "==     Balatro Turkish Translations    =="
+echo "==     TR Dil paketinin yüklenmesi     =="
+echo "==        Çeviriler ve resimler        =="
+echo "========================================="
 
-    # Question utilisateur : Les images en Francais doivent-elles être utilisées ?
+    # Kullanıcı sorusu: Türkçe resimler kullanılmalı mı? ?
     echo ""
     echo ""
-    echo "Voulez-vous utiliser les images en Français ? (O/N)"
+    echo "Görselleri Türkçe olarak mı kullanmak istiyorsunuz? (Y/N)"
     read -r download_assets
 
-    if [[ "$download_assets" =~ ^[Oo]$ ]]; then
+    if [[ "$download_assets" =~ ^[Yy]$ ]]; then
         echo "Les images seront ajoutées."
     elif [[ "$download_assets" =~ ^[Nn]$ ]]; then
         echo "Les images ne seront pas ajoutées."
