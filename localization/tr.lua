@@ -964,7 +964,7 @@ return {
                 },
             },
             j_gluttenous_joker={
-                name="Gluttonous Joker",
+                name="Obur Joker",
                 text={
                     "Played cards with",
                     "{C:clubs}#2#{} suit give",
