@@ -3602,7 +3602,7 @@ return {
             k_no_room_ex="Yer Yok!",
             k_no_space_ex="Yer Yok!",
             k_none="Hiçbiri",
-            k_nope_ex="Yok!",
+            k_nope_ex="Tüh!",
             k_not_allowed_ex="İzin Verilmiyor!",
             k_not_discovered="Keşfedilmedi",
             k_numbered_cards="Numaralı Kartlar",
@@ -3679,10 +3679,8 @@ return {
             },
             ml_demo_thanks_message={
                 "Lütfen istek listenize eklemeyi düşünün",
-                "Steam üzerinde Balatro'yu ve playbalatro.com,
-                "sitesindeki bültene kaydolun.",
-            },
-            ml_disabled_seed={
+                "sitesindeki bültene kaydolun.",            },
+                ml_disabled_seed={
                 "Tüm yeni Ödüller ve ",
                 "Başarımlar devre dışı.",
             },
