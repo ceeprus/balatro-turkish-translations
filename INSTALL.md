@@ -25,7 +25,7 @@ Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya 
 3. Dosyayı Çıkartın `Better_TR_Steamodded` (en entier) de cette archive dans le dossier des mods comme indiqué dans la [Mod'u kurun](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod). <br/> Sadece içeriği değil, klasörün kendisini de çıkarmanız gerekiyor: işiniz bittiğinde, `Better_TR_Steamodded` dosyasını `mods` klasörüne atın.
 4. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-> [!ÖNEMLİ]
+> [!IMPORTANT]
 > Oyun her güncellendiğinde dosyalar da güncellenmelidir.
 
 ## El ile
