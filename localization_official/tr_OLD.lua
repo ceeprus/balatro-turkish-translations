@@ -21,16 +21,15 @@ return {
             b_black={
                 name="Siyah Deste",
                 text={
-				    "her tur",
                     "{C:attention}+#1#{} Joker limiti",
                     "",
-                    "{C:blue}-#2#{} el limiti",
+                    "her Tur {C:blue}-#2#{} el limiti",
                 },
             },
             b_blue={
                 name="Mavi Deste",
                 text={
-				    "Her el",
+				    "Her Tur",
                     "{C:blue}+#1#{} el limiti",
                 },
             },
@@ -49,10 +48,10 @@ return {
                 },
             },
             b_erratic={
-                name="Düzensiz Deste",
+                name="Dağınık Deste",
                 text={
                     "Destendeki tüm {C:attention}Sayılar{} ve",
-                    "{C:attention}Takımlar{} rastgeledir",
+                    "{C:attention}Resimli kartlar{} rastgeledir",
                 },
             },
             b_ghost={
@@ -60,16 +59,16 @@ return {
                 text={
                     "{C:spectral}Spektral{} kartlar",
                     "dükkanda bulunulabilir,",
-                    "oyuna bir {C:spectral,T:c_hex}Hex{} kartı ile başlarsın",
+                    "oyuna bir {C:spectral,T:c_hex}Nazar{} kartı ile başlarsın",
                 },
             },
             b_green={
                 name="Yeşil Deste",
                 text={
-                    "Turların sonunda:",
+                    "Her Tur sonu:",
                     "kalan {C:blue}El başına {C:money}$#1#{s:0.85}",
                     "kalan {C:red}Çıkarma başına {C:money}$#2#{s:0.85}",
-                    "{C:attention}Faiz kazanma",
+                    "{C:attention}Faiz kazanmazsın",
                 },
             },
             b_magic={
@@ -87,11 +86,11 @@ return {
                     "Oyuna",
                     "{C:planet,T:v_telescope}#1#{} kuponu ile başla",
                     "",
-                    "{C:red}#2#{} kullanılabilir limiti",
+                    "{C:red}#2#{} tüketilebilir limiti",
                 },
             },
             b_painted={
-                name="Boyanmış Deste",
+                name="Boyalı Deste",
                 text={
                     "{C:attention}+#1#{} el limiti,",
                     "{C:red}#2#{} Joker limiti",
@@ -101,7 +100,7 @@ return {
                 name="Plazma Destesi",
                 text={
                     "Oynanan elin skorunu hesaplarken {C:blue}Fişleri{} ve",
-                    "{C:red}Katlayıcıları{} ",
+                    "{C:red}Çarpanları{} ",
                     "dengele",
                     "{C:red}X#1#{} Bahis büyüklüğü",
                 },
