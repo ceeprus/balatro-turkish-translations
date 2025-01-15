@@ -131,91 +131,91 @@ return {
         },
         Blind={
             bl_arm={
-                name="The Arm",
+                name="Kuvvet",
                 text={
-                    "Decrease level of",
-                    "played poker hand",
+                    "Oynanan poker elinin",
+                    "seviyesini düşür",
                 },
             },
             bl_big={
-                name="Big Blind",
+                name="Büyük Bahis",
                 text={
                 },
             },
             bl_club={
-                name="The Club",
+                name="Sinek",
                 text={
-                    "All Club cards",
-                    "are debuffed",
+                    "Tüm sinek kartları",
+                    "geçersiz kılınır",
                 },
             },
             bl_eye={
-                name="The Eye",
+                name="Göz",
                 text={
-                    "No repeat hand",
-                    "types this round",
+                    "Aynı poker elini",
+                    "birden fazla kez oynamak yok",
                 },
             },
             bl_final_acorn={
-                name="Amber Acorn",
+                name="Kehribar Palamut",
                 text={
-                    "Flips and shuffles",
-                    "all Joker cards",
+                    "Tüm Joker kartları çevirir",
+                    "ve karıştırır",
                 },
             },
             bl_final_bell={
-                name="Cerulean Bell",
+                name="Mavi Çan",
                 text={
-                    "Forces 1 card to",
-                    "always be selected",
+                    "Bir kartı her zaman",
+                    "oynamaya zorlar",
                 },
             },
             bl_final_heart={
-                name="Crimson Heart",
+                name="Kızıl Kalp",
                 text={
-                    "One random Joker",
-                    "disabled every hand",
+                    "Oynanan her el rastgele bir",
+                    "Joker devre dışı bırakılır",
                 },
             },
             bl_final_leaf={
-                name="Verdant Leaf",
+                name="Toy Yaprak",
                 text={
-                    "All cards debuffed",
-                    "until 1 Joker sold",
+                    "Tüm kartlar 1 Joker",
+                    "satılana kadar geçersiz kılınır",
                 },
             },
             bl_final_vessel={
-                name="Violet Vessel",
+                name="Menekşe Kap",
                 text={
-                    "Very large blind",
+                    "Aşırı büyük bahis",
                 },
             },
             bl_fish={
-                name="The Fish",
+                name="Balık",
                 text={
-                    "Cards drawn face down",
-                    "after each hand played",
+                    "Başlangıç sonrası alınan",
+                    "tüm kartlar ters konulur",
                 },
             },
             bl_flint={
-                name="The Flint",
+                name="Çakmak Taşı",
                 text={
-                    "Base Chips and",
-                    "Mult are halved",
+                    "Temel Fişler ve",
+                    "Çarpanlar yarıya indi",
                 },
             },
             bl_goad={
-                name="The Goad",
+                name="Değnek",
                 text={
-                    "All Spade cards",
-                    "are debuffed",
+                    "Tüm Maça kartları",
+                    "geçersiz kılındı",
                 },
             },
             bl_head={
-                name="The Head",
+                name="Kafa",
                 text={
-                    "All Heart cards",
-                    "are debuffed",
+                    "Tüm Kupa kartları",
+                    "geçersiz kılındı",
                 },
             },
             bl_hook={

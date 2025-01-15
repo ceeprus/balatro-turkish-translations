@@ -145,40 +145,40 @@ return {
             bl_club={
                 name="Sinek",
                 text={
-                    "Tüm sinek kartlar",
-                    "geçersiz kılındı",
+                    "Tüm sinek kartları",
+                    "geçersiz kılınır",
                 },
             },
             bl_eye={
                 name="Göz",
                 text={
-                    "Bu turda aynı poker elini",
+                    "Aynı poker elini",
                     "birden fazla kez oynamak yok",
                 },
             },
             bl_final_acorn={
-                name="Amber Palamudu",
+                name="Kehribar Palamut",
                 text={
                     "Tüm Joker kartları çevirir",
                     "ve karıştırır",
                 },
             },
             bl_final_bell={
-                name="Masmavi Çan",
+                name="Mavi Çan",
                 text={
                     "Bir kartı her zaman",
-                    "seçili olmaya zorlar",
+                    "oynamaya zorlar",
                 },
             },
             bl_final_heart={
                 name="Kızıl Kalp",
                 text={
-                    "Oynanan her el bir rastgele",
+                    "Oynanan her el rastgele bir",
                     "Joker devre dışı bırakılır",
                 },
             },
             bl_final_leaf={
-                name="Yemyeşil Yaprak",
+                name="Toy Yaprak",
                 text={
                     "Tüm kartlar 1 Joker",
                     "satılana kadar geçersiz kılınır",
@@ -187,7 +187,7 @@ return {
             bl_final_vessel={
                 name="Menekşe Kap",
                 text={
-                    "Fazlasıyla büyük bahis",
+                    "Aşırı büyük bahis",
                 },
             },
             bl_fish={
@@ -201,20 +201,20 @@ return {
                 name="Çakmak Taşı",
                 text={
                     "Temel Fişler ve",
-                    "Katlayıcılar yarıya indi",
+                    "Çarpanlar yarıya indi",
                 },
             },
             bl_goad={
                 name="Değnek",
                 text={
-                    "Tüm Maça kartlar",
+                    "Tüm Maça kartları",
                     "geçersiz kılındı",
                 },
             },
             bl_head={
                 name="Kafa",
                 text={
-                    "Tüm Kupa kartlar",
+                    "Tüm Kupa kartları",
                     "geçersiz kılındı",
                 },
             },
