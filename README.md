@@ -37,6 +37,8 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 Contributions are always welcome!
 
+Çeviride yardımda bulunmak için [**Discord** (Balatro TR - Dil modu)](https://discord.gg/dfy7b3zsVN) sunucumuza katılabilirsiniz.
+
 A HUGE thank you to the French Localization community who made this all possible by creating [their mod](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/).
 
 If you are interested in replicating the same work for another language, **feel free to fork our repository**! You can also be interested in [the pipeline we used for localizing sprites](https://github.com/ceeprus/balatro-sprites-i18n).
