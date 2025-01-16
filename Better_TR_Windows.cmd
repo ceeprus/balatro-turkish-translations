@@ -116,7 +116,6 @@ echo TR modunu indiriliyor...
 echo.
 curl --ssl-no-revoke -L -o "%resourcesFolder%\localization\tr.lua" %tr_translation%
 curl --ssl-no-revoke -L -o "%resourcesFolder%\game.lua" %tr_translation%
-
 curl --ssl-no-revoke --create-dirs -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
 
 if "%download_assets%"=="true" (
@@ -153,7 +152,7 @@ echo.
 if not defined balatroFile (
     :: Steam varsayılan olarak yüklüyse, Balamod'un Balatro dosyasını aramasına izin verin.
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
-    "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\game.lua -o /game.lua
+    "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\game.lua -o game.lua
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\1x\boosters.png -o resources/textures/1x/boosters.png
@@ -179,7 +178,7 @@ if not defined balatroFile (
     :: Aksi takdirde, daha önce seçilen Balatro.exe dosyasını içeren klasörü göndeririz.
     for %%A in ("!balatroFile!") do set "balatroFolder=%%~dpA"
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
-    "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\game.lua -o /game.lua
+    "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\game.lua -o game.lua
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\boosters.png -o resources/textures/1x/boosters.png

@@ -4,7 +4,6 @@ Game = Object:extend()
 --Class Methods
 function Game:init()
     G = self
-
     self:set_globals()
 end
 
@@ -932,7 +931,7 @@ function Game:set_language()
 
             ------------------------------------------
 
-            G.SETTINGS.language = 'en-us'
+            G.SETTINGS.language = 'tr'
         end
         -------------------------------------------------------
         --IF LANGUAGE NEEDS TO BE SET ON EVERY REBOOT, SET HERE
