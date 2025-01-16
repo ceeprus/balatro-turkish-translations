@@ -897,50 +897,50 @@ return {
             j_fibonacci={
                 name="Fibonacci",
                 text={
-                    "Oynanan her {C:attention}As{},", 
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, veya 8,",
-                    "puanlandığında {C:mult}+#1#{} Çarpan verir",
+                    "Each played {C:attention}Ace{},",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, or {C:attention}8{} gives",
+                    "{C:mult}+#1#{} Mult when scored",
                 },
             },
             j_flash={
-                name="Flaş Kartı",
+                name="Flash Card",
                 text={
-                    "Bu Joker mağazadaki her {C:attention}yenileme{} başına",
-                    "{C:mult}+#1#{} Çarpan kazanır",
-                    "{C:inactive}(Şu anda {C:mult}+#2#{C:inactive} Çarpan)",
+                    "This Joker gains {C:mult}+#1#{} Mult",
+                    "per {C:attention}reroll{} in the shop",
+                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
             },
             j_flower_pot={
-                name="Saksı",
+                name="Flower Pot",
                 text={
-                    "Eğer poker elin",
-                    "{C:diamonds}Karo{} kartı, {C:clubs}Sinek{} kartı,",
-                    "{C:hearts}Kupa{} kartı ve {C:spades}Maça{} kartı içeriyorsa",
-                    "{X:mult,C:white} X#1# {} Çarpan",
+                    "{X:mult,C:white} X#1# {} Mult if poker",
+                    "hand contains a",
+                    "{C:diamonds}Diamond{} card, {C:clubs}Club{} card,",
+                    "{C:hearts}Heart{} card, and {C:spades}Spade{} card",
                 },
                 unlock={
-                    "{E:1,C:attention}#1# Bop",
-                    "seviyesine ulaş",
+                    "Reach Ante",
+                    "level {E:1,C:attention}#1#",
                 },
             },
             j_fortune_teller={
-                name="Falcı",
+                name="Fortune Teller",
                 text={
-                    "Bu oyunda kullanılan",
-                    "her {C:purple}Tarot{} kartı için {C:red}+#1#{} Çarpan",
-                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive})",
+                    "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
+                    "card used this run",
+                    "{C:inactive}(Currently {C:red}+#2#{C:inactive})",
                 },
             },
             j_four_fingers={
-                name="Dört Parmak",
+                name="Four Fingers",
                 text={
-                    "Tüm {C:attention}Floş{} ve", 
-                    "{C:attention}Kentler{}",
-                    "{C:attention}4{} kart ile yapılabilir",
+                    "All {C:attention}Flushes{} and",
+                    "{C:attention}Straights{} can be",
+                    "made with {C:attention}4{} cards",
                 },
             },
             j_gift={
-                name="Hediye Kartı",
+                name="Gift Card",
                 text={
                     "Add {C:money}$#1#{} of {C:attention}sell value",
                     "to every {C:attention}Joker{} and",
@@ -949,11 +949,12 @@ return {
                 },
             },
             j_glass={
-                name="Cam Jokeri",
+                name="Glass Joker",
                 text={
-                    "Bu Joker, yok edilen her {C:attention}Cam Kartı{} için",
-                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
-                    "{C:inactive}(Şu anda {X:mult,C:white} X#2#{C:inactive} Çarpan)",
+                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
+                    "for every {C:attention}Glass Card",
+                    "that is destroyed",
+                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
@@ -964,13 +965,13 @@ return {
             j_gluttenous_joker={
                 name="Obur Joker",
                 text={
-                    "{C:clubs}#2#{} ile oynanan kartlar",
-                    "puan aldığında",
-                    "{C:mult}+#1#{} Çarpan verir",
+                    "Played cards with",
+                    "{C:clubs}#2#{} suit give",
+                    "{C:mult}+#1#{} Mult when scored",
                 },
             },
             j_golden={
-                name="Altın Jokeri",
+                name="Golden Joker",
                 text={
                     "Earn {C:money}$#1#{} at",
                     "end of round",
