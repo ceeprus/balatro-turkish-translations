@@ -6,10 +6,6 @@ Balatro'nun Türkçe çevirisini kullanmanın birçok yolu vardır; size en uygu
 
 Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın Windows**](QUICKSTART.md).
 
-## Hiçbir şey bilmiyorum (ve SteamDeck/Linux kullanıyorum)
-
-Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın SteamDeck/Linux**](QUICKSTART_STEAMDECK.md).
-
 ## Mod ile
 
 ### Balamod ile (SteamDeck, Linux ve MacOS'ta da çalışır)
