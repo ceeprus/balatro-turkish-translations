@@ -931,7 +931,7 @@ function Game:set_language()
 
             ------------------------------------------
 
-            G.SETTINGS.language = 'tr'
+            G.SETTINGS.language = 'en-us'
         end
         -------------------------------------------------------
         --IF LANGUAGE NEEDS TO BE SET ON EVERY REBOOT, SET HERE
