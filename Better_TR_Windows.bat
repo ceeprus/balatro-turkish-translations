@@ -62,7 +62,7 @@ if not exist "!steamLibraryFile!" (
         echo Balatro.exe : !balatroFile!
     ) else (
         echo Balatro.exe : Dosyası seçili değil. Kurulum iptal edildi.
-        goto :fin
+        goto :end
     )
 )
 
