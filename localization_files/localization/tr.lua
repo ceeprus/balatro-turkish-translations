@@ -942,10 +942,10 @@ return {
             j_gift={
                 name="Hediye Kartı",
                 text={
-                    "Turun sonunda",
-                    "her {C:attention}Joker{} ve {C:attention}Kullanılabilir{} kartın 
-                    "{C:attention}satış fiyatına",
-                    "{C:money}$#1#{} ekleyin",
+                    "Add {C:money}$#1#{} of {C:attention}sell value",
+                    "to every {C:attention}Joker{} and",
+                    "{C:attention}Consumable{} card at",
+                    "end of round",
                 },
             },
             j_glass={
