@@ -943,7 +943,7 @@ return {
                 name="Hediye Kartı",
                 text={
                     "Turun sonunda",
-                    "her {C:attention}Joker{} ve {C:attention}Kullanılabilir{} kartın 
+                    "her {C:attention}Joker{} ve {C:attention}Kullanılabilir{} kartın",
                     "{C:attention}satış fiyatına",
                     "{C:money}$#1#{} ekleyin",
                 },
@@ -951,7 +951,7 @@ return {
             j_glass={
                 name="Cam Jokeri",
                 text={
-                    "Bu Joker, yok edilen her {C:attention}Cam Kartı{} için"
+                    "Bu Joker, yok edilen her {C:attention}Cam Kartı{} için",
                     "{X:mult,C:white} X#1# {} Çarpan kazanır",
                     "{C:inactive}(Şu anda {X:mult,C:white} X#2#{C:inactive} Çarpan)",
                 },
