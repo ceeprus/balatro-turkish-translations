@@ -898,7 +898,7 @@ return {
                 name="Fibonacci",
                 text={
                     "Oynanan her {C:attention}As{},", 
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, veya 8,"
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, veya 8,",
                     "puanlandığında {C:mult}+#1#{} Çarpan verir",
                 },
             },
