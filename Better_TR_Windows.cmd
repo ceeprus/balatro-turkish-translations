@@ -19,6 +19,8 @@
 
 @echo off
 setlocal enabledelayedexpansion
+setlocal EnableExtensions
+
 
 set "colorReset=[0m"
 set "resourcesFolder=Balatro_Localization_Resources"
@@ -71,7 +73,7 @@ if not exist "%resourcesFolder%\resources\textures\1x" mkdir "%resourcesFolder%\
 if not exist "%resourcesFolder%\resources\textures\2x" mkdir "%resourcesFolder%\resources\textures\2x"
 
 :: En son Balamod sürümünün adını alma
-for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/balamod/balamod/releases/latest').tag_name; $tag"') do set latestTag=%%a
+for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/balamod/balamod/releases/latest' -TimeoutSec 10).tag_name; $tag"') do set latestTag=%%a
 
 :: Dosya adlarının ve bağlantılarının oluşturulması. Yalnızca windows dosyası balamod-v.y.z-windows.exe olarak adlandırıldığı sürece geçerlidir.
 set "balamodFile=balamod-%latestTag%-windows.exe"
@@ -110,12 +112,12 @@ if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
 )
 
-:: Téléchargement du pack de langue FR
+:: TR dil paketi indiriliyor
 echo.
 echo TR modunu indiriliyor...
 echo.
 
-curl --ssl-no-revoke -L -o "%resourcesFolder%/localization/tr.lua" %tr_translation%
+curl --ssl-no-revoke -L -o "%resourcesFolder%/tr.lua" %tr_translation%
 curl --ssl-no-revoke -L -o "%resourcesFolder%/game.lua" %tr_game%
 curl --ssl-no-revoke --create-dirs -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
 
@@ -208,10 +210,10 @@ echo.
 echo Dil paketi kurulumu tamamlandı
 
 :: Kaynak dosyalarını silme
-rd /s /q "%resourcesFolder%"
+if exist "%resourcesFolder%" rd /s /q "%resourcesFolder%"
 echo Balatro güncellendi !
 
-:fin
+:end
 echo.
 echo.
 echo.
