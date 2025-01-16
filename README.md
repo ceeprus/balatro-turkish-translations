@@ -24,12 +24,11 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 ### Installers
 
-| Category                                      | Status | Comment                             |
-| --------------------------------------------- | ------ | ----------------------------------- |
-| [Easy, 1-click script](QUICKSTART.md)         | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
-| [Steamodded](INSTALL.md#via-un-mod)           | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
-| [Balamod](https://github.com/balamod/balamod) | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
-| [Manual](INSTALL.md#El-ile)                   | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
+| Category                              | Status | Comment                             |
+| ------------------------------------- | ------ | ----------------------------------- |
+| [Easy, 1-click script](QUICKSTART.md) | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
+| [Steamodded](INSTALL.md#Mod-ile)      | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
+| [Manual](INSTALL.md#El-ile)           | ❌     | Çevirisi yapılmadı. **Kullanmayın** |
 
 ## Contributing
 
