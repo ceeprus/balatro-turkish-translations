@@ -349,7 +349,7 @@ return {
             e_holo={
                 name="Holografik",
                 text={
-                    "{C:mult}+#1#{} Katlama",
+                    "{C:mult}+#1#{} Çarpan",
                 },
             },
             e_negative={
@@ -367,7 +367,7 @@ return {
             e_polychrome={
                 name="Polikrom",
                 text={
-                    "{X:mult,C:white} X#1# {} Katlama",
+                    "{X:mult,C:white} X#1# {} Çarpan",
                 },
             },
         },
@@ -381,7 +381,7 @@ return {
                 name="Cam Kart",
                 text={
                     "{X:mult,C:white} X#1# {} Çarpan",
-                    "{C:green}#2# in #3#{} şansla",
+                    "{C:green}#2#/#3#{} şansla",
                     "kartı yok eder",
                 },
             },
@@ -396,9 +396,9 @@ return {
             m_lucky={
                 name="Şanslı Kart",
                 text={
-                    "{C:green}#1# in #3#{} şansta",
+                    "{C:green}#1#/#3#{} şansta",
                     "{C:mult}+#2#{} Çarpan kazan",
-                    "{C:green}#1# in #5#{} şansta",
+                    "{C:green}#1#/#5#{} şansta",
                     "{C:money}$#4# kazan",
                 },
             },
@@ -525,58 +525,57 @@ return {
                 },
             },
             j_bloodstone={
-                name="Bloodstone",
+                name="Kantaşı",
                 text={
-                    "{C:green}#1# in #2#{} chance for",
-                    "played cards with",
-                    "{C:hearts}Heart{} suit to give",
-                    "{X:mult,C:white} X#3# {} Mult when scored",
+                    "{C:green}#1#/#2#{} Şansla",
+                    "Oynanan",
+                    "{C:hearts}Kupa{} kartları",
+                    "skorlandıklarında {X:mult,C:white} X#3# {} çarpan verir",
                 },
                 unlock={
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "Destende en az {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#2# simgeli kart bulundur",
                 },
             },
             j_blue_joker={
-                name="Blue Joker",
+                name="Mavi Joker",
                 text={
-                    "{C:chips}+#1#{} Chips for each",
-                    "remaining card in {C:attention}deck",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
+                    "{C:attention}Destende kalan her kart için {C:chips}+#1#{} fiş",
+                    "kart için {C:chips}+#1#{} fiş",
+                    "{C:inactive}(Şuan {C:chips}+#2#{C:inactive} fiş)",
                 },
             },
             j_blueprint={
-                name="Blueprint",
+                name="Şablon",
                 text={
-                    "Copies ability of",
-                    "{C:attention}Joker{} to the right",
+                    "Sağındaki {C:attention}Joker{}'in",
+                    "özelliğini kopyalar",
                 },
                 unlock={
-                    "Win a run",
+                    "Bir oyun kazan",
                 },
             },
             j_bootstraps={
-                name="Bootstraps",
+                name="Çaba",
                 text={
-                    "{C:mult}+#1#{} Mult for every",
-                    "{C:money}$#2#{} you have",
-                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)",
+                    "Elindeki her {C:money}$#2#{}",
+                    "sana {C:mult}+#1#{} Çarpan verir",
+                    "{C:inactive}(Şuanda {C:mult}+#3#{C:inactive} Çarpan)",
                 },
                 unlock={
-                    "Have at least {E:1,C:attention}#1#",
-                    "{C:dark_edition}Polychrome{} Jokers",
+                    "Elinde aynı anda en az {E:1,C:attention}#1#",
+                    "{C:dark_edition}Polikrom{} Joker tut",
                 },
             },
             j_brainstorm={
-                name="Brainstorm",
+                name="Beyin Fırtınası",
                 text={
-                    "Copies the ability",
-                    "of leftmost {C:attention}Joker",
+                    "En soldaki {C:attention}Joker'in",
+                    "özelliğini kopyalar",
                 },
                 unlock={
-                    "Discard a",
-                    "{E:1,C:attention}Royal Flush",
+                    "Elinden bir",
+                    "{E:1,C:attention}Royal Floş çıkar",
                 },
             },
             j_bull={
