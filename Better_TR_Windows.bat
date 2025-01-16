@@ -1,18 +1,17 @@
 :: Balatro Turkish Translations
 ::
-:: Balatro i√ßin TR dil paketi kurulum scripti
-:: √áeviride yardƒ±mda bulunmak i√ßin Discord (Balatro TR - Dil modu sunucumuza katƒ±labilirsiniz: https://discord.gg/dfy7b3zsVN 
-
-:: T√ºm g√ºncel kaynaklara buradan ula≈üabilirsiniz : https://github.com/ceeprus/balatro-turkish-translations
+:: Balatro iáin TR dil paketi kurulum scripti
+:: Äeviride yard’mda bulunmak iáin Discord (Balatro TR - Dil modu sunucumuza kat’labilirsiniz: https://discord.gg/dfy7b3zsVN 
+:: TÅm gÅncel kaynaklara buradan ula?abilirsiniz : https://github.com/ceeprus/balatro-turkish-translations
 ::
-:: Bu dosya oyuna mod eklemek i√ßin Balamod kullanmaktadƒ±r (https://github.com/balamod/balamod)
+:: Bu dosya oyuna mod eklemek iáin Balamod kullanmaktad’r (https://github.com/balamod/balamod)
 ::
 ::
 ::    ==================================
 ::    ==  Kayboldun mu? Panik yapma!  ==
 ::    ==================================
-::    Geri d√∂n√ºn ve sizi buraya getiren baƒülantƒ±ya SAƒû TIKLAYIN, ardƒ±ndan ‚ÄúBaƒülantƒ±yƒ± farklƒ± kaydet...‚Äù.
-::    Ardƒ±ndan kurulumu ba≈ülatmak i√ßin indirilen dosyaya √ßift tƒ±klayƒ±n.
+::    Geri dînÅn ve sizi buraya getiren ba?lant’ya SA? TIKLAYIN, ard’ndan ?Ba?lant’y’ farkl’ kaydet...?.
+::    Ard’ndan kurulumu ba?latmak iáin indirilen dosyaya áift t’klay’n.
 ::
 ::
 ::
@@ -21,38 +20,37 @@
 setlocal enabledelayedexpansion
 setlocal EnableExtensions
 
-
 set "colorReset=[0m"
 set "resourcesFolder=Balatro_Localization_Resources"
 
 echo =========================================
 echo ==     Balatro Turkish Translations    ==
-echo ==     TR Dil paketinin y√ºklenmesi     ==
-echo ==        √áeviriler ve resimler        ==
+echo ==     TR Dil paketinin yÅklenmesi     ==
+echo ==        Äeviriler ve resimler        ==
 echo =========================================
 
-:: Kullanƒ±cƒ± sorusu: T√ºrk√ße resimler kullanƒ±lmalƒ± mƒ±? ?
+:: Kullan’c’ sorusu: TÅrkáe resimler kullan’lmal’ m’?
 echo.
 echo.
-CHOICE /C YN /M  "G√∂rselleri T√ºrk√ße olarak mƒ± kullanmak istiyorsunuz ?"
-if errorlevel 2 (
-    echo G√∂r√ºnt√ºleri Ekleme
+CHOICE /C YN /M "Gîrselleri TÅrkáe olarak m’ kullanmak istiyorsunuz?"
+if %errorlevel% equ 2 (
+    echo GîrÅntÅleri Ekleme
     set "download_assets=false"
-)   else (
-    echo G√∂r√ºnt√ºleri Ekle
+) else (
+    echo GîrÅntÅleri Ekle
     set "download_assets=true"
 )
 
-:: Varsayƒ±lan Steam kurulumunu kontrol etme (libraryfolders.vdf √ºzerinden)
+:: Varsay’lan Steam kurulumunu kontrol etme (libraryfolders.vdf Åzerinden)
 set "steamLibraryFile=C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf"
 
-:: Eƒüer mevcut deƒüilse, Balatro.exe dosyasƒ±nƒ± elle se√ßmek i√ßin gezgini a√ßƒ±n
+:: E?er mevcut de?ilse, Balatro.exe dosyas’n’ elle seámek iáin gezgini aá’n
 if not exist "!steamLibraryFile!" (
     echo.
-    echo Oops, l√ºtfen bize Balatro.exe dosyasƒ±nƒ± nerede bulacaƒüƒ±mƒ±zƒ± g√∂sterin.
+    echo Oops, lÅtfen bize Balatro.exe dosyas’n’ nerede bulaca?’m’z’ gîsterin.
 
     set "balatroFile="
-    set "dialogTitle=balatro.exe se√ßiniz."
+    set "dialogTitle=balatro.exe seáiniz."
     set "fileFilter=Balatro Executable (balatro.exe) | balatro.exe"
 
     for /f "delims=" %%I in ('powershell -Command "& { Add-Type -AssemblyName System.Windows.Forms; $dlg = New-Object System.Windows.Forms.OpenFileDialog; $dlg.Filter = '!fileFilter!'; $dlg.Title = '!dialogTitle!'; $dlg.ShowHelp = $true; $dlg.ShowDialog() | Out-Null; $dlg.FileName }"') do set "selectedFile=%%I"
@@ -61,24 +59,24 @@ if not exist "!steamLibraryFile!" (
         set "balatroFile=!selectedFile!"
         echo Balatro.exe : !balatroFile!
     ) else (
-        echo Balatro.exe : Dosyasƒ± se√ßili deƒüil. Kurulum iptal edildi.
+        echo Balatro.exe : Dosyas’ seáili de?il. Kurulum iptal edildi.
         goto :end
     )
 )
 
-:: Ge√ßici klas√∂rleri olu≈üturma
+:: Geáici klasîrleri olu?turma
 if not exist "%resourcesFolder%" mkdir "%resourcesFolder%"
 if not exist "%resourcesFolder%\resources\textures" mkdir "%resourcesFolder%\resources\textures"
 if not exist "%resourcesFolder%\resources\textures\1x" mkdir "%resourcesFolder%\resources\textures\1x"
 if not exist "%resourcesFolder%\resources\textures\2x" mkdir "%resourcesFolder%\resources\textures\2x"
 
-:: En son Balamod s√ºr√ºm√ºn√ºn adƒ±nƒ± alma
+:: En son Balamod sÅrÅmÅnÅn ad’n’ alma
 for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/balamod/balamod/releases/latest' -TimeoutSec 10).tag_name; $tag"') do set latestTag=%%a
 
-:: Dosya adlarƒ±nƒ±n ve baƒülantƒ±larƒ±nƒ±n olu≈üturulmasƒ±. Yalnƒ±zca windows dosyasƒ± balamod-v.y.z-windows.exe olarak adlandƒ±rƒ±ldƒ±ƒüƒ± s√ºrece ge√ßerlidir.
+:: Dosya adlar’n’n ve ba?lant’lar’n’n olu?turulmas’. Yaln’zca windows dosyas’ balamod-v.y.z-windows.exe olarak adland’r’ld’?’ sÅrece geáerlidir.
 set "balamodFile=balamod-%latestTag%-windows.exe"
 set "balamodFileUrl=https://github.com/balamod/balamod/releases/download/%latestTag%/%balamodFile%"
-set "tr_repository=https://github.com/ceeprus/balatro-turkish-translations/tree/main/localization_files"
+set "tr_repository=https://raw.githubusercontent.com/ceeprus/balatro-turkish-translations/main/localization_files"
 set "tr_translation=%tr_repository%/localization/tr.lua"
 set "tr_game=%tr_repository%/game.lua"
 set "tr_assetsBoosters1x=%tr_repository%/resources/textures/1x/boosters.png"
@@ -99,12 +97,11 @@ set "tr_assets8BitDeck1x=%tr_repository%/resources/textures/1x/8BitDeck.png"
 set "tr_assets8BitDeck2x=%tr_repository%/resources/textures/2x/8BitDeck.png"
 set "tr_assets8BitDeck_opt21x=%tr_repository%/resources/textures/1x/8BitDeck_opt2.png"
 set "tr_assets8BitDeck_opt22x=%tr_repository%/resources/textures/2x/8BitDeck_opt2.png"
-set "font_m6x11plus=%tr_repository%/resources/textures/fonts/m6x11plus.ttf"
 
-:: Balamod ƒ∞ndir
+:: Balamod indir
 if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
-    echo Balamod ƒ∞ndiriliyor...
+    echo Balamod ?ndiriliyor...
     echo.
     curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
     echo.
@@ -119,44 +116,42 @@ echo.
 
 curl --ssl-no-revoke -L -o "%resourcesFolder%/tr.lua" %tr_translation%
 curl --ssl-no-revoke -L -o "%resourcesFolder%/game.lua" %tr_game%
-curl --ssl-no-revoke --create-dirs -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
 
 if "%download_assets%"=="true" (
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\boosters.png" %tr_assetsBoosters1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\boosters.png" %tr_assetsBoosters2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\Tarots.png" %tr_assetsTarots1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\Tarots.png" %tr_assetsTarots2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\Vouchers.png" %tr_assetsVouchers1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\Vouchers.png" %tr_assetsVouchers2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\icons.png" %tr_assetsIcons1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\icons.png" %tr_assetsIcons2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\BlindChips.png" %tr_assetsBlindChips1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\BlindChips.png" %tr_assetsBlindChips2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\Jokers.png" %tr_assetsJokers1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\Jokers.png" %tr_assetsJokers2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\ShopSignAnimation.png" %tr_assetsShopSignAnimation1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\ShopSignAnimation.png" %tr_assetsShopSignAnimation2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\8BitDeck.png" %tr_assets8BitDeck1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\8BitDeck.png" %tr_assets8BitDeck2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\1x\8BitDeck_opt2.png" %tr_assets8BitDeck_opt21x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\textures\2x\8BitDeck_opt2.png" %tr_assets8BitDeck_opt22x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/boosters.png" %tr_assetsBoosters1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/boosters.png" %tr_assetsBoosters2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/Tarots.png" %tr_assetsTarots1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/Tarots.png" %tr_assetsTarots2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/Vouchers.png" %tr_assetsVouchers1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/Vouchers.png" %tr_assetsVouchers2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/icons.png" %tr_assetsIcons1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/icons.png" %tr_assetsIcons2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/BlindChips.png" %tr_assetsBlindChips1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/BlindChips.png" %tr_assetsBlindChips2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/Jokers.png" %tr_assetsJokers1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/Jokers.png" %tr_assetsJokers2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/ShopSignAnimation.png" %tr_assetsShopSignAnimation1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/ShopSignAnimation.png" %tr_assetsShopSignAnimation2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/8BitDeck.png" %tr_assets8BitDeck1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/8BitDeck.png" %tr_assets8BitDeck2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/1x/8BitDeck_opt2.png" %tr_assets8BitDeck_opt21x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%/resources/textures/2x/8BitDeck_opt2.png" %tr_assets8BitDeck_opt22x%
 )
 
 echo.
 echo TR dil paketi enjeksiyonu 
 echo.
 
-:: Injection du pack de langue FR
+:: TR dil paketi enjeksiyonu
 echo.
-echo Dil pakedi y√ºkleniyor...
+echo Dil paketi yÅkleniyor...
 echo.
 
 
 if not defined balatroFile (
-    :: Steam varsayƒ±lan olarak y√ºkl√ºyse, Balamod'un Balatro dosyasƒ±nƒ± aramasƒ±na izin verin.
+    :: Steam varsay’lan olarak yÅklÅyse, Balamod'un Balatro dosyas’n’ aramas’na izin verin.
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\tr.lua -o localization/tr.lua
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\game.lua -o game.lua
-    "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\1x\boosters.png -o resources/textures/1x/boosters.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\2x\boosters.png -o resources/textures/2x/boosters.png
@@ -178,40 +173,39 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\textures\2x\8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
     )
 ) else (
-    :: Aksi takdirde, daha √∂nce se√ßilen Balatro.exe dosyasƒ±nƒ± i√ßeren klas√∂r√º g√∂ndeririz.
+    :: Aksi takdirde, daha înce seáilen Balatro.exe dosyas’n’ iáeren klasîrÅ gîndeririz.
     for %%A in ("!balatroFile!") do set "balatroFolder=%%~dpA"
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\tr.lua -o localization/tr.lua
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\game.lua -o game.lua
-    "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\boosters.png -o resources/textures/1x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\boosters.png -o resources/textures/2x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\Tarots.png -o resources/textures/1x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\Tarots.png -o resources/textures/2x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\Vouchers.png -o resources/textures/1x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\icons.png -o resources/textures/1x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\icons.png -o resources/textures/2x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\Jokers.png -o resources/textures/1x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\Jokers.png -o resources/textures/2x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\8BitDeck.png -o resources/textures/1x/8BitDeck.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\8BitDeck.png -o resources/textures/2x/8BitDeck.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\1x\8BitDeck_opt2.png -o resources/textures/1x/8BitDeck_opt2.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\textures\2x\8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\boosters.png -o resources/textures/1x/boosters.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\boosters.png -o resources/textures/2x/boosters.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\Tarots.png -o resources/textures/1x/Tarots.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\Tarots.png -o resources/textures/2x/Tarots.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\Vouchers.png -o resources/textures/1x/Vouchers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\icons.png -o resources/textures/1x/icons.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\icons.png -o resources/textures/2x/icons.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\Jokers.png -o resources/textures/1x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\Jokers.png -o resources/textures/2x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\8BitDeck.png -o resources/textures/1x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\8BitDeck.png -o resources/textures/2x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\1x\8BitDeck_opt2.png -o resources/textures/1x/8BitDeck_opt2.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\textures\2x\8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
     )
 )
 
 echo %colorReset%
 echo.
-echo Dil paketi kurulumu tamamlandƒ±
+echo Dil paketi kuruldu !
 
-:: Kaynak dosyalarƒ±nƒ± silme
+:: Kaynak dosyalar’n’ silme
 if exist "%resourcesFolder%" rd /s /q "%resourcesFolder%"
-echo Balatro g√ºncellendi !
+echo Balatro gÅncellendi !
 
 :end
 echo.
