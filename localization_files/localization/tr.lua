@@ -1870,7 +1870,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Black",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             blue_seal={
@@ -1887,7 +1887,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Blue",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             card_chips={
@@ -1984,7 +1984,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Gold",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             green_sticker={
@@ -1992,7 +1992,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Green",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             joker_locked_legendary={
@@ -2012,7 +2012,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Orange",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             p_arcana_jumbo={
@@ -2166,7 +2166,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Purple",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             red_seal={
@@ -2181,7 +2181,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}Red",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             remove_negative={
@@ -2271,7 +2271,7 @@ return {
                 text={
                     "Used this Joker",
                     "to win on {C:attention}White",
-                    "{C:attention}Stake{} difficulty",
+                    "{C:attention}Bahis{} difficulty",
                 },
             },
             wip_locked={
@@ -2544,62 +2544,62 @@ return {
         },
         Stake={
             stake_black={
-                name="Black Stake",
+                name="Black Bahis",
                 text={
                     "Shop can have {C:attention}Eternal{} Jokers",
                     "{C:inactive,s:0.8}(Can't be sold or destroyed)",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_blue={
-                name="Blue Stake",
+                name="Blue Bahis",
                 text={
                     "{C:red}-1{} Discard",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_gold={
-                name="Gold Stake",
+                name="Gold Bahis",
                 text={
                     "Shop can have {C:attention}Rental{} Jokers",
                     "{C:inactive,s:0.8}(Costs {C:money,s:0.8}$3{C:inactive,s:0.8} per round)",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_green={
-                name="Green Stake",
+                name="Green Bahis",
                 text={
                     "Required score scales",
                     "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_orange={
-                name="Orange Stake",
+                name="Orange Bahis",
                 text={
                     "Shop can have {C:attention}Perishable{} Jokers",
                     "{C:inactive,s:0.8}(Debuffed after 5 Rounds)",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_purple={
-                name="Purple Stake",
+                name="Purple Bahis",
                 text={
                     "Required score scales",
                     "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_red={
-                name="Red Stake",
+                name="Red Bahis",
                 text={
                     "{C:attention}Small Blind{} gives",
                     "no reward money",
-                    "{s:0.8}Applies all previous Stakes",
+                    "{s:0.8}Applies all previous Bahisler",
                 },
             },
             stake_white={
-                name="White Stake",
+                name="White Bahis",
                 text={
                     "Base Difficulty",
                 },
@@ -3309,15 +3309,15 @@ return {
             cartomancy="Discover every Tarot card",
             clairvoyance="Discover every Spectral card",
             completionist="Discover 100% of your collection",
-            completionist_plus="Win with every deck on Gold Stake difficulty",
+            completionist_plus="Win with every deck on Gold Bahis difficulty",
             completionist_plus_plus="Earn a Gold Sticker on every Joker",
             extreme_couponer="Discover every Voucher",
             flushed="Play a Flush with 5 Wild Cards",
             heads_up="Win a Run",
-            high_stakes="Win a run on at least Gold Stake difficulty",
+            high_stakes="Win a run on at least Gold Bahis difficulty",
             legendary="Discover a Legendary Joker",
-            low_stakes="Win a run on at least Red Stake difficulty",
-            mid_stakes="Win a run on at least Black Stake difficulty",
+            low_stakes="Win a run on at least Red Bahis difficulty",
+            mid_stakes="Win a run on at least Black Bahis difficulty",
             nest_egg="Have $400 or more during a single run",
             retrograde="Get any poker hand to level 10",
             roi="Buy 5 Vouchers by Ante 4",
@@ -3347,10 +3347,10 @@ return {
             extreme_couponer="Extreme Couponer",
             flushed="Flushed",
             heads_up="Heads Up",
-            high_stakes="High Stakes",
+            high_stakes="High Bahisler",
             legendary="Legendary",
-            low_stakes="Low Stakes",
-            mid_stakes="Mid Stakes",
+            low_stakes="Low Bahisler",
+            mid_stakes="Mid Bahisler",
             nest_egg="Nest Egg",
             retrograde="Retrograde",
             roi="ROI",
@@ -3559,7 +3559,7 @@ return {
             k_daily_run="Günlük Oyun",
             k_debuffed="Geçersiz Kılındı",
             k_deck="Deste",
-            k_deck_stake_wins="Deck Stake Wins",
+            k_deck_stake_wins="Deck Bahis Wins",
             k_defeated_by="Şunun Tarafından Yenildin:",
             k_demo_version_ex="Demo Versiyonu!",
             k_disabled_ex="Devredışı!",
@@ -3595,7 +3595,7 @@ return {
             k_money="Para",
             k_mult="Çarpan",
             k_no_other_jokers="Daha fazla Joker yok!",
-            k_no_reward="Ödül Yok",
+            k_no_reward="Ödül Yok!",
             k_no_room_ex="Yer Yok!",
             k_no_space_ex="Yer Yok!",
             k_none="Hiçbiri",
@@ -3756,8 +3756,8 @@ return {
             ph_defeat_the_boss="Defeat the Boss Blind",
             ph_defeat_this_blind_1="Keşfetmek için",
             ph_defeat_this_blind_2="bu bahsi yen.",
-            ph_demo_thanks_1="BALATRO DEMO",
-            ph_demo_thanks_2="Oynadığınız için teşekkürler",
+            ph_demo_thanks_1="Thanks for playing the",
+            ph_demo_thanks_2="BALATRO DEMO",
             ph_display_stickers="Oyun içerisinde Bahis çıkartmalarını göster",
             ph_game_over="OYUN BİTTİ",
             ph_improve_run="Elini geliştir!",
@@ -4006,23 +4006,23 @@ return {
                 "{C:attention}Tag{} has a unique effect",
             },
             bb_3={
-                "But keep an eye on",
-                "the {C:attention}Boss Blind{}. It",
-                "has an ability you'll",
-                "need to plan around.",
+                "Ama Usta Bahis{}e",
+                "dikkat et.",
+                "planlayarak geçeceğin",
+                "bir özelliği var",
             },
             bb_4={
-                "if you beat it, then the",
-                "{C:attention}Ante{} goes up and all",
-                "{C:attention}Blinds{} become harder",
+                "Eğer yenersen,",
+                "{C:attention}Bop{} yükselir ve tüm",
+                "{C:attention}Bahisler{} daha zor olur.",
             },
             bb_5={
-                "Beat {C:attention}Ante{} #1# to win.",
-                "Now choose your path!",
+                "Kazanmak için {C:attention}Bop{} #1#i yen.",
+                "Şimdi yolunu seç!",
             },
             fh_1={
-                "You earn chips by",
-                "playing {C:attention}Poker hands",
+                "{C:attention}Poker elleri oynayarak",
+                "fiş kazanabilirsin.",
             },
             fh_2={
                 "Each {C:attention}Poker hand{} earns a",
@@ -4030,15 +4030,15 @@ return {
                 "multiplied by some {C:red}Mult",
             },
             fh_3={
-                "See your {C:attention}Poker hands",
-                "in the {C:attention}Run Info{} area,",
-                "along with other info",
-                "about your current run",
+                "{C:attention}Poker ellerini",
+                "{C:attention}Oyun Bilgisi{} kısmında,",
+                "şu anki oyunun hakkındaki başka bilgilerle",
+                "beraber görebilirsin.",
             },
             fh_4={
-                "Cards also earn",
-                "you some {C:blue}Chips{},",
-                "hover over to see!",
+                "Ayrıca kartlar da sana",
+                "{C:blue}Fiş{} kazandırır,",
+                "üstlerine gelerek görebilirsin!",
             },
             fh_4_touch={
                 "Cards also earn",
@@ -4046,9 +4046,9 @@ return {
                 "press and hold to see!",
             },
             fh_5={
-                "Now select up to",
-                "{C:attention}5{} cards to play",
-                "and press {C:blue}'Play Hand'",
+                "Şimdi {C:attention}5{} karda kadar",
+                "seçip, oynamak için",
+                "{C:blue}'Eli Oyna' butonuna bas.'",
             },
             fh_5_touch={
                 "Now tap up to",
@@ -4079,29 +4079,29 @@ return {
                 "cards from the {C:attention}Shop",
             },
             s_10={
-                "{C:attention}Vouchers{} are restocked",
-                "after you defeat the",
-                "{C:attention}Boss Blind{}.",
+                "{C:attention}Usta Bahis'i{}",
+                "yendikten sonra",
+                "{C:attention}Kuponlar{} yeniden stoklanır.",
             },
             s_11={
-                "And check out both of",
-                "the {C:booster}Booster Packs{} in",
-                "every shop. They're",
-                "full of goodies!",
+                "Ve her mağazada iki",
+                "{C:booster}Güçlendirici Paketlerine{}",
+                "de bak. İçleri",
+                "dopdolu!",
             },
             s_12={
                 "Let's move on to",
                 "the {C:attention}next round{}.",
             },
             s_2={
-                "Try buying this",
-                "handsome Devil",
+                "Bu yakışıklı şeytanı",
+                "almaya çalış.",
             },
             s_2_touch={
-                "Try buying this",
-                "handsome Devil!",
-                "Drag it from the shop",
-                "into the {C:attention}'BUY'{} area",
+                "Bu yakışıklı şeytanı",
+                "almaya çalış!",
+                "Mağazadan kaydırarak",
+                "{C:attention}'SATIN AL'{} yerine götür.",
             },
             s_3={
                 "This is one of the {C:attention}#1#",
@@ -4110,8 +4110,8 @@ return {
                 "does something different",
             },
             s_4={
-                "This one adds {C:red}+4 Mult{} to",
-                "every hand you play!",
+                "Bu oynadığın her ele",
+                "{C:red}+4 Çarpan{} ekler!",
             },
             s_5={
                 "Be picky, you can only",
@@ -4129,9 +4129,9 @@ return {
                 "cards! Hold on to it.",
             },
             s_8={
-                "You can carry up to",
-                "{C:attention}2 consumable{} cards",
-                "with you at a time",
+                "Kendinle beraber bir seferde",
+                "{C:attention}2 kullanılabilir{} kart",
+                "taşıyabilirsin.",
             },
             s_9={
                 "If you save up enough,",
@@ -4140,9 +4140,9 @@ return {
                 "upgrade your run!",
             },
             sb_1={
-                "Hello there! My name is",
-                "{C:attention}Jimbo{}, I'm here to help",
-                "you learn how to play!",
+                "Selam! Benim adım",
+                "{C:attention}Jimbo{}, Sana oyunu oynamayı",
+                "öğretmek için buradayım!",
             },
             sb_2={
                 "Your goal is to earn",
@@ -4155,30 +4155,30 @@ return {
                 "{C:attention}300 Chips{} to beat it.",
             },
             sb_4={
-                "Select the {C:blue}Small Blind",
-                "to start the round!",
+                "Turu başlatmak için",
+                "{C:blue}Küçük Bahis'i seç!",
             },
             sh_1={
-                "When you get more cards,",
-                "remember you can rearrange",
-                "them. {C:attention}Jokers{} trigger in",
-                "order from left to right",
+                "Daha fazla kart aldığında,",
+                "onları sıralayabileceğini hatırla.",
+                "{C:attention}Jokerler{} soldan sağa",
+                "doğru tetiklenir.",
             },
             sh_2={
-                "And make sure that you",
-                "{C:attention}USE{} your consumables!",
+                "Ve de kullanılabilirlerini",
+                "{C:attention}KULLANDIĞINA{} emin ol!",
             },
             sh_3={
-                "Select up to {C:attention}2{} cards",
-                "in your hand and press",
-                "{C:attention}'USE'{} on the {C:tarot}Tarot{} card",
-                "to enhance them!",
+                "Elinden {C:attention}2{} kart",
+                "seç ve {C:tarot}Tarot{} kardında",
+                "{C:attention}'KULLAN'{} tuşuna basarak",
+                "onları geliştir!!",
             },
             sh_3_touch={
-                "Select up to {C:attention}2{} cards",
-                "in your hand and drag",
-                "the {C:tarot}Tarot{} card into the {C:attention}'USE'{}",
-                "area to enhance them!",
+                "Elinden {C:attention}2{} kart",
+                "seç ve {C:tarot}Tarot{} kardında",
+                "{C:attention}'KULLAN'{} tuşuna basarak",
+                "onları geliştir!!",
             },
         },
         v_dictionary={

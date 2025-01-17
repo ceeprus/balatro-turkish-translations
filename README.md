@@ -1,6 +1,6 @@
-[![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
-
 # Balatro Turkish Translation
+
+[![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
 
 A humble community-made version of the Turkish localization of Balatro.
 
