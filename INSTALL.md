@@ -10,7 +10,7 @@ Başka yere bakmayın 👉 [**Balatro'nun TR çevirisini yüklemek için buraya 
 
 1. [7zip](https://7-zip.org/) indirin. Hayır, WinRAR çalışmıyor.
 2. **Balatro'yu kapatın.**
-3. Arşivi indirin [Better_TR_Manual_Install.zip](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Manual_Install.zip)
+3. Arşivi indirin [Balatro_TR_Manual_Install.zip](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Balatro_TR_Manual_Install.zip)
 4. Balatro yüklü klasöre gidin. (Örn.: `SteamLibrary\steamapps\common\Balatro\`). <br/> Balatro'nun nerede olduğunu bilmiyorsanız, Steam kütüphanenizdeki Balatro'ya sağ tıklayıp _Yönet_ ve ardından _Yerel dosyalara gözat_ seçeneğine tıklayabilirsiniz.
 5. Balatro.exe`ye sağ tıklayın, ardından _7-Zip_ menüsünde _Arşivi aç_ seçeneğine tıklayın.
 6. 7zip içinde `localization` klasörünü açın.
