@@ -470,7 +470,7 @@ return {
                 },
             },
             j_arrowhead={
-                name="Temren",
+                name="Okbaşı",
                 text={
                     "Oynanan",
                     "{C:spades}Maça{} sembollü kartlar",
@@ -495,7 +495,7 @@ return {
                 },
             },
             j_banner={
-                name="Bayrak",
+                name="Flama",
                 text={
                     "Kalan {C:attention}çıkarma başına",
                     "{C:chips}+#1#{} Fiş",
@@ -625,7 +625,7 @@ return {
                 },
             },
             j_campfire={
-                name="Camp ateşi",
+                name="Kamp ateşi",
                 text={
                     "Bu joker {C:attention}satılan{} kart başına",
                     "{X:mult,C:white}X#1#{} Çarpan kazanır",
@@ -784,7 +784,7 @@ return {
                 },
             },
             j_drivers_license={
-                name="Sürücü Belgesi",
+                name="Ehliyet",
                 text={
                     "Destende en az {C:attention}16{} Geliştirilmiş",
                     "kart varsa {X:mult,C:white}X#1#{} Çarpan ekle",
@@ -830,7 +830,7 @@ return {
                 },
             },
             j_egg={
-                name="Egg",
+                name="Yumurta",
                 text={
                     "Gains {C:money}$#1#{} of",
                     "{C:attention}sell value{} at",
@@ -838,7 +838,7 @@ return {
                 },
             },
             j_erosion={
-                name="Erosion",
+                name="Erozyon",
                 text={
                     "{C:red}+#1#{} Mult for each",
                     "card below {C:attention}#3#{}",
@@ -856,7 +856,7 @@ return {
                 },
             },
             j_faceless={
-                name="Faceless Joker",
+                name="Yüzsüz Joker",
                 text={
                     "Earn {C:money}$#1#{} if {C:attention}#2#{} or",
                     "more {C:attention}face cards{}",
@@ -865,7 +865,7 @@ return {
                 },
             },
             j_family={
-                name="The Family",
+                name="Aile",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand contains",
@@ -886,7 +886,7 @@ return {
                 },
             },
             j_flash={
-                name="Flash Card",
+                name="Bilgi Kartı",
                 text={
                     "This Joker gains {C:mult}+#1#{} Mult",
                     "per {C:attention}reroll{} in the shop",
@@ -894,7 +894,7 @@ return {
                 },
             },
             j_flower_pot={
-                name="Flower Pot",
+                name="Saksı",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if poker",
                     "hand contains a",
@@ -907,7 +907,7 @@ return {
                 },
             },
             j_fortune_teller={
-                name="Fortune Teller",
+                name="Falcı",
                 text={
                     "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
                     "card used this run",
@@ -915,7 +915,7 @@ return {
                 },
             },
             j_four_fingers={
-                name="Four Fingers",
+                name="4 Parmak",
                 text={
                     "All {C:attention}Flushes{} and",
                     "{C:attention}Straights{} can be",
@@ -923,7 +923,7 @@ return {
                 },
             },
             j_gift={
-                name="Gift Card",
+                name="Hediye Kartı",
                 text={
                     "Add {C:money}$#1#{} of {C:attention}sell value",
                     "to every {C:attention}Joker{} and",
@@ -932,7 +932,7 @@ return {
                 },
             },
             j_glass={
-                name="Glass Joker",
+                name="Cam Joker",
                 text={
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
                     "for every {C:attention}Glass Card",
@@ -954,14 +954,14 @@ return {
                 },
             },
             j_golden={
-                name="Golden Joker",
+                name="Altın Joker",
                 text={
                     "Earn {C:money}$#1#{} at",
                     "end of round",
                 },
             },
             j_greedy_joker={
-                name="Greedy Joker",
+                name="Açgözlü Joker",
                 text={
                     "Played cards with",
                     "{C:diamonds}#2#{} suit give",
@@ -969,7 +969,7 @@ return {
                 },
             },
             j_green_joker={
-                name="Green Joker",
+                name="Yeşil Joker",
                 text={
                     "{C:mult}+#1#{} Mult per hand played",
                     "{C:mult}-#2#{} Mult per discard",
@@ -977,7 +977,7 @@ return {
                 },
             },
             j_gros_michel={
-                name="Gros Michel",
+                name="Çürük Muz",
                 text={
                     "{C:mult}+#1#{} Mult",
                     "{C:green}#2# in #3#{} chance this",
@@ -986,7 +986,7 @@ return {
                 },
             },
             j_hack={
-                name="Hack",
+                name="Vasat",
                 text={
                     "Retrigger",
                     "each played",
@@ -994,7 +994,7 @@ return {
                 },
             },
             j_half={
-                name="Half Joker",
+                name="Yarım Joker",
                 text={
                     "{C:red}+#1#{} Mult if played",
                     "hand contains",
@@ -1002,7 +1002,7 @@ return {
                 },
             },
             j_hallucination={
-                name="Hallucination",
+                name="Halüsinasyon",
                 text={
                     "{C:green}#1# in #2#{} chance to create",
                     "a {C:tarot}Tarot{} card when any",
@@ -1011,7 +1011,7 @@ return {
                 },
             },
             j_hanging_chad={
-                name="Hanging Chad",
+                name="Oy Pusulası",
                 text={
                     "Retrigger {C:attention}first{} played",
                     "card used in scoring",
@@ -1023,7 +1023,7 @@ return {
                 },
             },
             j_hiker={
-                name="Hiker",
+                name="Dağcı",
                 text={
                     "Every played {C:attention}card{}",
                     "permanently gains",
@@ -1031,7 +1031,7 @@ return {
                 },
             },
             j_hit_the_road={
-                name="Hit the Road",
+                name="Bas Gaza",
                 text={
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
                     "for every {C:attention}Jack{}",
@@ -1054,7 +1054,7 @@ return {
                 },
             },
             j_ice_cream={
-                name="Ice Cream",
+                name="Dondurma",
                 text={
                     "{C:chips}+#1#{} Chips",
                     "{C:chips}-#2#{} Chips for",
@@ -1062,7 +1062,7 @@ return {
                 },
             },
             j_idol={
-                name="The Idol",
+                name="Put",
                 text={
                     "Each played {C:attention}#2#",
                     "of {V:1}#3#{} gives",
@@ -1076,7 +1076,7 @@ return {
                 },
             },
             j_invisible={
-                name="Invisible Joker",
+                name="Görünmez Joker",
                 text={
                     "After {C:attention}#1#{} rounds,",
                     "sell this card to",
@@ -1096,7 +1096,7 @@ return {
                 },
             },
             j_jolly={
-                name="Jolly Joker",
+                name="Neşeli Joker",
                 text={
                     "{C:red}+#1#{} Mult if played",
                     "hand contains",
@@ -1104,13 +1104,13 @@ return {
                 },
             },
             j_juggler={
-                name="Juggler",
+                name="Jonglör",
                 text={
                     "{C:attention}+#1#{} hand size",
                 },
             },
             j_loyalty_card={
-                name="Loyalty Card",
+                name="Sadaket Kartı",
                 text={
                     "{X:red,C:white} X#1# {} Mult every",
                     "{C:attention}#2#{} hands played",
@@ -1118,7 +1118,7 @@ return {
                 },
             },
             j_luchador={
-                name="Luchador",
+                name="Pehlivan",
                 text={
                     "Sell this card to",
                     "disable the current",
@@ -1126,7 +1126,7 @@ return {
                 },
             },
             j_lucky_cat={
-                name="Lucky Cat",
+                name="Şanslı Kedi",
                 text={
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
                     "every time a {C:attention}Lucky{} card",
@@ -1135,7 +1135,7 @@ return {
                 },
             },
             j_lusty_joker={
-                name="Lusty Joker",
+                name="Şehvetli Joker",
                 text={
                     "Played cards with",
                     "{C:hearts}#2#{} suit give",
@@ -1143,7 +1143,7 @@ return {
                 },
             },
             j_mad={
-                name="Mad Joker",
+                name="Çılgın Joker",
                 text={
                     "{C:red}+#1#{} Mult if played",
                     "hand contains",
@@ -1151,7 +1151,7 @@ return {
                 },
             },
             j_madness={
-                name="Madness",
+                name="Delilik",
                 text={
                     "When {C:attention}Small Blind{} or {C:attention}Big Blind{}",
                     "is selected, gain {X:mult,C:white} X#1# {} Mult",
@@ -1160,7 +1160,7 @@ return {
                 },
             },
             j_mail={
-                name="Mail-In Rebate",
+                name="Dönen Posta",
                 text={
                     "Earn {C:money}$#1#{} for each",
                     "discarded {C:attention}#2#{}, rank",
@@ -1168,7 +1168,7 @@ return {
                 },
             },
             j_marble={
-                name="Marble Joker",
+                name="Mermer Joker",
                 text={
                     "Adds one {C:attention}Stone{} card",
                     "to deck when",
@@ -1189,7 +1189,7 @@ return {
                 },
             },
             j_merry_andy={
-                name="Merry Andy",
+                name="Şakşakçı Andy",
                 text={
                     "{C:red}+#1#{} discards",
                     "each round,",
@@ -1201,7 +1201,7 @@ return {
                 },
             },
             j_midas_mask={
-                name="Midas Mask",
+                name="Midas Maskesi",
                 text={
                     "All played {C:attention}face{} cards",
                     "become {C:attention}Gold{} cards",
@@ -1209,7 +1209,7 @@ return {
                 },
             },
             j_mime={
-                name="Mime",
+                name="Pandomim",
                 text={
                     "Retrigger all",
                     "card {C:attention}held in",
@@ -1223,7 +1223,7 @@ return {
                 },
             },
             j_mr_bones={
-                name="Mr. Bones",
+                name="Bay Kemikler",
                 text={
                     "Prevents Death",
                     "if chips scored",
@@ -1237,7 +1237,7 @@ return {
                 },
             },
             j_mystic_summit={
-                name="Mystic Summit",
+                name="Gizemli Dağ",
                 text={
                     "{C:mult}+#1#{} Mult when",
                     "{C:attention}#2#{} discards",
@@ -1245,7 +1245,7 @@ return {
                 },
             },
             j_obelisk={
-                name="Obelisk",
+                name="Dikilitaş",
                 text={
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
                     "per {C:attention}consecutive{} hand played",
@@ -1255,7 +1255,7 @@ return {
                 },
             },
             j_odd_todd={
-                name="Odd Todd",
+                name="Tekil Vekil",
                 text={
                     "Played cards with",
                     "{C:attention}odd{} rank give",
@@ -1264,7 +1264,7 @@ return {
                 },
             },
             j_onyx_agate={
-                name="Onyx Agate",
+                name="Damar Taşı",
                 text={
                     "Played cards with",
                     "{C:clubs}Club{} suit give",
@@ -1277,7 +1277,7 @@ return {
                 },
             },
             j_oops={
-                name="Oops! All 6s",
+                name="Hileli Zar",
                 text={
                     "Doubles all {C:attention}listed",
                     "{C:green,E:1,S:1.1}probabilities",
@@ -1290,7 +1290,7 @@ return {
                 },
             },
             j_order={
-                name="The Order",
+                name="Düzen",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand contains",
@@ -1303,7 +1303,7 @@ return {
                 },
             },
             j_pareidolia={
-                name="Pareidolia",
+                name="Sanrı",
                 text={
                     "All cards are",
                     "considered",
@@ -1323,7 +1323,7 @@ return {
                 },
             },
             j_photograph={
-                name="Photograph",
+                name="Fotoğraf",
                 text={
                     "First played {C:attention}face",
                     "card gives {X:mult,C:white} X#1# {} Mult",
@@ -1331,7 +1331,7 @@ return {
                 },
             },
             j_popcorn={
-                name="Popcorn",
+                name="Patlamış Mısır",
                 text={
                     "{C:mult}+#1#{} Mult",
                     "{C:mult}-#2#{} Mult per",
@@ -1339,7 +1339,7 @@ return {
                 },
             },
             j_raised_fist={
-                name="Raised Fist",
+                name="Sol Yumruk",
                 text={
                     "Adds {C:attention}double{} the rank",
                     "of {C:attention}lowest{} ranked card",
@@ -1364,7 +1364,7 @@ return {
                 },
             },
             j_reserved_parking={
-                name="Reserved Parking",
+                name="Rezerve Park Yeri",
                 text={
                     "Each {C:attention}face{} card",
                     "held in hand has",
@@ -1373,7 +1373,7 @@ return {
                 },
             },
             j_ride_the_bus={
-                name="Ride the Bus",
+                name="Durak",
                 text={
                     "This Joker gains {C:mult}+#1#{} Mult",
                     "per {C:attention}consecutive{} hand",
@@ -1383,7 +1383,7 @@ return {
                 },
             },
             j_riff_raff={
-                name="Riff-Raff",
+                name="Aylak",
                 text={
                     "When {C:attention}Blind{} is selected,",
                     "create {C:attention}#1# {C:blue}Common{C:attention} Jokers",
@@ -1391,7 +1391,7 @@ return {
                 },
             },
             j_ring_master={
-                name="Showman",
+                name="Şov Adamı",
                 text={
                     "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
                     "and {C:spectral}Spectral{} cards may",
@@ -1403,7 +1403,7 @@ return {
                 },
             },
             j_rocket={
-                name="Rocket",
+                name="Roket",
                 text={
                     "Earn {C:money}$#1#{} at end of round",
                     "Payout increases by {C:money}$#2#{}",
@@ -1411,7 +1411,7 @@ return {
                 },
             },
             j_rough_gem={
-                name="Rough Gem",
+                name="Kaba Cevher",
                 text={
                     "Played cards with",
                     "{C:diamonds}Diamond{} suit earn",
@@ -1424,7 +1424,7 @@ return {
                 },
             },
             j_runner={
-                name="Runner",
+                name="Koşucu",
                 text={
                     "Gains {C:chips}+#2#{} Chips",
                     "if played hand",
@@ -1433,7 +1433,7 @@ return {
                 },
             },
             j_satellite={
-                name="Satellite",
+                name="Uydu",
                 text={
                     "Earn {C:money}$#1#{} at end of",
                     "round per unique {C:planet}Planet",
@@ -1446,7 +1446,7 @@ return {
                 },
             },
             j_scary_face={
-                name="Scary Face",
+                name="Korkunç Yüz",
                 text={
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
@@ -1454,7 +1454,7 @@ return {
                 },
             },
             j_scholar={
-                name="Scholar",
+                name="Mezun",
                 text={
                     "Played {C:attention}Aces{}",
                     "give {C:chips}+#2#{} Chips",
@@ -1463,7 +1463,7 @@ return {
                 },
             },
             j_seance={
-                name="Séance",
+                name="Seans",
                 text={
                     "If {C:attention}poker hand{} is a",
                     "{C:attention}#1#{}, create a",
@@ -1472,7 +1472,7 @@ return {
                 },
             },
             j_seeing_double={
-                name="Seeing Double",
+                name="Çift Görmek",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand has a scoring",
@@ -1486,7 +1486,7 @@ return {
                 },
             },
             j_selzer={
-                name="Seltzer",
+                name="Maden Suyu",
                 text={
                     "Retrigger all",
                     "cards played for",
@@ -1494,7 +1494,7 @@ return {
                 },
             },
             j_shoot_the_moon={
-                name="Shoot the Moon",
+                name="Kızkaçıran",
                 text={
                     "Each {C:attention}Queen{}",
                     "held in hand",
@@ -1507,7 +1507,7 @@ return {
                 },
             },
             j_shortcut={
-                name="Shortcut",
+                name="Kestirme",
                 text={
                     "Allows {C:attention}Straights{} to be",
                     "made with gaps of {C:attention}1 rank",
@@ -1515,7 +1515,7 @@ return {
                 },
             },
             j_sixth_sense={
-                name="Sixth Sense",
+                name="Altıncı His",
                 text={
                     "If {C:attention}first hand{} of round is",
                     "a single {C:attention}6{}, destroy it and",
@@ -1524,7 +1524,7 @@ return {
                 },
             },
             j_sly={
-                name="Sly Joker",
+                name="Kurnaz Joker",
                 text={
                     "{C:chips}+#1#{} Chips if played",
                     "hand contains",
@@ -1532,7 +1532,7 @@ return {
                 },
             },
             j_smeared={
-                name="Smeared Joker",
+                name="Silik Joker",
                 text={
                     "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
                     "count as the same suit,",
@@ -1546,7 +1546,7 @@ return {
                 },
             },
             j_smiley={
-                name="Smiley Face",
+                name="Gülücük",
                 text={
                     "Played {C:attention}face{} cards",
                     "give {C:mult}+#1#{} Mult",
@@ -1554,7 +1554,7 @@ return {
                 },
             },
             j_sock_and_buskin={
-                name="Sock and Buskin",
+                name="Komedi ve Trajedi",
                 text={
                     "Retrigger all",
                     "played {C:attention}face{} cards",
@@ -1566,7 +1566,7 @@ return {
                 },
             },
             j_space={
-                name="Space Joker",
+                name="Uzay Jokeri",
                 text={
                     "{C:green}#1# in #2#{} chance to",
                     "upgrade level of",
@@ -1574,14 +1574,14 @@ return {
                 },
             },
             j_splash={
-                name="Splash",
+                name="Şıp",
                 text={
                     "Every {C:attention}played card",
                     "counts in scoring",
                 },
             },
             j_square={
-                name="Square Joker",
+                name="Kare Joker",
                 text={
                     "This Joker gains {C:chips}+#2#{} Chips",
                     "if played hand has",
@@ -1590,7 +1590,7 @@ return {
                 },
             },
             j_steel_joker={
-                name="Steel Joker",
+                name="Çelik Joker",
                 text={
                     "Gives {X:mult,C:white} X#1# {} Mult",
                     "for each {C:attention}Steel Card",
@@ -1599,16 +1599,16 @@ return {
                 },
             },
             j_stencil={
-                name="Joker Stencil",
+                name="Joker Kalıbı",
                 text={
                     "{X:red,C:white} X1 {} Mult for each",
                     "empty {C:attention}Joker{} slot",
-                    "{s:0.8}Joker Stencil included",
+                    "{s:0.8}Joker Kalıbı included",
                     "{C:inactive}(Currently {X:red,C:white} X#1# {C:inactive})",
                 },
             },
             j_stone={
-                name="Stone Joker",
+                name="Taş Joker",
                 text={
                     "Gives {C:chips}+#1#{} Chips for",
                     "each {C:attention}Stone Card",
@@ -1617,7 +1617,7 @@ return {
                 },
             },
             j_stuntman={
-                name="Stuntman",
+                name="Dublör",
                 text={
                     "{C:chips}+#1#{} Chips,",
                     "{C:attention}-#2#{} hand size",
@@ -1629,7 +1629,7 @@ return {
                 },
             },
             j_supernova={
-                name="Supernova",
+                name="Süpernova",
                 text={
                     "Adds the number of times",
                     "{C:attention}poker hand{} has been",
@@ -1637,7 +1637,7 @@ return {
                 },
             },
             j_superposition={
-                name="Superposition",
+                name="Süperpozisyon",
                 text={
                     "Create a {C:tarot}Tarot{} card if",
                     "poker hand contains an",
@@ -1646,7 +1646,7 @@ return {
                 },
             },
             j_swashbuckler={
-                name="Swashbuckler",
+                name="Barbaros",
                 text={
                     "Adds the sell value",
                     "of all other owned",
@@ -1660,7 +1660,7 @@ return {
                 },
             },
             j_throwback={
-                name="Throwback",
+                name="Parti",
                 text={
                     "{X:mult,C:white} X#1# {} Mult for each",
                     "{C:attention}Blind{} skipped this run",
@@ -1672,7 +1672,7 @@ return {
                 },
             },
             j_ticket={
-                name="Golden Ticket",
+                name="Altın Bilet",
                 text={
                     "Played {C:attention}Gold{} cards",
                     "earn {C:money}$#1#{} when scored",
@@ -1684,7 +1684,7 @@ return {
                 },
             },
             j_to_the_moon={
-                name="To the Moon",
+                name="Göğe Doğru",
                 text={
                     "Earn an extra {C:money}$#1#{} of",
                     "{C:attention}interest{} for every {C:money}$5{} you",
@@ -1692,7 +1692,7 @@ return {
                 },
             },
             j_todo_list={
-                name="To Do List",
+                name="Liste",
                 text={
                     "Earn {C:money}$#1#{} if {C:attention}poker hand{}",
                     "is a {C:attention}#2#{},",
@@ -1701,7 +1701,7 @@ return {
                 },
             },
             j_trading={
-                name="Trading Card",
+                name="Koleksiyon Kartı",
                 text={
                     "If {C:attention}first discard{} of round",
                     "has only {C:attention}1{} card, destroy",
@@ -1709,7 +1709,7 @@ return {
                 },
             },
             j_tribe={
-                name="The Tribe",
+                name="Kabile",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand contains",
@@ -1733,7 +1733,7 @@ return {
                 },
             },
             j_trio={
-                name="The Trio",
+                name="Üçlü",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand contains",
@@ -1746,7 +1746,7 @@ return {
                 },
             },
             j_troubadour={
-                name="Troubadour",
+                name="Ozan",
                 text={
                     "{C:attention}+#1#{} hand size,",
                     "{C:blue}-#2#{} hand each round",
@@ -1758,7 +1758,7 @@ return {
                 },
             },
             j_trousers={
-                name="Spare Trousers",
+                name="Yedek Pantolon",
                 text={
                     "This Joker gains {C:mult}+#1#{} Mult",
                     "if played hand contains",
@@ -1767,7 +1767,7 @@ return {
                 },
             },
             j_turtle_bean={
-                name="Turtle Bean",
+                name="İri Fasulye",
                 text={
                     "{C:attention}+#1#{} hand size,",
                     "reduces by",
@@ -1775,7 +1775,7 @@ return {
                 },
             },
             j_vagabond={
-                name="Vagabond",
+                name="Sefil",
                 text={
                     "Create a {C:purple}Tarot{} card",
                     "if hand is played",
@@ -1783,7 +1783,7 @@ return {
                 },
             },
             j_vampire={
-                name="Vampire",
+                name="Vampir",
                 text={
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
                     "per scoring {C:attention}Enhanced card{} played,",
@@ -1792,7 +1792,7 @@ return {
                 },
             },
             j_walkie_talkie={
-                name="Walkie Talkie",
+                name="Telsiz",
                 text={
                     "Each played {C:attention}10{} or {C:attention}4",
                     "gives {C:chips}+#1#{} Chips and",
@@ -1800,7 +1800,7 @@ return {
                 },
             },
             j_wee={
-                name="Wee Joker",
+                name="Mini Joker",
                 text={
                     "This Joker gains",
                     "{C:chips}+#2#{} Chips when each",
@@ -1813,7 +1813,7 @@ return {
                 },
             },
             j_wily={
-                name="Wily Joker",
+                name="Oyunbaz Joker",
                 text={
                     "{C:chips}+#1#{} Chips if played",
                     "hand contains",
@@ -1821,7 +1821,7 @@ return {
                 },
             },
             j_wrathful_joker={
-                name="Wrathful Joker",
+                name="Hiddetli Joker",
                 text={
                     "Played cards with",
                     "{C:spades}#2#{} suit give",
@@ -2772,7 +2772,7 @@ return {
         },
         Tarot={
             c_chariot={
-                name="The Chariot",
+                name="ARABA",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2780,7 +2780,7 @@ return {
                 },
             },
             c_death={
-                name="Death",
+                name="ÖLÜM",
                 text={
                     "Select {C:attention}#1#{} cards,",
                     "convert the {C:attention}left{} card",
@@ -2789,7 +2789,7 @@ return {
                 },
             },
             c_devil={
-                name="The Devil",
+                name="ŞEYTAN",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2797,7 +2797,7 @@ return {
                 },
             },
             c_emperor={
-                name="The Emperor",
+                name="İMPARATOR",
                 text={
                     "Creates up to {C:attention}#1#",
                     "random {C:tarot}Tarot{} cards",
@@ -2805,7 +2805,7 @@ return {
                 },
             },
             c_empress={
-                name="The Empress",
+                name="İMPARATORİÇE",
                 text={
                     "Enhances {C:attention}#1#",
                     "selected cards to",
@@ -2813,7 +2813,7 @@ return {
                 },
             },
             c_fool={
-                name="The Fool",
+                name="MECNUN",
                 text={
                     "Creates the last",
                     "{C:tarot}Tarot{} or {C:planet}Planet{} card",
@@ -2822,14 +2822,14 @@ return {
                 },
             },
             c_hanged_man={
-                name="The Hanged Man",
+                name="ASILAN ADAM",
                 text={
                     "Destroys up to",
                     "{C:attention}#1#{} selected cards",
                 },
             },
             c_heirophant={
-                name="The Hierophant",
+                name="AZİZ",
                 text={
                     "Enhances {C:attention}#1#",
                     "selected cards to",
@@ -2837,14 +2837,14 @@ return {
                 },
             },
             c_hermit={
-                name="The Hermit",
+                name="ERMİŞ",
                 text={
                     "Doubles money",
                     "{C:inactive}(Max of {C:money}$#1#{C:inactive})",
                 },
             },
             c_high_priestess={
-                name="The High Priestess",
+                name="AZİZE",
                 text={
                     "Creates up to {C:attention}#1#",
                     "random {C:planet}Planet{} cards",
@@ -2852,7 +2852,7 @@ return {
                 },
             },
             c_judgement={
-                name="Judgement",
+                name="MAHKEME",
                 text={
                     "Creates a random",
                     "{C:attention}Joker{} card",
@@ -2860,7 +2860,7 @@ return {
                 },
             },
             c_justice={
-                name="Justice",
+                name="ADALET",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2868,7 +2868,7 @@ return {
                 },
             },
             c_lovers={
-                name="The Lovers",
+                name="AŞIKLAR",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2876,7 +2876,7 @@ return {
                 },
             },
             c_magician={
-                name="The Magician",
+                name="BÜYÜCÜ",
                 text={
                     "Enhances {C:attention}#1#{}",
                     "selected cards to",
@@ -2884,7 +2884,7 @@ return {
                 },
             },
             c_moon={
-                name="The Moon",
+                name="AY",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2892,7 +2892,7 @@ return {
                 },
             },
             c_star={
-                name="The Star",
+                name="YILDIZ",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2900,7 +2900,7 @@ return {
                 },
             },
             c_strength={
-                name="Strength",
+                name="GÜÇ",
                 text={
                     "Increases rank of",
                     "up to {C:attention}#1#{} selected",
@@ -2908,7 +2908,7 @@ return {
                 },
             },
             c_sun={
-                name="The Sun",
+                name="GÜNEŞ",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2916,7 +2916,7 @@ return {
                 },
             },
             c_temperance={
-                name="Temperance",
+                name="DENGE",
                 text={
                     "Gives the total sell",
                     "value of all current",
@@ -2925,7 +2925,7 @@ return {
                 },
             },
             c_tower={
-                name="The Tower",
+                name="KULE",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2933,7 +2933,7 @@ return {
                 },
             },
             c_wheel_of_fortune={
-                name="The Wheel of Fortune",
+                name="KADER ÇARKI",
                 text={
                     "{C:green}#1# in #2#{} chance to add",
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
@@ -2942,7 +2942,7 @@ return {
                 },
             },
             c_world={
-                name="The World",
+                name="DÜNYA",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
