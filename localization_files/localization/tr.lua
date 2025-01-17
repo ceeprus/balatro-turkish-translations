@@ -690,7 +690,7 @@ return {
                 },
             },
             j_chaos={
-                name="Kaos",
+                name="Paylaço Kaos",
                 text={
                     "Mağaza başına",
                     "{C:attention}#1#{} bedava {C:green}Değiştirme{}",
