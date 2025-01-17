@@ -473,7 +473,7 @@ return {
                 name="Temren",
                 text={
                     "Oynanan",
-                    "{C:spades}Maç{} sembollü kartlar",
+                    "{C:spades}Maça{} sembollü kartlar",
                     "skorlandıklarında {C:chips}+#1#{} Fiş verirler",
                 },
                 unlock={
@@ -671,8 +671,8 @@ return {
             j_ceremonial={
                 name="Ayin Bıçağı",
                 text={
-                    "{C:attention}Bahis{} seçildiğinde",
-                    "sağındaki Jokeri parçalar ve",
+                    "{C:attention}Bahis{} seçildiğinde sağındaki",
+                    "Jokeri parçalayıp satış bedelinin",
                     "{C:attention}iki katını{} kendi {C:red}Çarpanına aktarır",
                     "{C:inactive}(Şuanda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
@@ -700,7 +700,7 @@ return {
                 name="Chicot",
                 text={
                     "{C:attention}Usta Bahislerinin{}",
-                    "etkilerini değiştirir",
+                    "etkilerini geçersiz kılar",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -714,12 +714,11 @@ return {
                 },
             },
             j_cloud_9={
-                name="Cloud 9",
+                name="Neşeli 9",
                 text={
-                    "Earn {C:money}$#1#{} for each",
-                    "{C:attention}9{} in your {C:attention}full deck",
-                    "at end of round",
-                    "{C:inactive}(Currently {C:money}$#2#{}{C:inactive})",
+                    "{C:attention}Destendeki tüm 9{} sayılı",
+                    "kart başına her tur {C:money}$#1#{} kazanırsın",
+                    "{C:inactive}(Şuanda {C:money}$#2#{}{C:inactive})",
                 },
             },
             j_constellation={
@@ -732,104 +731,98 @@ return {
                 },
             },
             j_crafty={
-                name="Crafty Joker",
+                name="Hünerli Joker",
                 text={
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:chips}+#1#{} kazanırsın",
                 },
             },
             j_crazy={
-                name="Crazy Joker",
+                name="Deli Joker",
                 text={
-                    "{C:red}+#1#{} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:red}+#1#{} Çarpan kazanırsın",
                 },
             },
             j_credit_card={
-                name="Credit Card",
+                name="Kredi Kartı",
                 text={
-                    "Go up to",
-                    "{C:red}-$#1#{} in debt",
+                    "{C:red}-$#1#{} kadar ",
+                    "borca girebilirsin",
                 },
             },
             j_delayed_grat={
-                name="Delayed Gratification",
+                name="Bekletilmiş Ödeme",
                 text={
-                    "Earn {C:money}$#1#{} per {C:attention}discard{} if",
-                    "no discards are used",
-                    "by end of the round",
+                    "Tur sonunda hiç",
+                    "{C:attention}çıkarma{} kullanılmadıysa",
+                    "{C:money}$#1#{} kazan",
                 },
             },
             j_devious={
-                name="Devious Joker",
+                name="Sinsi Joker",
                 text={
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:chips}+#1#{} fiş kazanırsın",
                 },
             },
             j_diet_cola={
-                name="Diet Cola",
+                name="Diyet Kola",
                 text={
-                    "Sell this card to",
-                    "create a free",
-                    "{C:attention}#1#",
+                    "Bu kartı satarak",
+                    "bedava {C:attention}#1#",
+                    "kazan",
                 },
             },
             j_dna={
                 name="DNA",
                 text={
-                    "If {C:attention}first hand{} of round",
-                    "has only {C:attention}1{} card, add a",
-                    "permanent copy to deck",
-                    "and draw it to {C:attention}hand",
+                    "Turun {C:attention}ilk elinde{}",
+                    "yalnızca {C:attention}1{} kart oynadıysan,",
+                    "desteye kalıcı bir kopyasını ekler",
+                    "ve onu {C:attention}eline{} çekersin",
                 },
             },
             j_drivers_license={
-                name="Driver's License",
+                name="Sürücü Belgesi",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if you have",
-                    "at least {C:attention}16{} Enhanced",
-                    "cards in your full deck",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive})",
+		    "Destende en az {C:attention}16{} Geliştirilmiş"
+                    "kart varsa {X:mult,C:white} X#1# {} Çarpan ekle",
+                    "{C:inactive}(Şuanda {C:attention}#2#{C:inactive} kart)",
                 },
                 unlock={
-                    "Enhance {E:1,C:attention}#1#{} cards",
-                    "in your deck",
+                    "Destendeki {E:1,C:attention}#1#{} kartı",
+                    "geliştir",
                 },
             },
             j_droll={
-                name="Droll Joker",
+                name="Acayip Joker",
                 text={
-                    "{C:red}+#1#{} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:red}+#1#{} Çarpan ekle",
                 },
             },
             j_drunkard={
-                name="Drunkard",
+                name="Ayyaş",
                 text={
-                    "{C:red}+#1#{} discard",
-                    "each round",
+                    "Her tur {C:red}+#1#{} çıkarma",
+                    "kazan",
                 },
             },
             j_duo={
-                name="The Duo",
+                name="İkili",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan ekle",
                 },
                 unlock={
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#1#",
+                    "oynamadan bir",
+                    "oyun kazan",
                 },
             },
             j_dusk={
-                name="Dusk",
+                name="Alacakaranlık",
                 text={
                     "Retrigger all played",
                     "cards in {C:attention}final",
@@ -1848,11 +1841,10 @@ return {
                 },
             },
             j_zany={
-                name="Zany Joker",
+                name="Çılgın Joker",
                 text={
-                    "{C:red}+#1#{} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:red}+#1#{} Çarpan ekle",
                 },
             },
         },
