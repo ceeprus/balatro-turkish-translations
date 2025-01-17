@@ -762,8 +762,8 @@ return {
             j_devious={
                 name="Sinsi Joker",
                 text={
-                    "Skorlanan el {C:attention}#2# içeriyorsa",
-                    "{C:chips}+#1#{} fiş kazan",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:chips}+#1#{} fiş kazanırsın",
                 },
             },
             j_diet_cola={
@@ -788,7 +788,7 @@ return {
                 text={
 		    "Destende en az {C:attention}16{} Geliştirilmiş"
                     "kart varsa {X:mult,C:white} X#1# {} Çarpan ekle",
-                    "{C:inactive}(Şuanda {C:attention}#2# kart){C:inactive}",
+                    "{C:inactive}(Şuanda {C:attention}#2#{C:inactive} kart)",
                 },
                 unlock={
                     "Destendeki {E:1,C:attention}#1#{} kartı",
@@ -798,8 +798,8 @@ return {
             j_droll={
                 name="Acayip Joker",
                 text={
-                    "Skorlanan el {C:attention}#2# içeriyorsa",
-                    "{C:red}+#1#{} Çarpan kazan.",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:red}+#1#{} Çarpan ekle",
                 },
             },
             j_drunkard={
@@ -812,8 +812,8 @@ return {
             j_duo={
                 name="İkili",
                 text={
-                    "Oynanan el {C:attention}#2# içeriyorsa",
-                    "{X:mult,C:white} X#1# {} Çarpan kazan",
+                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan ekle",
                 },
                 unlock={
                     "{E:1,C:attention}#1#",
@@ -1841,11 +1841,10 @@ return {
                 },
             },
             j_zany={
-                name="Zany Joker",
+                name="Çılgın Joker",
                 text={
-                    "{C:red}+#1#{} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:red}+#1#{} Çarpan ekle",
                 },
             },
         },
