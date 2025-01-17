@@ -22,6 +22,7 @@ return {
                 name="Siyah Deste",
                 text={
                     "{C:attention}+#1#{} Joker limiti",
+                    "",
                     "her Tur {C:blue}-#2#{} el limiti",
                 },
             },
@@ -35,6 +36,7 @@ return {
             b_challenge={
                 name="Mücadele Destesi",
                 text={
+                    "",
                 },
             },
             b_checkered={
