@@ -579,40 +579,38 @@ return {
                 },
             },
             j_bull={
-                name="Bull",
+                name="Boğa",
                 text={
-                    "{C:chips}+#1#{} Chips for",
-                    "each {C:money}$1{} you have",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
+                    "Sahip olduğun {C:money}$1{} kadar",
+                    "{C:chips}+#1#{} Fiş kazanırsın",
+                    "{C:inactive}(Şuanda {C:chips}+#2#{C:inactive} Fiş)",
                 },
             },
             j_burglar={
-                name="Burglar",
+                name="Hırsız",
                 text={
-                    "When {C:attention}Blind{} is selected,",
-                    "gain {C:blue}+#1#{} Hands and",
-                    "{C:attention}lose all discards",
+                    "{C:attention}Bahise{} girdiğinde",
+                    "{C:blue}+#1#{} El kazanırsın",
+                    "{C:attention}tüm çıkarmalarını kaybedersin",
                 },
             },
             j_burnt={
-                name="Burnt Joker",
+                name="Yanmış Joker",
                 text={
-                    "Upgrade the level of",
-                    "the first {C:attention}discarded",
-                    "poker hand each round",
+                    "Her tur {C:attention}çıkarttığın",
+                    "ilk poker elini geliştirir",
                 },
                 unlock={
-                    "Sell a total",
-                    "of {E:1,C:attention}#1#{} cards",
+                    "{E:1,C:attention}#1#{} Kart sat",
                     "{C:inactive}(#2#)",
                 },
             },
             j_business={
-                name="Business Card",
+                name="Kartvizit",
                 text={
-                    "Played {C:attention}face{} cards have",
-                    "a {C:green}#1# in #2#{} chance to",
-                    "give {C:money}$2{} when scored",
+                    "Skorlanan {C:attention}resimli{} kartlar",
+                    "{C:green}#1#/#2#{} şansla",
+                    "{C:money}$2{} verir",
                 },
             },
             j_caino={
