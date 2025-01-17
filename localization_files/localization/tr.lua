@@ -664,8 +664,8 @@ return {
             j_cavendish={
                 name="Çanakkale Muzu",
                 text={
-                    "{X:mult,C:white} X#1# {} Çarpan",
-                    "tur sonu {C:green}#2#/#3#{} şansla kart parçalanır",
+                    "{X:mult,C:white} X#1# {} Çarpan tur sonu",
+                    "{C:green}#2#/#3#{} şansla kart parçalanır",
                 },
             },
             j_ceremonial={
@@ -690,7 +690,7 @@ return {
                 },
             },
             j_chaos={
-                name="Palyaço Kaos",
+                name="Kaos",
                 text={
                     "Mağaza başına",
                     "{C:attention}#1#{} bedava {C:green}Değiştirme{}",
@@ -1841,7 +1841,7 @@ return {
                 },
             },
             j_zany={
-                name="Çılgın Joker",
+                name="Tuhaf Joker",
                 text={
                     "Oynanan el {C:attention}#2#{} içeriyorsa",
                     "{C:red}+#1#{} Çarpan ekle",
@@ -2277,7 +2277,7 @@ return {
                 },
             },
             c_earth={
-                name="Earth",
+                name="Dünya",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2295,7 +2295,7 @@ return {
                 },
             },
             c_jupiter={
-                name="Jupiter",
+                name="Jüpiter",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2313,7 +2313,7 @@ return {
                 },
             },
             c_mercury={
-                name="Mercury",
+                name="Merkür",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2322,7 +2322,7 @@ return {
                 },
             },
             c_neptune={
-                name="Neptune",
+                name="Neptün",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2331,7 +2331,7 @@ return {
                 },
             },
             c_planet_x={
-                name="Planet X",
+                name="Gezegen X",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2349,7 +2349,7 @@ return {
                 },
             },
             c_saturn={
-                name="Saturn",
+                name="Satürn",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2358,7 +2358,7 @@ return {
                 },
             },
             c_uranus={
-                name="Uranus",
+                name="Uranüs",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2367,7 +2367,7 @@ return {
                 },
             },
             c_venus={
-                name="Venus",
+                name="Venüs",
                 text={
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -2394,7 +2394,7 @@ return {
                 },
             },
             c_black_hole={
-                name="Black Hole",
+                name="Kara Delik",
                 text={
                     "Upgrade every",
                     "{C:legendary,E:1}poker hand",
@@ -2402,7 +2402,7 @@ return {
                 },
             },
             c_cryptid={
-                name="Cryptid",
+                name="Kriptid",
                 text={
                     "Create {C:attention}#1#{} copies of",
                     "{C:attention}1{} selected card",
@@ -2418,7 +2418,7 @@ return {
                 },
             },
             c_ectoplasm={
-                name="Ectoplasm",
+                name="Ektoplazma",
                 text={
                     "Add {C:dark_edition}Negative{} to",
                     "a random {C:attention}Joker,",
@@ -2426,7 +2426,7 @@ return {
                 },
             },
             c_familiar={
-                name="Familiar",
+                name="Tanıdık",
                 text={
                     "Destroy {C:attention}1{} random",
                     "card in your hand, add",
@@ -2435,7 +2435,7 @@ return {
                 },
             },
             c_grim={
-                name="Grim",
+                name="Gaddar",
                 text={
                     "Destroy {C:attention}1{} random",
                     "card in your hand,",
@@ -2444,7 +2444,7 @@ return {
                 },
             },
             c_hex={
-                name="Hex",
+                name="Nazar",
                 text={
                     "Add {C:dark_edition}Polychrome{} to a",
                     "random {C:attention}Joker{}, destroy",
@@ -2452,7 +2452,7 @@ return {
                 },
             },
             c_immolate={
-                name="Immolate",
+                name="Kurban",
                 text={
                     "Destroys {C:attention}#1#{} random",
                     "cards in hand,",
@@ -2460,7 +2460,7 @@ return {
                 },
             },
             c_incantation={
-                name="Incantation",
+                name="Efsun",
                 text={
                     "Destroy {C:attention}1{} random",
                     "card in your hand, add {C:attention}#1#",
@@ -2469,7 +2469,7 @@ return {
                 },
             },
             c_medium={
-                name="Medium",
+                name="Medyum",
                 text={
                     "Add a {C:purple}Purple Seal{}",
                     "to {C:attention}1{} selected",
@@ -2486,7 +2486,7 @@ return {
                 },
             },
             c_sigil={
-                name="Sigil",
+                name="Mühür",
                 text={
                     "Converts all cards",
                     "in hand to a single",
@@ -2494,7 +2494,7 @@ return {
                 },
             },
             c_soul={
-                name="The Soul",
+                name="Ruh",
                 text={
                     "Creates a",
                     "{C:legendary,E:1}Legendary{} Joker",
@@ -2502,7 +2502,7 @@ return {
                 },
             },
             c_talisman={
-                name="Talisman",
+                name="Muska",
                 text={
                     "Add a {C:attention}Gold Seal{}",
                     "to {C:attention}1{} selected",
@@ -2510,7 +2510,7 @@ return {
                 },
             },
             c_trance={
-                name="Trance",
+                name="Trans",
                 text={
                     "Add a {C:blue}Blue Seal{}",
                     "to {C:attention}1{} selected",
@@ -2518,7 +2518,7 @@ return {
                 },
             },
             c_wraith={
-                name="Wraith",
+                name="Hayalet",
                 text={
                     "Creates a random",
                     "{C:red}Rare{C:attention} Joker{},",
@@ -2772,7 +2772,7 @@ return {
         },
         Tarot={
             c_chariot={
-                name="ARABA",
+                name="Araba",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2780,7 +2780,7 @@ return {
                 },
             },
             c_death={
-                name="ÖLÜM",
+                name="Ölüm",
                 text={
                     "Select {C:attention}#1#{} cards,",
                     "convert the {C:attention}left{} card",
@@ -2789,7 +2789,7 @@ return {
                 },
             },
             c_devil={
-                name="ŞEYTAN",
+                name="Şeytan",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2797,7 +2797,7 @@ return {
                 },
             },
             c_emperor={
-                name="İMPARATOR",
+                name="İmparator",
                 text={
                     "Creates up to {C:attention}#1#",
                     "random {C:tarot}Tarot{} cards",
@@ -2805,7 +2805,7 @@ return {
                 },
             },
             c_empress={
-                name="İMPARATORİÇE",
+                name="İmparatoriçe",
                 text={
                     "Enhances {C:attention}#1#",
                     "selected cards to",
@@ -2813,7 +2813,7 @@ return {
                 },
             },
             c_fool={
-                name="MECNUN",
+                name="Mecnun",
                 text={
                     "Creates the last",
                     "{C:tarot}Tarot{} or {C:planet}Planet{} card",
@@ -2822,14 +2822,14 @@ return {
                 },
             },
             c_hanged_man={
-                name="ASILAN ADAM",
+                name="Asılan Adam",
                 text={
                     "Destroys up to",
                     "{C:attention}#1#{} selected cards",
                 },
             },
             c_heirophant={
-                name="AZİZ",
+                name="Aziz",
                 text={
                     "Enhances {C:attention}#1#",
                     "selected cards to",
@@ -2837,14 +2837,14 @@ return {
                 },
             },
             c_hermit={
-                name="ERMİŞ",
+                name="Ermiş",
                 text={
                     "Doubles money",
                     "{C:inactive}(Max of {C:money}$#1#{C:inactive})",
                 },
             },
             c_high_priestess={
-                name="AZİZE",
+                name="Azize",
                 text={
                     "Creates up to {C:attention}#1#",
                     "random {C:planet}Planet{} cards",
@@ -2852,7 +2852,7 @@ return {
                 },
             },
             c_judgement={
-                name="MAHKEME",
+                name="Mahkeme",
                 text={
                     "Creates a random",
                     "{C:attention}Joker{} card",
@@ -2860,7 +2860,7 @@ return {
                 },
             },
             c_justice={
-                name="ADALET",
+                name="Adalet",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2868,7 +2868,7 @@ return {
                 },
             },
             c_lovers={
-                name="AŞIKLAR",
+                name="Aşıklar",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2876,7 +2876,7 @@ return {
                 },
             },
             c_magician={
-                name="BÜYÜCÜ",
+                name="Büyücü",
                 text={
                     "Enhances {C:attention}#1#{}",
                     "selected cards to",
@@ -2884,7 +2884,7 @@ return {
                 },
             },
             c_moon={
-                name="AY",
+                name="Ay",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2892,7 +2892,7 @@ return {
                 },
             },
             c_star={
-                name="YILDIZ",
+                name="Yıldız",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2900,7 +2900,7 @@ return {
                 },
             },
             c_strength={
-                name="GÜÇ",
+                name="Güç",
                 text={
                     "Increases rank of",
                     "up to {C:attention}#1#{} selected",
@@ -2908,7 +2908,7 @@ return {
                 },
             },
             c_sun={
-                name="GÜNEŞ",
+                name="Güneş",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
@@ -2916,7 +2916,7 @@ return {
                 },
             },
             c_temperance={
-                name="DENGE",
+                name="Denge",
                 text={
                     "Gives the total sell",
                     "value of all current",
@@ -2925,7 +2925,7 @@ return {
                 },
             },
             c_tower={
-                name="KULE",
+                name="Kule",
                 text={
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
@@ -2933,7 +2933,7 @@ return {
                 },
             },
             c_wheel_of_fortune={
-                name="KADER ÇARKI",
+                name="Kader Çarkı",
                 text={
                     "{C:green}#1# in #2#{} chance to add",
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
@@ -2942,7 +2942,7 @@ return {
                 },
             },
             c_world={
-                name="DÜNYA",
+                name="Dünya",
                 text={
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
