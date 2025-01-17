@@ -3633,7 +3633,7 @@ return {
             k_voucher="Kupon",
             k_vouchers_cap="KUPONLAR",
             k_wins="Kazanmalar",
-            k_x_base="Temel X",
+            k_x_base=" Temel X",
             ml_bloom_opt={
                 "Kapalı",
                 "Açık",
