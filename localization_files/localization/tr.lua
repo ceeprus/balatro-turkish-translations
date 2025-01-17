@@ -786,7 +786,7 @@ return {
             j_drivers_license={
                 name="Sürücü Belgesi",
                 text={
-		    "Destende en az {C:attention}16{} Geliştirilmiş"
+                    "Destende en az {C:attention}16{} Geliştirilmiş",
                     "kart varsa {X:mult,C:white} X#1# {} Çarpan ekle",
                     "{C:inactive}(Şuanda {C:attention}#2#{C:inactive} kart)",
                 },
