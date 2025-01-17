@@ -446,7 +446,7 @@ return {
                 text={
 				    "Her {C:attention}Joker{} kartı başına",
                     "{C:mult}+#1#{} Çarpan",
-                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Çarpan)",
+                    "{C:inactive}(Şuanda {C:red}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_acrobat={
@@ -616,49 +616,47 @@ return {
             j_caino={
                 name="Canio",
                 text={
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "when a {C:attention}face{} card",
-                    "is destroyed",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu joker yırtılan {C:attention}Resimli{} kart başına",
+                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
                 },
             },
             j_campfire={
-                name="Campfire",
+                name="Camp ateşi",
                 text={
-                    "This Joker gains {X:mult,C:white}X#1#{} Mult",
-                    "for each card {C:attention}sold{}, resets",
-                    "when {C:attention}Boss Blind{} is defeated",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu joker {C:attention}satılan{} kart başına",
+                    "{X:mult,C:white}X#1#{} Çarpan kazanır",
+                    "Çarpan {C:attention}Usta Bahisi{} yenildiğinde sıfırlanır",
+                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_card_sharp={
-                name="Card Sharp",
+                name="Kumarbaz",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "{C:attention}poker hand{} has already",
-                    "been played this round",
+                    "Skorlanan {C:attention}poker eli{} daha önce",
+                    "oynandıysa {X:mult,C:white} X#1# {} Çarpan",
                 },
             },
             j_cartomancer={
                 name="Cartomancer",
                 text={
-                    "Create a {C:tarot}Tarot{} card",
-                    "when {C:attention}Blind{} is selected",
-                    "{C:inactive}(Must have room)",
+                    "{C:attention}Bahis{} seçildiğinde",
+                    "bir {C:tarot}Tarot{} kartı oluşturur",
+                    "{C:inactive}(Yerin varsa)",
                 },
                 unlock={
-                    "Discover every",
-                    "{E:1,C:tarot}Tarot{} card",
+                    "Tüm {E:1,C:tarot}Tarot{}",
+                    "kartlarını keşfet",
                 },
             },
             j_castle={
-                name="Castle",
+                name="Kale",
                 text={
-                    "This Joker gains {C:chips}+#1#{} Chips",
-                    "per discarded {V:1}#2#{} card,",
+                    "Bu joker çıkarılmış {V:1}#2#{} kartı başına",
+                    "{C:chips}+#1#{} Fiş verir",
                     "suit changes every round",
                     "{C:inactive}(Currently {C:chips}+#3#{C:inactive} Chips)",
                 },
