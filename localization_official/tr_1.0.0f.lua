@@ -641,7 +641,7 @@ return {
                 },
             },
             j_cartomancer={
-                name="Cartomancer",
+                name="Kartların Kahini",
                 text={
                     "{C:attention}Bahis{} seçildiğinde",
                     "bir {C:tarot}Tarot{} kartı oluşturur",
@@ -673,46 +673,44 @@ return {
                 text={
                     "{C:attention}Bahis{} seçildiğinde",
                     "sağındaki Jokeri parçalar ve",
-                    "{C:attention}iki katını kendi {C:red}Çarpanına aktarır",
+                    "{C:attention}iki katını{} kendi {C:red}Çarpanına aktarır",
                     "{C:inactive}(Şuanda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
             },
             j_certificate={
                 name="Sertifika",
                 text={
-                    "Her tur başı eline rastgele bir",
-                    "{C:attention}Mührü{} olan",
+                    "Her tur başı eline,",
+                    "rastgele bir {C:attention}Mührü{} olan",
                     "rastgele bir {C:attention}kart{} verir",
                 },
                 unlock={
-                    "Have a Gold",
-                    "playing card with",
-                    "a {C:attention,E:1}Gold Seal",
+                    "{C:attention,E:1}Altın Mühürlü{}",
+                    "altın bir oyun kartın olsun",
                 },
             },
             j_chaos={
-                name="Chaos the Clown",
+                name="Palyaço Kaos",
                 text={
-                    "{C:attention}#1#{} free {C:green}Reroll",
-                    "per shop",
+                    "Mağaza başına",
+                    "{C:attention}#1#{} bedava {C:green}Değiştirme{}",
                 },
             },
             j_chicot={
                 name="Chicot",
                 text={
-                    "Disables effect of",
-                    "every {C:attention}Boss Blind",
+                    "{C:attention}Usta Bahislerinin{}",
+                    "etkilerini değiştirir",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
                 },
             },
             j_clever={
-                name="Clever Joker",
+                name="Akıllı Joker",
                 text={
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "{C:chips}+#1#{} Fiş"
                 },
             },
             j_cloud_9={
@@ -725,12 +723,12 @@ return {
                 },
             },
             j_constellation={
-                name="Constellation",
+                name="Takım Yıldızı",
                 text={
-                    "This Joker gains",
-                    "{X:mult,C:white} X#1# {} Mult every time",
-                    "a {C:planet}Planet{} card is used",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu joker",
+                    "kullanılan her {C:planet}Gezegen{} kartı",
+                    "için {X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_crafty={
@@ -856,7 +854,7 @@ return {
                 },
             },
             j_even_steven={
-                name="Even Steven",
+                name="Denk Cenk",
                 text={
                     "Played cards with",
                     "{C:attention}even{} rank give",
