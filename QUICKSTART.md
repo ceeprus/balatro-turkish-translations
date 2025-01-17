@@ -10,8 +10,8 @@
 
 ## Kurulum
 
-- Dosyayı indirin [Better_TR_Windows.bat](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Better_TR_Windows.bat)
-- Ve indirmiş olduğunuz `Better_TR_Windows.bat`'ye **Çift Tıkla** <br />
+- Dosyayı indirin [Balatro_TR_Windows.bat](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Balatro_TR_Windows.bat)
+- Ve indirmiş olduğunuz `Balatro_TR_Windows.bat`'ye **Çift Tıkla** <br />
   Windows Defender komut dosyasının çalışmasını engelleyebilir. Önce _Ek bilgi_ ardından _Yine de çalıştır_ seçeneğine tıklayın.
 - Oyun görüntülerini çevirmek istediğinizi onaylamak için _Y_ (veya _N_) yanıtını verin.
 - **Balatro'yu Steam'den başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
