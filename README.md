@@ -18,7 +18,7 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 ### Translations
 
-⌛ Sprite'ların %94'ü Türkçe'ye çevrildi.
+✔️ Sprite'ların %100'ü Türkçe'ye çevrildi.
 
 ⌛ v1.0.1n — 45% of the game is translated in Turkish.
 
