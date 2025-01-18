@@ -2952,83 +2952,84 @@ return {
         },
         Voucher={
             v_antimatter={
-                name="Antimatter",
+                name="Antimadde",
                 text={
-                    "{C:dark_edition}+1{} Joker Slot",
+                    "{C:dark_edition}+1{} Joker Limiti",
                 },
                 unlock={
-                    "Redeem {C:voucher}Blank{}",
-                    "{C:attention}#1#{} total times",
+                    "Toplam {C:attention}#1#{} kez",
+                    "{C:voucher}Boş Kupon{} satın al",
                     "{C:inactive}(#2#)",
                 },
             },
             v_blank={
-                name="Blank",
+                name="Boş Kupon",
                 text={
-                    "{C:inactive}Does nothing?",
+                    "{C:inactive}Hiçbir şey yapmıyor.",
+		    "{C:inactive}Sanırım?",
                 },
             },
             v_clearance_sale={
-                name="Clearance Sale",
+                name="Akraba İndirimi",
                 text={
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off",
+                    "Mağazadaki tüm kart ve",
+                    "paketler {C:attention}#1#%{} indirimli",
                 },
             },
             v_crystal_ball={
-                name="Crystal Ball",
+                name="Kristal Küre",
                 text={
-                    "{C:attention}+1{} consumable slot",
+                    "{C:attention}+1{} kullanılabilir limiti",
                 },
             },
             v_directors_cut={
-                name="Director's Cut",
+                name="Silinmiş Sahneler",
                 text={
-                    "Reroll Boss Blind",
-                    "{C:attention}1{} time per Ante,",
-                    "{C:money}$#1#{} per roll",
+                    "Her bop {C:attention}1{} kez Usta",
+                    "Bahis'i değiştirebilirsin,",
+                    "Değiştirme başına {C:money}$#1#{}",
                 },
             },
             v_glow_up={
-                name="Glow Up",
+                name="Kusursuzluk",
                 text={
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often",
+                    "{C:dark_edition}Folyo{}, {C:dark_edition}Holografik{}, ve",
+                    "{C:dark_edition}Polikrom{} kartlar {C:attention}#1#X{}",
+                    "daha fazla ortaya çıkar",
                 },
                 unlock={
-                    "Have at least {C:attention}#1#",
-                    "{C:attention}Joker{} cards with",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition",
+                    "En az {C:attention}#1#",
+                    "{C:dark_edition}Folyo{}, {C:dark_edition}Holografik{}, veya",
+                    "{C:dark_edition}Polikrom{} baskılı {C:attention}Joker{}'e",
+                    "sahip ol",
                 },
             },
             v_grabber={
-                name="Grabber",
+                name="Yardım Eli",
                 text={
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round",
+                    "Kalıcı olarak",
+                    "tur başına {C:blue}+#1#{}",
+                    "el kazan",
                 },
             },
             v_hieroglyph={
-                name="Hieroglyph",
+                name="Hiyeroglif",
                 text={
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} hand",
-                    "each round",
+		    "Her tur",
+                    "{C:attention}-#1#{} Bop,",
+                    "{C:blue}-#1#{} el",
                 },
             },
             v_hone={
-                name="Hone",
+                name="Zarif",
                 text={
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often",
+                    "{C:dark_edition}Folyo{}, {C:dark_edition}Holografik{}, ve",
+                    "{C:dark_edition}Polikrom{} kartlar {C:attention}#1#X{}",
+                    "fazla ortaya çıkar",
                 },
             },
             v_illusion={
-                name="Illusion",
+                name="İlüzyon",
                 text={
                     "{C:attention}Playing cards{} in shop",
                     "may have an {C:enhanced}Enhancement{},",
@@ -3042,7 +3043,7 @@ return {
                 },
             },
             v_liquidation={
-                name="Liquidation",
+                name="Tasfiye",
                 text={
                     "All cards and packs in",
                     "shop are {C:attention}#1#%{} off",
@@ -3054,7 +3055,7 @@ return {
                 },
             },
             v_magic_trick={
-                name="Magic Trick",
+                name="Sihir Numarası",
                 text={
                     "{C:attention}Playing cards{} can",
                     "be purchased",
@@ -3062,7 +3063,7 @@ return {
                 },
             },
             v_money_tree={
-                name="Money Tree",
+                name="Para Ağacı",
                 text={
                     "Raise the cap on",
                     "interest earned in",
