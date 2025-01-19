@@ -2947,7 +2947,7 @@ return {
             v_antimatter={
                 name="Antimadde",
                 text={
-                    "{C:dark_edition}+1{} Joker Limiti",
+                    "{C:dark_edition}+1{} Joker Yuvası",
                 },
                 unlock={
                     "Toplam {C:attention}#1#{} kez",
@@ -2972,7 +2972,7 @@ return {
             v_crystal_ball={
                 name="Kristal Küre",
                 text={
-                    "{C:attention}+1{} kullanılabilir limiti",
+                    "{C:attention}+1{} Kullanılabilir yuvası",
                 },
             },
             v_directors_cut={
@@ -3017,7 +3017,7 @@ return {
                 text={
                     "{C:dark_edition}Folyo{}, {C:dark_edition}Holografik{}, ve",
                     "{C:dark_edition}Polikrom{} kartlar {C:attention}#1#X{}",
-                    "fazla ortaya çıkar",
+                    "daha fazla ortaya çıkar",
                 },
             },
             v_illusion={
@@ -3057,42 +3057,42 @@ return {
             v_money_tree={
                 name="Para Ağacı",
                 text={
-                    "Raise the cap on",
-                    "interest earned in",
-                    "each round to {C:money}$#1#{}",
+                    "Her tur sonu",
+                    "kazanabileceğin faiz",
+                    "limitini {C:money}$#1#{}'a yükselt",
                 },
                 unlock={
-                    "Max out the interest",
-                    "per round earnings for",
-                    "{C:attention}#1#{} consecutive rounds",
+                    "Art arda {C:attention}#1#{} tur",
+                    "boyunca faizi maksimuma",
+                    "çıkar",
                     "{C:inactive}(#2#)",
                 },
             },
             v_nacho_tong={
                 name="Kaşık Cips",
                 text={
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round",
+                    "Kalıcı olarak",
+                    "tur başına {C:blue}+#1#{}",
+                    "el kazan",
                 },
                 unlock={
-                    "Play a total",
-                    "of {C:attention}#1#{} cards",
+                    "Toplam {C:attention}#1#{}",
+                    "kart oyna",
                     "{C:inactive}(#2#)",
                 },
             },
             v_observatory={
                 name="Gözlemevi",
                 text={
-                    "{C:planet}Planet{} cards in your",
-                    "{C:attention}consumable{} area give",
-                    "{X:red,C:white} X#1# {} Mult for their",
-                    "specified {C:attention}poker hand",
+                    "{C:attention}Kullanılabilir{} yuvasındaki",
+                    "{C:planet}Gezegen{} kartları,",
+                    "belirttikleri {C:attention}poker eline{}",
+                    "{X:red,C:white}X#1#{} verir",
                 },
                 unlock={
-                    "Use a total of {C:attention}#1#",
-                    "{C:planet}Planet{} cards from any",
-                    "{C:planet}Celestial Pack",
+                    "{C:planet}Gökyüzü Paketlerinden{}",
+                    "çıkan {C:attention}#1#{} {C:planet}Gezegen{}",
+                    "kartı kullan",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3150,7 +3150,7 @@ return {
                 text={
                     "{C:attention}-#1#{} Bop,",
                     "Her tur",
-                    "{C:red}-#1#{} çıkartma",
+                    "{C:red}-#1#{} çıkarma",
                 },
                 unlock={
                     "Seviye {E:1,C:attention}#1#",
@@ -3183,12 +3183,12 @@ return {
                 name="Geri Dönüştürücü",
                 text={
                     "Her tur kalıcı",
-                    "olarak {C:red}+#1#{} çıkartma",
+                    "olarak {C:red}+#1#{} çıkarma",
                     "kazan",
                 },
                 unlock={
-                    "Toplamda of {C:attention}#1#{}",
-                    "kart çıkart",
+                    "Toplamda {C:attention}#1#{}",
+                    "kart çıkar",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3226,8 +3226,8 @@ return {
             v_seed_money={
                 name="Başlangıç Parası",
                 text={
-                    "Her tur",
-                    "kazanılan faiz",
+                    "Her tur sonu",
+                    "kazanabileceğin faiz",
                     "limitini {C:money}$#1#{}'a yükselt",
                 },
             },
@@ -3266,7 +3266,7 @@ return {
                 name="Tutumsuz",
                 text={
                     "Kalıcı olarak {C:red}+#1#{}",
-                    "çıkartma kazan",
+                    "çıkarma kazan",
                 },
             },
         },
