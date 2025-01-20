@@ -32,7 +32,7 @@ echo =========================================
 :: Kullanici sorusu: Turkce resimler kullanilmali mig
 echo.
 echo.
-CHOICE /C YN /M "Gorselleri Turkce olarak mi kullanmak istiyorsunuzg"
+CHOICE /C YN /M "Gorselleri Turkce olarak mi kullanmak istiyorsunuz"
 if %errorlevel% equ 2 (
     echo Goruntuleri Ekleme
     set "download_assets=false"
