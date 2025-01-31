@@ -4170,7 +4170,7 @@ return {
             a_xmult="X#1# Katlama",
             a_xmult_minus="-X#1# Katlama",
             ante_x_voucher="BOP #1# KUPONU",
-            challenges_completed="Tamamlanmış #1#/#2# Meydan OkUMALAR",
+            challenges_completed="Tamamlanmış #1#/#2# Meydan Okumalar",
             completed="#1#/#2# Completed",
             deck_preview_wheel_plural="#1# Kartların ters çekilmesinden dolayı daha düşük numaralar olabilir",
             deck_preview_wheel_singular="#1# Kardın ters çekilmesinden dolayı daha düşük numaralar olabilir",
