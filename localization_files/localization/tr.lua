@@ -4,8 +4,7 @@ return {
             b_abandoned={
                 name="Terk Edilmiş Deste",
                 text={
-                    "Oyuna",
-                    "destende {C:attention}Resimli Kart",
+                    "Destende {C:attention}resimli kart",
                     "olmadan başla",
                 },
             },
@@ -21,16 +20,16 @@ return {
             b_black={
                 name="Siyah Deste",
                 text={
-                    "{C:attention}+#1#{} Joker limiti",
+                    "{C:attention}+#1#{} Joker yuvası",
                     "",
-                    "her Tur {C:blue}-#2#{} el limiti",
+                    "her tur {C:blue}-#2#{} El",
                 },
             },
             b_blue={
                 name="Mavi Deste",
                 text={
-				    "Her Tur",
-                    "{C:blue}+#1#{} el limiti",
+				    "Her tur",
+                    "{C:blue}+#1#{} El",
                 },
             },
             b_challenge={
@@ -42,39 +41,37 @@ return {
             b_checkered={
                 name="Damalı Deste",
                 text={
-                    "Oyuna",
-                    "{C:attention}26{C:spades} Maça{} ve",
-                    "{C:attention}26{C:hearts} Kupa{} ile başla",
+                    "{C:attention}26{C:spades} maça{} ve",
+                    "{C:attention}26{C:hearts} kupa{} ile başla",
                 },
             },
             b_erratic={
                 name="Dağınık Deste",
                 text={
-                    "Destendeki tüm {C:attention}Sayılar{} ve",
-                    "{C:attention}Resimli kartlar{} rastgeledir",
+                    "Destendeki tüm {C:attention}sayılar{} ve",
+                    "{C:attention}resimli kartlar{} rastgeledir",
                 },
             },
             b_ghost={
                 name="Hayalet Deste",
                 text={
                     "{C:spectral}Spektral{} kartlar",
-                    "dükkanda bulunulabilir,",
-                    "oyuna bir {C:spectral,T:c_hex}Nazar{} kartı ile başlarsın",
+                    "mağazada bulunulabilir,",
+                    "{C:spectral,T:c_hex}Nazar{} kartı ile başla",
                 },
             },
             b_green={
                 name="Yeşil Deste",
                 text={
-                    "Her Tur sonu:",
+                    "Her tur sonu:",
                     "kalan {C:blue}El başına {C:money}$#1#{s:0.85}",
                     "kalan {C:red}Çıkarma başına {C:money}$#2#{s:0.85}",
-                    "{C:attention}Faiz kazanmazsın",
+                    "{C:attention}Faiz kazanamazsın",
                 },
             },
             b_magic={
                 name="Büyülü Deste",
                 text={
-                    "Oyuna",
                     "{C:tarot,T:v_crystal_ball}#1#{} kuponu",
                     "ve {C:attention}2{} adet",
                     "{C:tarot,T:c_fool}#2# ile başla",
@@ -83,25 +80,22 @@ return {
             b_nebula={
                 name="Nebula Destesi",
                 text={
-                    "Oyuna",
                     "{C:planet,T:v_telescope}#1#{} kuponu ile başla",
-                    "",
-                    "{C:red}#2#{} tüketilebilir limiti",
+                    "{C:red}#2#{} Kullanılabilir yuvası",
                 },
             },
             b_painted={
                 name="Boyalı Deste",
                 text={
-                    "{C:attention}+#1#{} el limiti,",
-                    "{C:red}#2#{} Joker limiti",
+                    "{C:attention}+#1#{} El boyutu,",
+                    "{C:red}#2#{} Joker yuvası",
                 },
             },
             b_plasma={
                 name="Plazma Destesi",
                 text={
                     "Oynanan elin skorunu hesaplarken {C:blue}Fişleri{} ve",
-                    "{C:red}Çarpanları{} ",
-                    "dengele",
+                    "{C:red}Çarpanları{} dengele",
                     "{C:red}X#1#{} Bahis büyüklüğü",
                 },
             },
@@ -109,7 +103,7 @@ return {
                 name="Kırmızı Deste",
                 text={
                     "Her tur {C:red}+#1#{}",
-                    "çıkarma limiti",
+                    "Çıkarma sayısı",
                 },
             },
             b_yellow={
@@ -122,7 +116,6 @@ return {
             b_zodiac={
                 name="Zodyak Deste",
                 text={
-                    "Oyuna",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planet,T:v_planet_merchant}#2#{},",
                     "ve {C:attention,T:v_overstock_norm}#3# ile başla",
@@ -134,7 +127,7 @@ return {
                 name="Kuvvet",
                 text={
                     "Oynanan poker elinin",
-                    "seviyesini düşür",
+                    "seviyesini düşürür",
                 },
             },
             bl_big={
@@ -152,15 +145,15 @@ return {
             bl_eye={
                 name="Göz",
                 text={
-                    "Aynı poker elini",
-                    "birden fazla kez oynamak yok",
+                    "Aynı poker eli",
+                    "birden fazla kez oynanamaz",
                 },
             },
             bl_final_acorn={
                 name="Kehribar Palamut",
                 text={
-                    "Tüm Joker kartları çevirir",
-                    "ve karıştırır",
+                    "Tüm Joker kartlarını",
+                    "çevirir ve karıştırır",
                 },
             },
             bl_final_bell={
@@ -180,8 +173,8 @@ return {
             bl_final_leaf={
                 name="Toy Yaprak",
                 text={
-                    "Tüm kartlar 1 Joker",
-                    "satılana kadar geçersiz kılınır",
+                    "Bir Joker satılana kadar",
+                    "tüm kartlar geçersiz kılınır",
                 },
             },
             bl_final_vessel={
@@ -194,35 +187,35 @@ return {
                 name="Balık",
                 text={
                     "Başlangıç sonrası alınan",
-                    "tüm kartlar ters konulur",
+                    "tüm kartlar ters çevrilir",
                 },
             },
             bl_flint={
                 name="Çakmak Taşı",
                 text={
-                    "Temel Fişler ve",
-                    "Çarpanlar yarıya indi",
+                    "Poker ellerinin sabit",
+                    "fiş ve çarpan sayıları yarıya iner",
                 },
             },
             bl_goad={
                 name="Değnek",
                 text={
-                    "Tüm Maça kartları",
+                    "Tüm maça kartları",
                     "geçersiz kılınır",
                 },
             },
             bl_head={
                 name="Kafa",
                 text={
-                    "Tüm Kupa kartları",
+                    "Tüm kupa kartları",
                     "geçersiz kılınır",
                 },
             },
             bl_hook={
                 name="Kanca",
                 text={
-                    "Her el oynadığında",
-                    "2 rastgele kartı çıkarır",
+                    "Her el oynandığında",
+                    "2 rastgele kart çıkarılır",
                 },
             },
             bl_house={
@@ -235,7 +228,7 @@ return {
             bl_manacle={
                 name="Kelepçe",
                 text={
-                    "-1 El Limiti",
+                    "-1 El boyutu",
                 },
             },
             bl_mark={
@@ -248,28 +241,28 @@ return {
             bl_mouth={
                 name="Ağız",
                 text={
-                    "Bu tur sadece tek",
-                    "tür el oyna",
+                    "Bu tur yalnızca tek",
+                    "tür poker eli oynanabilir",
                 },
             },
             bl_needle={
                 name="İğne",
                 text={
-                    "Sadece tek bir el oyna",
+                    "Yalnızca tek bir el oynanabilir",
                 },
             },
             bl_ox={
                 name="Öküz",
                 text={
                     "#1# poker elini oynamak",
-                    "paranı $0'a düşürür",
+                    "parayı $0'a düşürür",
                 },
             },
             bl_pillar={
                 name="Sütun",
                 text={
-                    "Bu bop oynanan kartlar",
-                    "geçersiz kılınır",
+                    "Bu bop boyunca oynanmış",
+                    "kartlar geçersiz kılınır",
                 },
             },
             bl_plant={
@@ -283,14 +276,14 @@ return {
                 name="Medyum",
                 text={
                     "Her el 5 kart oynamak",
-					"zorundasın",
+					"zorunlu kılınır",
                 },
             },
             bl_serpent={
                 name="Yılan",
                 text={
-                    "Kart oynadıktan veya çıkarttıktan",
-                    "sonra her zaman 3 kart çek",
+                    "Kart oynadıktan veya çıkardıktan",
+                    "sonra her zaman 3 kart çekilir",
                 },
             },
             bl_small={
@@ -302,7 +295,7 @@ return {
                 name="Diş",
                 text={
                     "Oynanan kart başına",
-                    "$1 kaybet",
+                    "$1 kaybedilir",
                 },
             },
             bl_wall={
@@ -314,21 +307,21 @@ return {
             bl_water={
                 name="Su",
                 text={
-                    "0 çıkarma",
-                    "ile başla",
+                    "0 Çıkarma",
+                    "ile başlanır",
                 },
             },
             bl_wheel={
                 name="Tekerlek",
                 text={
-                    "/7 şansla kartlar",
-                    "ters çekilir",
+                    "/7 olasılıkla kartlar",
+                    "ters çevrilmiş biçimde çekilir",
                 },
             },
             bl_window={
                 name="Pencere",
                 text={
-                    "Tüm Karo kartlar",
+                    "Tüm karo kartları",
                     "geçersiz kılınır",
                 },
             },
@@ -355,13 +348,13 @@ return {
             e_negative={
                 name="Negatif",
                 text={
-                    "{C:dark_edition}+#1#{} Joker limiti",
+                    "{C:dark_edition}+#1#{} Joker yuvası",
                 },
             },
             e_negative_consumable={
                 name="Negatif",
                 text={
-                    "{C:dark_edition}+#1#{} kullanılabilir limiti",
+                    "{C:dark_edition}+#1#{} Kullanılabilir yuvası",
                 },
             },
             e_polychrome={
@@ -381,8 +374,8 @@ return {
                 name="Cam Kart",
                 text={
                     "{X:mult,C:white} X#1# {} Çarpan",
-                    "{C:green}#2#/#3#{} şansla",
-                    "kartı yok eder",
+                    "{C:green}#2#/#3#{} olasılıkla",
+                    "kart yok olur",
                 },
             },
             m_gold={
@@ -396,9 +389,9 @@ return {
             m_lucky={
                 name="Şanslı Kart",
                 text={
-                    "{C:green}#1#/#3#{} şansta",
+                    "{C:green}#1#/#3#{} olasılıkla",
                     "{C:mult}+#2#{} Çarpan kazan",
-                    "{C:green}#1#/#5#{} şansta",
+                    "{C:green}#1#/#5#{} olasılıkla",
                     "{C:money}$#4# kazan",
                 },
             },
@@ -412,7 +405,7 @@ return {
                 name="Çelik Kart",
                 text={
 				    "Bu kart elinde",
-                    "durduğu sürece",    
+                    "olduğu sürece",    
                     "{X:mult,C:white} X#1# {} Çarpan",
                 },
             },
@@ -427,7 +420,7 @@ return {
                 name="Torpilli Kart",
                 text={
                     "Herhangi bir sembol",
-                    "olarak oynanabilir",
+                    "yerine oynanabilir",
                 },
             },
         },
@@ -436,9 +429,9 @@ return {
                 name="8 Top",
                 text={
                     "Her {C:attention}8{} oynandığında",
-                    "{C:green}#1# / #2#{} şansta",
+                    "{C:green}#1# / #2#{} olasılıkla",
                     "{C:tarot}Tarot{} kartı oluşturur",
-                    "{C:inactive}(Boş yerin olmalı)",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             j_abstract={
@@ -446,7 +439,7 @@ return {
                 text={
 				    "Her {C:attention}Joker{} kartı başına",
                     "{C:mult}+#1#{} Çarpan",
-                    "{C:inactive}(Şuanda {C:red}+#2#{C:inactive} Çarpan)",
+                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_acrobat={
@@ -472,9 +465,9 @@ return {
             j_arrowhead={
                 name="Okbaşı",
                 text={
-                    "Oynanan",
+                    "Skorlanan",
                     "{C:spades}Maça{} sembollü kartlar",
-                    "skorlandıklarında {C:chips}+#1#{} Fiş verirler",
+                    "oynandıklarında {C:chips}+#1#{} Fiş verirler",
                 },
                 unlock={
                     "Destende en az {E:1,C:attention}#1#",
@@ -485,19 +478,19 @@ return {
             j_astronomer={
                 name="Gökbilimci",
                 text={
-                    "Dükkandaki tüm {C:planet}Gezegen{}",
-                    "kartlar ve {C:planet}Göksel paketler{}",
-                    "{C:attention}ücretsiz",
+                    "Mağazadaki tüm {C:planet}gezegen{}",
+                    "kartları ve {C:planet}gezegen paketleri{}",
+                    "{C:attention}ücretsiz olur",
                 },
                 unlock={
-				    "Tüm {E:1,C:planet}Gezegen{}",
+				    "Tüm {E:1,C:planet}gezegen{}",
                     "kartlarını keşfet",
                 },
             },
             j_banner={
                 name="Flama",
                 text={
-                    "Kalan {C:attention}çıkarma başına",
+                    "Kalan {C:attention}Çıkarma başına",
                     "{C:chips}+#1#{} Fiş",
                 },
             },
@@ -505,14 +498,14 @@ return {
                 name="Baron",
                 text={
                     "Elinde tuttuğun her",
-                    "{C:attention}Papaz{}",
+                    "{C:attention}papaz{}",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_baseball={
                 name="Beyzbol Kartı",
                 text={
-                    "Her {C:green}Sıradışı{} Joker",
+                    "Her {C:green}sıra dışı{} Joker",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
@@ -521,28 +514,27 @@ return {
                 text={
                     "Elinde tuttuğun tüm kartlar",
                     "{C:spades}#2#{} veya {C:clubs}#3#{} ise",
-                    "{X:red,C:white} X#1# {} Çarpan",
+                    "{X:red,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_bloodstone={
                 name="Kantaşı",
                 text={
-                    "{C:green}#1#/#2#{} Şansla",
-                    "Oynanan",
-                    "{C:hearts}Kupa{} kartları",
-                    "skorlandıklarında {X:mult,C:white} X#3# {} çarpan verir",
+                    "{C:green}#1#/#2#{} olasılıkla",
+                    "Skorlanan {C:hearts}kupa{} kartları",
+                    "oynandıklarında {X:mult,C:white} X#3# {} Çarpan verir",
                 },
                 unlock={
                     "Destende en az {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2# simgeli kart bulundur",
+                    "{E:1,C:attention}#2# sembollü kart bulundur",
                 },
             },
             j_blue_joker={
                 name="Mavi Joker",
                 text={
-                    "{C:attention}Destende kalan her kart için {C:chips}+#1#{} fiş",
-                    "kart için {C:chips}+#1#{} fiş",
-                    "{C:inactive}(Şuan {C:chips}+#2#{C:inactive} fiş)",
+                    "{C:attention}Destende kalan her kart için {C:chips}+#1#{} Fiş",
+                    "kart için {C:chips}+#1#{} Fiş",
+                    "{C:inactive}(Şu anda {C:chips}+#2#{C:inactive} Fiş)",
                 },
             },
             j_blueprint={
@@ -559,12 +551,12 @@ return {
                 name="Çaba",
                 text={
                     "Elindeki her {C:money}$#2#{}",
-                    "sana {C:mult}+#1#{} Çarpan verir",
-                    "{C:inactive}(Şuanda {C:mult}+#3#{C:inactive} Çarpan)",
+                    "{C:mult}+#1#{} Çarpan verir",
+                    "{C:inactive}(Şu anda {C:mult}+#3#{C:inactive} Çarpan)",
                 },
                 unlock={
                     "Elinde aynı anda en az {E:1,C:attention}#1#",
-                    "{C:dark_edition}Polikrom{} Joker tut",
+                    "{C:dark_edition}polikrom{} Joker bulundur",
                 },
             },
             j_brainstorm={
@@ -574,34 +566,33 @@ return {
                     "özelliğini kopyalar",
                 },
                 unlock={
-                    "Elinden bir",
-                    "{E:1,C:attention}Royal Floş çıkar",
+                    "Bir {E:1,C:attention}Royal Floş{} oyna",
                 },
             },
             j_bull={
                 name="Boğa",
                 text={
-                    "Sahip olduğun {C:money}1${} kadar",
-                    "{C:chips}+#1#{} Fiş kazanırsın",
-                    "{C:inactive}(Şuanda {C:chips}+#2#{C:inactive} Fiş)",
+                    "Sahip olunan {C:money}1${} kadar",
+                    "{C:chips}+#1#{} Fiş kazadırır",
+                    "{C:inactive}(Şu anda {C:chips}+#2#{C:inactive} Fiş)",
                 },
             },
             j_burglar={
                 name="Hırsız",
                 text={
-                    "{C:attention}Bahise{} girdiğinde",
-                    "{C:blue}+#1#{} El kazanırsın",
-                    "{C:attention}tüm çıkarmalarını kaybedersin",
+                    "{C:attention}Bahis'e{} girildiğinde",
+                    "{C:blue}+#1#{} El boyutu verir",
+                    "{C:attention}Çıkarma hakkı 0 olur",
                 },
             },
             j_burnt={
                 name="Yanmış Joker",
                 text={
-                    "Her tur {C:attention}çıkarttığın",
+                    "Her tur {C:attention}çıkarılan",
                     "ilk poker elini geliştirir",
                 },
                 unlock={
-                    "{E:1,C:attention}#1#{} Kart sat",
+                    "{E:1,C:attention}#1#{} kart sat",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -609,16 +600,16 @@ return {
                 name="Kartvizit",
                 text={
                     "Skorlanan {C:attention}resimli{} kartlar",
-                    "{C:green}#1#/#2#{} şansla",
+                    "{C:green}#1#/#2#{} olasılıkla",
                     "{C:money}2${} verir",
                 },
             },
             j_caino={
                 name="Canio",
                 text={
-                    "Bu joker yırtılan {C:attention}Resimli{} kart başına",
+                    "Bu Joker, yok edilen {C:attention}resimli kart{} başına",
                     "{X:mult,C:white} X#1# {} Çarpan kazanır",
-                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -627,10 +618,10 @@ return {
             j_campfire={
                 name="Kamp ateşi",
                 text={
-                    "Bu joker {C:attention}satılan{} kart başına",
+                    "Bu Joker, {C:attention}satılan{} kart başına",
                     "{X:mult,C:white}X#1#{} Çarpan kazanır",
-                    "Çarpan {C:attention}Usta Bahisi{} yenildiğinde sıfırlanır",
-                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
+                    "Çarpan, {C:attention}Usta Bahis{} yenildiğinde sıfırlanır",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_card_sharp={
@@ -645,7 +636,7 @@ return {
                 text={
                     "{C:attention}Bahis{} seçildiğinde",
                     "bir {C:tarot}Tarot{} kartı oluşturur",
-                    "{C:inactive}(Yerin varsa)",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
                 unlock={
                     "Tüm {E:1,C:tarot}Tarot{}",
@@ -657,43 +648,44 @@ return {
                 text={
                     "Bu joker çıkarılmış {V:1}#2#{} kartı başına",
                     "{C:chips}+#1#{} Fiş verir",
-                    "sembol her tur değişir",
-                    "{C:inactive}(Şuanda {C:chips}+#3#{C:inactive} Fiş)",
+                    "Sembol her tur değişir",
+                    "{C:inactive}(Şu anda {C:chips}+#3#{C:inactive} Fiş)",
                 },
             },
             j_cavendish={
                 name="Çanakkale Muzu",
                 text={
-                    "{X:mult,C:white} X#1# {} Çarpan tur sonu",
-                    "{C:green}#2#/#3#{} şansla kart parçalanır",
+                    "{X:mult,C:white} X#1# {} Çarpan",
+                    "tur sonu {C:green}#2#/#3#{} olasılıkla",
+                    "kart parçalanır",
                 },
             },
             j_ceremonial={
                 name="Ayin Bıçağı",
                 text={
                     "{C:attention}Bahis{} seçildiğinde sağındaki",
-                    "Jokeri parçalayıp satış bedelinin",
-                    "{C:attention}iki katını{} kendi {C:red}Çarpanına aktarır",
-                    "{C:inactive}(Şuanda {C:mult}+#1#{C:inactive} Çarpan)",
+                    "Joker'i parçalayıp satış bedelinin",
+                    "{C:attention}iki katını{} kendi {C:red}çarpanına aktarır",
+                    "{C:inactive}(Şu anda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
             },
             j_certificate={
                 name="Sertifika",
                 text={
-                    "Her tur başı eline,",
-                    "rastgele bir {C:attention}Mührü{} olan",
+                    "Her tur başı",
+                    "rastgele {C:attention}mühürlü{}",
                     "rastgele bir {C:attention}kart{} verir",
                 },
                 unlock={
-                    "{C:attention,E:1}Altın Mühürlü{}",
-                    "altın bir oyun kartın olsun",
+                    "{C:attention,E:1}Altın mühürlü{}",
+                    "altın bir karta sahip ol",
                 },
             },
             j_chaos={
                 name="Palyaço Kaos",
                 text={
                     "Mağaza başına",
-                    "{C:attention}#1#{} bedava {C:green}Değiştirme{}",
+                    "{C:attention}#1#{} ücretsiz {C:green}değiştirme{}",
                 },
             },
             j_chicot={
@@ -709,23 +701,23 @@ return {
             j_clever={
                 name="Akıllı Joker",
                 text={
-                    "Oynanan el {C:attention}#2#{} içeriyorsa",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
                     "{C:chips}+#1#{} Fiş"
                 },
             },
             j_cloud_9={
                 name="Neşeli 9",
                 text={
-                    "{C:attention}Destendeki tüm 9{} sayılı",
-                    "kart başına her tur {C:money}$#1#{} kazanırsın",
-                    "{C:inactive}(Şuanda {C:money}$#2#{}{C:inactive})",
+                    "{C:attention}Destedeki tüm 9{} sayılı",
+                    "kart başına her tur {C:money}$#1#{} verir",
+                    "{C:inactive}(Şu anda {C:money}$#2#{}{C:inactive})",
                 },
             },
             j_constellation={
-                name="Takım Yıldızı",
+                name="Takımyıldız",
                 text={
                     "Bu joker",
-                    "kullanılan her {C:planet}Gezegen{} kartı",
+                    "kullanılan her {C:planet}gezegen{} kartı",
                     "için {X:mult,C:white} X#1# {} Çarpan kazanır",
                     "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
@@ -734,20 +726,20 @@ return {
                 name="Hünerli Joker",
                 text={
                     "Skorlanan el {C:attention}#2#{} içeriyorsa",
-                    "{C:chips}+#1#{} kazanırsın",
+                    "{C:chips}+#1#{} Fiş verir",
                 },
             },
             j_crazy={
                 name="Deli Joker",
                 text={
                     "Skorlanan el {C:attention}#2#{} içeriyorsa",
-                    "{C:red}+#1#{} Çarpan kazanırsın",
+                    "{C:red}+#1#{} Çarpan verir",
                 },
             },
             j_credit_card={
                 name="Kredi Kartı",
                 text={
-                    "{C:red}-$#1#{} kadar ",
+                    "{C:red}-$#1#{} kadar",
                     "borca girebilirsin",
                 },
             },
@@ -755,65 +747,64 @@ return {
                 name="Bekletilmiş Ödeme",
                 text={
                     "Tur sonunda hiç",
-                    "{C:attention}çıkarma{} kullanılmadıysa",
-                    "{C:money}$#1#{} kazan",
+                    "{C:attention}Çıkarma{} kullanılmadıysa",
+                    "{C:money}$#1#{} verir",
                 },
             },
             j_devious={
                 name="Sinsi Joker",
                 text={
                     "Skorlanan el {C:attention}#2#{} içeriyorsa",
-                    "{C:chips}+#1#{} fiş kazanırsın",
+                    "{C:chips}+#1#{} Fiş verir",
                 },
             },
             j_diet_cola={
                 name="Diyet Kola",
                 text={
                     "Bu kartı satarak",
-                    "bedava {C:attention}#1#",
-                    "kazan",
+                    "ücretsiz {C:attention}#1# kazan",
                 },
             },
             j_dna={
                 name="DNA",
                 text={
                     "Turun {C:attention}ilk elinde{}",
-                    "yalnızca {C:attention}1{} kart oynadıysan,",
-                    "desteye kalıcı bir kopyasını ekler",
-                    "ve onu {C:attention}eline{} çekersin",
+                    "yalnızca {C:attention}1{} kart oynandıysa,",
+                    "o kartın kopyasını desteye",
+                    "ve mevcut {C:attention}ele{} ekler",
                 },
             },
             j_drivers_license={
                 name="Ehliyet",
                 text={
-                    "Destende en az {C:attention}16{} Geliştirilmiş",
-                    "kart varsa {X:mult,C:white}X#1#{} Çarpan ekle",
-                    "{C:inactive}(Şuanda {C:attention}#2#{C:inactive} kart)",
+                    "Destede en az {C:attention}16{} geliştirilmiş",
+                    "kart varsa {X:mult,C:white}X#1#{} Çarpan verir",
+                    "{C:inactive}(Şu anda {C:attention}#2#{C:inactive} kart)",
                 },
                 unlock={
-                    "Destendeki {E:1,C:attention}#1#{} kartı",
-                    "geliştir",
+                    "Destendeki {E:1,C:attention}#1#{}",
+                    "kartı geliştir",
                 },
             },
             j_droll={
                 name="Acayip Joker",
                 text={
                     "Skorlanan el {C:attention}#2#{} içeriyorsa",
-                    "{C:red}+#1#{} Çarpan ekle",
+                    "{C:red}+#1#{} Çarpan verir",
                 },
             },
             j_drunkard={
                 name="Ayyaş",
                 text={
-                    "Her tur {C:red}+#1#{} çıkarma",
-                    "kazan",
+                    "Her tur {C:red}+#1#{} Çıkarma",
+                    "verir",
                 },
             },
             j_duo={
                 name="İkili",
                 text={
-                    "Oynanan el {C:attention}#2#{} içeriyorsa",
-                    "{X:mult,C:white} X#1# {} Çarpan ekle",
+                    "Skorlanan el {C:attention}#2#{} içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
                     "{E:1,C:attention}#1#",
@@ -825,14 +816,14 @@ return {
                 name="Alacakaranlık",
                 text={
                     "Turun {C:attention}son{} elinde",
-                    "skorlanan kartları {C:attention}tekrar",
-                    "puanlar",
+                    "skorlanmış kartları {C:attention}tekrar",
+                    "skorlar",
                 },
             },
             j_egg={
                 name="Yumurta",
                 text={
-                    "Gains {C:money}$#1#{} of",
+                    "Gains {C:money}$#1#{} of", --ingilizcesini bile anlamıyorum
                     "{C:attention}sell value{} at",
                     "end of round",
                 },
@@ -840,9 +831,9 @@ return {
             j_erosion={
                 name="Erozyon",
                 text={
-                    "Tam destende {C:attention}#3#{} sayısından",
-                    "düşük her kart için {C:red}+#1#{} Çarpan",
-                    "{C:inactive}(Şuanda {C:red}+#2#{C:inactive} Çarpan)",
+                    "Destedeki {C:attention}#3#{} sayısından",
+                    "küçük her kart için {C:red}+#1#{} Çarpan",
+                    "{C:inactive}(Şu anda {C:red}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_even_steven={
@@ -857,15 +848,15 @@ return {
                 name="Yüzsüz Joker",
                 text={
                     "En az {C:attention}#2#{} veya daha fazla",
-                    "{C:attention}resimli kart{} çıkartığında",
-                    "{C:money}$#1#{} kazanırsın",
+                    "{C:attention}resimli kart{} çıkarıldığında",
+                    "{C:money}$#1#{} verir",
                 },
             },
             j_family={
                 name="Aile",
                 text={
                     "Skorlanan el {C:attention}#2#{} ise",
-                    "{X:mult,C:white} X#1# {} Çarpan kazanırsın",
+                    "{X:mult,C:white}X#1#{} Çarpan verir",
                 },
                 unlock={
                     "{E:1,C:attention}#1#{}",
@@ -875,25 +866,25 @@ return {
             j_fibonacci={
                 name="Fibonacci",
                 text={
-                    "Skorlanan her {C:attention}As{},",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, yada {C:attention}8",
-                    "{C:mult}+#1#{} Çarpan verir",
+                    "Skorlanan her {C:attention}As{}, {C:attention}2{},",
+                    "{C:attention}3{}, {C:attention}5{}, ya da {C:attention}8",
+                    "için {C:mult}+#1#{} Çarpan verir",
                 },
             },
             j_flash={
                 name="Bilgi Kartı",
                 text={
-                    "Bu joker mağazada yapılan her {C:attention}Değiştirme",
+                    "Bu Joker, mağazada yapılan her {C:attention}değiştirme",
                     "için {C:mult}+#1#{} Çarpan verir",
-                    "{C:inactive}(Şuanda {C:mult}+#2#{C:inactive} Çarpan)",
+                    "{C:inactive}(Şu anda {C:mult}+#2#{C:inactive} Çarpan)",
                 },
             },
             j_flower_pot={
                 name="Saksı",
                 text={
-                    "Skorlanan el {C:diamonds}Karo{}, {C:clubs}Sinek{},",
-                    "{C:hearts}Kupa{}, ve {C:spades}Maça{} kartları içeriyorsa",
-                    "{X:mult,C:white} X#1# {} Çarpan",
+                    "Skorlanan el {C:diamonds}karo{}, {C:clubs}sinek{},",
+                    "{C:hearts}kupa{} ve {C:spades}maça{} kartları içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
                     "Bop {E:1,C:attention}#1#{}'e ulaş",
@@ -1085,7 +1076,7 @@ return {
             j_joker={
                 name="Joker",
                 text={
-                    "{C:red,s:1.1}+#1#{} Mult",
+                    "{C:red,s:1.1}+#1#{} Çarpan",
                 },
             },
             j_jolly={
@@ -1837,7 +1828,7 @@ return {
                 name="Tuhaf Joker",
                 text={
                     "Oynanan el {C:attention}#2#{} içeriyorsa",
-                    "{C:red}+#1#{} Çarpan ekle",
+                    "{C:red}+#1#{} Çarpan verir",
                 },
             },
         },
@@ -2252,10 +2243,10 @@ return {
                 },
             },
             wip_locked={
-                name="Locked",
+                name="Kilitli",
                 text={
-                    "Work in",
-                    "progress",
+                    "Çalışma",
+                    "sürüyor",
                 },
             },
         },
@@ -2263,109 +2254,109 @@ return {
             c_ceres={
                 name="Ceres",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_earth={
                 name="Dünya",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_eris={
                 name="Eris",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_jupiter={
                 name="Jüpiter",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_mars={
                 name="Mars",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_mercury={
                 name="Merkür",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_neptune={
                 name="Neptün",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_planet_x={
                 name="Gezegen X",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_pluto={
                 name="Pluto",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_saturn={
                 name="Satürn",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_uranus={
                 name="Uranüs",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
             c_venus={
                 name="Venüs",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}sv.#1#{S:0.8}){} Seviye yükseltmesi",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips",
+                    "{C:mult}+#3#{} Çarpan ve",
+                    "{C:chips}+#4#{} Fiş",
                 },
             },
         },
@@ -2373,155 +2364,146 @@ return {
             c_ankh={
                 name="Ankh",
                 text={
-                    "Create a copy of a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers",
+                    "Rastgele bir {C:attention}Joker'in{}",
+                    "kopyasını oluşturur, diğer",
+                    "tüm Jokerleri yok eder",
                 },
             },
             c_aura={
                 name="Aura",
                 text={
-                    "Add {C:dark_edition}Foil{}, {C:dark_edition}Holographic{},",
-                    "or {C:dark_edition}Polychrome{} effect to",
-                    "{C:attention}1{} selected card in hand",
+                    "Seçili {C:attention}1{} karta {C:dark_edition}Folyo{}, {C:dark_edition}Holografik{},",
+                    "ya da {C:dark_edition}Polikrom{} baskısı ekler",
                 },
             },
             c_black_hole={
                 name="Kara Delik",
                 text={
-                    "Upgrade every",
-                    "{C:legendary,E:1}poker hand",
-                    "by {C:attention}1{} level",
+                    "{C:legendary,E:1}Her poker elini",
+                    "{C:attention}1{} seviye yükseltir",
                 },
             },
             c_cryptid={
                 name="Kriptid",
                 text={
-                    "Create {C:attention}#1#{} copies of",
-                    "{C:attention}1{} selected card",
-                    "in your hand",
+                    "Seçili {C:attention}1{} kartın",
+                    "{C:attention}#1#{} kopyasını oluşturur",
                 },
             },
             c_deja_vu={
                 name="Deja Vu",
                 text={
-                    "Add a {C:red}Red Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "Seçili {C:attention}1{} karta",
+                    "{C:red}Kırmızı Mühür{} ekler",
                 },
             },
             c_ectoplasm={
                 name="Ektoplazma",
                 text={
-                    "Add {C:dark_edition}Negative{} to",
-                    "a random {C:attention}Joker,",
-                    "{C:red}-#1#{} hand size",
+                    "Rastgele bir {C:attention}Joker'e",
+                    "{C:dark_edition}Negatif{} baskısı ekler",
+                    "{C:red}-#1#{} El boyutu",
                 },
             },
             c_familiar={
                 name="Tanıdık",
                 text={
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add",
-                    "{C:attention}#1#{} random {C:attention}Enhanced face",
-                    "{C:attention}cards{} to your hand",
+                    "Eldeki rastgele {C:attention}1{} bir kartı",
+                    "yok eder; {C:attention}#1#{} rastgele",
+                    "{C:attention}Geliştirilmiş Resimli{} kart",
+                    "ekler",
                 },
             },
             c_grim={
                 name="Gaddar",
                 text={
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand,",
-                    "add {C:attention}#1#{} random {C:attention}Enhanced",
-                    "{C:attention}Aces{} to your hand",
+                    "Rastgele {C:attention}1{} bir kartı",
+                    "yok eder; {C:attention}#1#{} rastgele",
+                    "{C:attention}Geliştirilmiş As{}",
+                    "ekler",
                 },
             },
             c_hex={
                 name="Nazar",
                 text={
-                    "Add {C:dark_edition}Polychrome{} to a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers",
+                    "Rastgele bir {C:attention}Joker'e{}  to a",
+                    "{C:dark_edition}Polikrom{} baskısı ekler,",
+                    "diğer tüm Jokerleri yok eder",
                 },
             },
             c_immolate={
                 name="Kurban",
                 text={
-                    "Destroys {C:attention}#1#{} random",
-                    "cards in hand,",
-                    "gain {C:money}$#2#",
+                    "Eldeki {C:attention}#1#{} rastgele kartı",
+                    "yok eder, {C:money}$#2# verir",
                 },
             },
             c_incantation={
                 name="Efsun",
                 text={
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add {C:attention}#1#",
-                    "random {C:attention}Enhanced numbered",
-                    "{C:attention}cards{} to your hand",
+                    "Rastgele {C:attention}1{} bir kartı",
+                    "yok eder; {C:attention}#1#{} rastgele",
+                    "{C:attention}Geliştirilmiş Sayılı{} kart",
+                    "ekler",
                 },
             },
             c_medium={
                 name="Medyum",
                 text={
-                    "Add a {C:purple}Purple Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "Seçili {C:attention}1{} karta",
+                    "{C:red}Mor Mühür{} ekler",
                 },
             },
             c_ouija={
                 name="Ouija",
                 text={
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}rank",
-                    "{C:red}-1{} hand size",
+                    "Eldeki tüm kartları",
+                    "rastgele tek bir {C:attention}seviyeye",
+                    "dönüştürür",
+                    "{C:red}-1{} El boyutu",
                 },
             },
             c_sigil={
                 name="Mühür",
                 text={
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}suit",
+                    "Eldeki tüm kartları",
+                    "rastgele tek bir {C:attention}sete",
+                    "dönüştürür",
                 },
             },
             c_soul={
                 name="Ruh",
                 text={
-                    "Creates a",
-                    "{C:legendary,E:1}Legendary{} Joker",
-                    "{C:inactive}(Must have room)",
+                    "{C:legendary,E:1}Efsanevi{} bir Joker oluşturur",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             c_talisman={
                 name="Muska",
                 text={
-                    "Add a {C:attention}Gold Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "Seçili {C:attention}1{} karta",
+                    "{C:attention}Altın Mühür{} ekler",
                 },
             },
             c_trance={
                 name="Trans",
                 text={
-                    "Add a {C:blue}Blue Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "Seçili {C:attention}1{} karta",
+                    "{C:blue}Mavi Mühür{} ekler",
                 },
             },
             c_wraith={
                 name="Hayalet",
                 text={
-                    "Creates a random",
-                    "{C:red}Rare{C:attention} Joker{},",
-                    "sets money to {C:money}0$",
+                    "Rastgele bir {C:red}Nadir{C:attention} Joker{}",
+                    "oluşturur,",
+                    "parayı {C:money}$0 yapar",
                 },
             },
         },
         Stake={
             stake_black={
-                name="Siyah Bahis",
+                name="Siyah Pot",
                 text={
                     "Mağazada {C:attention}Ebedi{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(Satılamaz veya yok edilemez)",
@@ -2529,14 +2511,14 @@ return {
                 },
             },
             stake_blue={
-                name="Mavi Bahis",
+                name="Mavi Pot",
                 text={
                     "{C:red}-1{} Çıkarma",
                     "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
                 },
             },
             stake_gold={
-                name="Altın Bahis",
+                name="Altın Pot",
                 text={
                     "Mağazada {C:attention}Kiralık{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(Tur başına {C:money,s:0.8}$3{C:inactive,s:0.8})",
@@ -2544,7 +2526,7 @@ return {
                 },
             },
             stake_green={
-                name="Yeşil Bahis",
+                name="Yeşil Pot",
                 text={
                     "Gereken puan oranı her",
                     "{C:attention}Bop'ta{} daha hızlı artar",
@@ -2552,7 +2534,7 @@ return {
                 },
             },
             stake_orange={
-                name="Turuncu Bahis",
+                name="Turuncu Pot",
                 text={
                     "Mağazada {C:attention}Dayanıksız{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(5 Tur sonra geçersiz kılınır)",
@@ -2560,7 +2542,7 @@ return {
                 },
             },
             stake_purple={
-                name="Mor Bahis",
+                name="Mor Pot",
                 text={
                     "Gereken puan oranı her",
                     "{C:attention}Bop'ta{} daha hızlı artar",
@@ -2568,7 +2550,7 @@ return {
                 },
             },
             stake_red={
-                name="Kırmızı Bahis",
+                name="Kırmızı Pot",
                 text={
                     "{C:attention}Küçük Bahis{}",
                     "ödül parası vermez",
@@ -2576,9 +2558,9 @@ return {
                 },
             },
             stake_white={
-                name="Beyaz Bahis",
+                name="Beyaz Pot",
                 text={
-                    "Normal zorluk",
+                    "Standart zorluk",
                 },
             },
         },
@@ -2586,7 +2568,7 @@ return {
             tag_boss={
                 name="Usta Etiketi",
                 text={
-                    "{C:attention}Usta Bahis'inin",
+                    "{C:attention}Usta Bahis'in",
                     "özelliğini değiştirir",
                 },
             },
@@ -2652,7 +2634,7 @@ return {
             tag_garbage={
                 name="Çöp Etiketi",
                 text={
-                    "Kullanılmayan her {C:red}çıkarma{}",
+                    "Kullanılmayan her {C:red}Çıkarma{}",
                     "başına {C:money}$#1#{} verir",
                     "{C:inactive}(Toplam {C:money}$#2#{C:inactive})",
                 },
@@ -2684,7 +2666,7 @@ return {
                 name="Hokkabaz Etiketi",
                 text={
                     "Sıradaki tur",
-                    "{C:attention}+#1#{} el boyutu",
+                    "{C:attention}+#1#{} El boyutu",
                 },
             },
             tag_meteor={
@@ -2744,7 +2726,7 @@ return {
                 text={
                     "En fazla {C:attention}#1#",
                     "{C:blue}Sıradan{} Joker oluştur",
-                    "{C:inactive}(Boş slot olmalı)",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             tag_uncommon={
@@ -2791,7 +2773,7 @@ return {
                 text={
                     "En fazla {C:attention}#1#{} tane",
                     "rastgele {C:tarot}Tarot{} kartı oluşturur",
-                    "{C:inactive}(Boş slot olmalı)",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             c_empress={
@@ -2836,7 +2818,7 @@ return {
                 text={
                     "En fazla {C:attention}#1#",
                     "rastgele {C:planet}Gezegen{} kartı",
-                    "oluşturur {C:inactive}(Boş slot olmalı)",
+                    "oluşturur {C:inactive}(Boş yuva olmalı)",
                 },
             },
             c_judgement={
@@ -2844,7 +2826,7 @@ return {
                 text={
                     "Rastgele {C:attention}Joker{}",
                     "kartı oluşturur",
-                    "{C:inactive}(Boş slot olmalı)",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             c_justice={
@@ -2934,7 +2916,7 @@ return {
             v_antimatter={
                 name="Antimadde",
                 text={
-                    "{C:dark_edition}+1{} Joker Yuvası",
+                    "{C:dark_edition}+1{} Joker yuvası",
                 },
                 unlock={
                     "Toplam {C:attention}#1#{} kez",
@@ -2946,14 +2928,14 @@ return {
                 name="Boş Kupon",
                 text={
                     "{C:inactive}Hiçbir şey yapmıyor.",
-		    "{C:inactive}Sanırım?",
+		            "{C:inactive}Sanırım?",
                 },
             },
             v_clearance_sale={
                 name="Akraba İndirimi",
                 text={
                     "Mağazadaki tüm kart ve",
-                    "paketler {C:attention}#1#%{} indirimli",
+                    "paketler {C:attention}#1#%{} indirimli olur",
                 },
             },
             v_crystal_ball={
@@ -3119,13 +3101,13 @@ return {
             v_paint_brush={
                 name="Boya Fırçası",
                 text={
-                    "{C:attention}+#1#{} el boyutu",
+                    "{C:attention}+#1#{} El boyutu",
                 },
             },
             v_palette={
                 name="Palet",
                 text={
-                    "{C:attention}+#1#{} el boyutu",
+                    "{C:attention}+#1#{} El boyutu",
                 },
                 unlock={
                     "El boyutunu",
@@ -3137,7 +3119,7 @@ return {
                 text={
                     "{C:attention}-#1#{} Bop,",
                     "Her tur",
-                    "{C:red}-#1#{} çıkarma",
+                    "{C:red}-#1#{} Çıkarma",
                 },
                 unlock={
                     "Seviye {E:1,C:attention}#1#",
@@ -3170,7 +3152,7 @@ return {
                 name="Geri Dönüştürücü",
                 text={
                     "Her tur kalıcı",
-                    "olarak {C:red}+#1#{} çıkarma",
+                    "olarak {C:red}+#1#{} Çıkarma",
                     "kazan",
                 },
                 unlock={
@@ -3253,7 +3235,7 @@ return {
                 name="Tutumsuz",
                 text={
                     "Kalıcı olarak {C:red}+#1#{}",
-                    "çıkarma kazan",
+                    "Çıkarma kazan",
                 },
             },
         },
@@ -3272,15 +3254,15 @@ return {
             cartomancy="Tüm Tarot kartlarını keşfet",
             clairvoyance="Tüm Spektral kartları keşfet",
             completionist="Koleksiyonunun %100'ünü keşfet",
-            completionist_plus="Altın Bahis zorluğunda her desteyle kazan",
+            completionist_plus="Altın Pot zorluğunda her desteyle kazan",
             completionist_plus_plus="Her Joker için Altın Çıkartma kazan",
             extreme_couponer="Tüm Kuponları keşfet",
             flushed="Play a Flush with 5 Wild Cards",
             heads_up="Bir Oyun Kazan",
-            high_stakes="En az Altın Bahis zorluğunda bir oyun kazan",
+            high_stakes="En az Altın Pot zorluğunda bir oyun kazan",
             legendary="Bir Efsanevi Joker keşfet",
-            low_stakes="En az Kırmızı Bahis zorluğunda bir oyun kazan",
-            mid_stakes="En az Siyah Bahis zorluğunda bir oyun kazan",
+            low_stakes="En az Kırmızı Pot zorluğunda bir oyun kazan",
+            mid_stakes="En az Siyah Pot zorluğunda bir oyun kazan",
             nest_egg="Bir oyunda $400 veya daha fazlasına sahip ol",
             retrograde="Bir poker elini 10. seviyeye yükselt",
             roi="Bop 4'e ulaşmadan önce 5 kupona sahip ol",
@@ -3310,10 +3292,10 @@ return {
             extreme_couponer="Kuponcu",
             flushed="Flushed", -- ingilizce kaldı
             heads_up="Heads Up", -- "başı dik" falan olabilir ama emin olamadım
-            high_stakes="Yüksek Bahisler",
+            high_stakes="Yüksek Potlar",
             legendary="Efsanevi",
-            low_stakes="Düşük Bahisler",
-            mid_stakes="Orta Bahisler",
+            low_stakes="Düşük Potlar",
+            mid_stakes="Orta Düzey Potlar",
             nest_egg="Kumbara",
             retrograde="Retro Hareket",
             roi="YTD",
@@ -3474,7 +3456,7 @@ return {
             b_sort_hand="Eli Sırala",
             b_sounds="Sesler",
             b_spectral_cards="Spektral Kartlar",
-            b_stake="Bahis",
+            b_stake="Pot",
             b_start_new_run="Yeni Oyun",
             b_stat_consumables="Kullanılabilirler",
             b_stat_jokers="Jokerler",
@@ -3522,7 +3504,7 @@ return {
             k_daily_run="Günlük Oyun",
             k_debuffed="Geçersiz Kılındı",
             k_deck="Deste",
-            k_deck_stake_wins="Deck Stake Wins",
+            k_deck_stake_wins="Deck Stake Wins", -- 'Pot Destesi Kazandı'??
             k_defeated_by="Şunun Tarafından Yenildin:",
             k_demo_version_ex="Demo Versiyonu!",
             k_disabled_ex="Devredışı!",
@@ -3594,13 +3576,13 @@ return {
             k_skipped_cap="GEÇİLDİ",
             k_spectral="Spektral",
             k_spectral_pack="Spektral Paket",
-            k_stake="Bahis",
-            k_stake_level="Bahis Seviyesi",
+            k_stake="Pot",
+            k_stake_level="Pot Seviyesi",
             k_standard_pack="Standart Paket",
             k_suit="Takım",
             k_swapped_ex="Değiştirildi!",
             k_tarot="Tarot",
-            k_trophies_disabled="Kupalar Devre dışı",
+            k_trophies_disabled="Kupalar Devre Dışı",
             k_trophy="Kupa",
             k_uncommon="Sıradışı",
             k_undisovered="Keşfedilmemiş",
@@ -3711,13 +3693,13 @@ return {
             ph_all_poker_hand="Tüm poker elleri",
             ph_blind_reward="Ödül: ",
             ph_blind_score_at_least="Toplaman Gereken Puan:",
-            ph_boss_disabled="Boss Disabled!",
+            ph_boss_disabled="Usta Devre Dışı!",
             ph_choose_blind_1="Sonraki",
             ph_choose_blind_2="Bahis'i seç",
             ph_click_confirm="Onaylamak için bir daha seç",
             ph_deck_preview_effective="Jokerler, Bahisler ve Kart Geliştirenlerine göre efektif toplam",
             ph_deck_preview_stones="Taşlar",
-            ph_defeat_the_boss="Defeat the Boss Blind",
+            ph_defeat_the_boss="Usta Bahis'i yen",
             ph_defeat_this_blind_1="Keşfetmek için",
             ph_defeat_this_blind_2="bu Bahis'i yen.",
             ph_demo_thanks_1="BALATRO DEMO'yu",
@@ -3727,7 +3709,7 @@ return {
             ph_improve_run="Elini geliştir!",
             ph_most_played="(en çok oynanan el)",
             ph_mr_bones="Bay Kemik tarafından kurtarıldın",
-            ph_no_boss_active="no boss active",
+            ph_no_boss_active="bir usta etkin değil",
             ph_no_vouchers="Bu oyunda kupon kullanılmadı.",
             ph_score_at_least="En az şu kadar puan kazan:",
             ph_score_cards_discarded="Çıkarılan Kartlar",
@@ -3753,7 +3735,7 @@ return {
             ph_you_win_demo="DEMO'YU KAZANDIN!",
         },
         high_scores={
-            boss_streak="Üst Üste En Çok Boss", -- Boss yerine Usta olabilir belki
+            boss_streak="Üst Üste En Çok Usta",
             collection="Koleksiyon",
             current_streak="",
             furthest_ante="En Yüksek Bop",
@@ -3991,7 +3973,7 @@ return {
             fh_2={
                 "Her {C:attention}Poker eli{} sabit",
                 "miktarda ve {C:red}çarpanda",
-                "{C:blue}Fişe sahiptir",
+                "{C:blue}fişe sahiptir",
             },
             fh_3={
                 "{C:attention}Poker ellerini",
@@ -4012,22 +3994,22 @@ return {
             fh_5={
                 "Şimdi {C:attention}5{} karta kadar",
                 "seçip, oynamak için",
-                "{C:blue}'Eli Oyna' butonuna tıkla.",
+                "{C:blue}'Eli Oyna' tuşuna tıkla.",
             },
             fh_5_touch={
                 "Şimdi {C:attention}5{} karta kadar",
                 "seçip, oynamak için",
-                "{C:blue}'Eli Oyna' butonuna dokun.",
+                "{C:blue}'Eli Oyna' tuşuna dokun.",
             },
             fh_6={
                 "Ayrıca {C:attention}5{} taneye kadar",
                 "seçili kartı elinden {C:red}'çıkarabilirsin'{}.",
                 "Böylece yeni kartlar ile daha güçlü",
-                "el gelmesini deneyebilirsin!",
+                "bir el gelmesini deneyebilirsin!",
             },
             fh_7={
                 "Dikkat et! Her tur kısıtlı sayıda",
-                "{C:blue}el ve {C:red}çıkarma{}",
+                "{C:blue}El ve {C:red}Çıkarma{}",
                 "hakkın var.",
             },
             fh_8={
@@ -4048,7 +4030,7 @@ return {
             },
             s_11={
                 "Ve her mağazada iki",
-                "{C:booster}Güçlendirici Paketlerine{}",
+                "{C:booster}güçlendirici paketlerine{}",
                 "de bak. İçleri dopdolu!",
             },
             s_12={
@@ -4183,8 +4165,8 @@ return {
                 "Polikrom",
                 "X#1# Çarpan",
             },
-            remaining_discard_money="Kalan Çıkarmalar (tanesi $#1#)",
-            remaining_hand_money="Kalan Eller (tanesi $#1#)",
+            remaining_discard_money="Kalan çıkarmalar (tanesi $#1#)",
+            remaining_hand_money="Kalan eller (tanesi $#1#)",
             unlocked="#1#/#2# Açıldı",
         },
         v_text={
@@ -4231,31 +4213,31 @@ return {
                 "{C:inactive}Yok",
             },
             ch_c_set_eternal_ante={
-                "Bop {C:attention}#1#{} boss yenildiğinde, tüm Jokerelr {C:attention}ebedi olur",
+                "Bop {C:attention}#1#{} usta yenildiğinde, tüm Jokerler {C:attention}ebedi olur",
             },
             ch_c_set_joker_slots_ante={
-                "Bop {C:attention}#1#{} boss yenildiğinde, Joker slotları {C:attention}0 olur",
+                "Bop {C:attention}#1#{} usta yenildiğinde, Joker slotları {C:attention}0 olur",
             },
             ch_c_set_seed={
                 "Tohum ile tek deneme: {C:inactive}{Hidden}",
             },
             ch_m_consumable_slots={ 
-                "{C:attention}#1#{} Kullanılabilirler slotu",
+                "{C:attention}#1#{} Kullanılabilir yuvası",
             },
             ch_m_discards={
-                "Tur başına {C:red}#1#{} çıkarma",
+                "Tur başına {C:red}#1#{} Çıkarma",
             },
             ch_m_dollars={
                 "{C:money}$#1# ile başla",
             },
             ch_m_hand_size={
-                "{C:attention}#1#{} el boyutu",
+                "{C:attention}#1#{} El boyutu",
             },
             ch_m_hands={
-                "Tur başına {C:blue}#1#{} el",
+                "Tur başına {C:blue}#1#{} El",
             },
             ch_m_joker_slots={
-                "{C:attention}#1#{} Joker Slotu",
+                "{C:attention}#1#{} Joker yuvası",
             },
             ch_m_none={
                 "{C:inactive}Yok",
