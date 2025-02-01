@@ -3773,7 +3773,7 @@ return {
             hand="En iyi El",
             most_money="En Çok Para",
             poker_hand="En Çok Oynanan El",
-            win_streak="Ardarda En Çok Kazanma",
+            win_streak="Üst Üste En Çok Kazanma",
         },
         labels={
             blue_seal="Mavi Mühür",
@@ -4080,40 +4080,40 @@ return {
                 "{C:attention}'SATIN AL'{} yerine götür.",
             },
             s_3={
-                "This is one of the {C:attention}#1#",
-                "{C:attention}Jokers{} you can add to",
-                "your run. Every {C:attention}Joker",
-                "does something different",
+                "Bu, oyun boyunca ekleyebileceğin,",
+                "{C:attention}#1# {C:attention}Jokerlerden{} biri.",
+                "Her {C:attention}Joker",
+                "farklı bir şey yapar",
             },
             s_4={
                 "Bu oynadığın her ele",
                 "{C:red}+4 Çarpan{} ekler!",
             },
             s_5={
-                "Be picky, you can only",
-                "carry {C:attention}5 Joker{} cards",
-                "at a time",
+                "Seçici ol, aynı anda",
+                "{C:attention}5 Joker{} kartı",
+                "bulundurabilirsin",
             },
             s_6={
-                "Now buy the other",
-                "card from the {C:attention}Shop",
+                "Şimdi {C:attention}Mağazadan",
+                "diğer kartı al",
             },
             s_7={
-                "This {C:tarot}Tarot{} card is a",
-                "{C:attention}consumable{}. This one will",
-                "enhance your playing",
-                "cards! Hold on to it.",
+                "Bu {C:tarot}Tarot{} kartı",
+                "{C:attention}kullanılabilir{} karttır",
+                "ve senin oyun kartlarını",
+                "güçlendirir! Elinde bulundur.",
             },
             s_8={
-                "Kendinle beraber bir seferde",
+                "Kendinle birlikte bir seferde",
                 "{C:attention}2 kullanılabilir{} kart",
                 "taşıyabilirsin.",
             },
             s_9={
-                "If you save up enough,",
-                "you can buy a {C:attention}Voucher{}.",
-                "{C:attention}Vouchers{} passively",
-                "upgrade your run!",
+                "Yeterince para biriktirirsen,",
+                "{C:attention}Kupon{} satın alabilirsin.",
+                "{C:attention}Kuponlar{} pasif bir",
+                "şekilde oyununu güçlendirir!",
             },
             sb_1={
                 "Selam! Benim adım",
@@ -4121,14 +4121,14 @@ return {
                 "öğretmek için buradayım!",
             },
             sb_2={
-                "Your goal is to earn",
-                "{C:blue}Chips{} to defeat",
-                "the enemy {C:attention}Blind",
+                "Hedefin, yeterince",
+                "{C:blue}Fiş{} toplayarak",
+                "rakipp {C:attention}Bahsi yenmek.",
             },
             sb_3={
-                "This here is a {C:blue}Small Blind{},",
-                "you only need to score",
-                "{C:attention}300 Chips{} to beat it.",
+                "Bu gördüğün C:blue}Küçük Bahis{},",
+                "yalnızca {C:attention}300 Fiş{}",
+                "toplayarak bu Bahis'i yenebilirsin",
             },
             sb_4={
                 "Turu başlatmak için",
@@ -4170,7 +4170,7 @@ return {
             a_xmult="X#1# Katlama",
             a_xmult_minus="-X#1# Katlama",
             ante_x_voucher="BOP #1# KUPONU",
-            challenges_completed="Completed #1#/#2# Challenges",
+            challenges_completed="Tamamlanmış #1#/#2# Meydan Okumalar",
             completed="#1#/#2# Completed",
             deck_preview_wheel_plural="#1# Kartların ters çekilmesinden dolayı daha düşük numaralar olabilir",
             deck_preview_wheel_singular="#1# Kardın ters çekilmesinden dolayı daha düşük numaralar olabilir",
@@ -4197,82 +4197,82 @@ return {
                 "Polikrom",
                 "X#1# Çarpan",
             },
-            remaining_discard_money="Kalan Atmalar (tanesi $#1#)",
+            remaining_discard_money="Kalan Çıkarmalar (tanesi $#1#)",
             remaining_hand_money="Kalan Eller (tanesi $#1#)",
             unlocked="#1#/#2# Açıldı",
         },
         v_text={
             ch_c_all_eternal={
-                "All Jokers are {C:eternal}Eternal{}",
+                "Bütün Jokerler {C:eternal}Ebedi{} olur",
             },
             ch_c_chips_dollar_cap={
-                "{C:blue}Chips{} cannot exceed the current {C:money}$",
+                "{C:blue}Fişler{}, toplam {C:money}$ miktarını geçemez",
             },
             ch_c_daily={
-                "{E:1,s:1.2,C:red}Daily Challenge!",
+                "{E:1,s:1.2,C:red}Günlük meydan okuma!",
             },
             ch_c_debuff_played_cards={
-                "All {C:attention}Played{} cards become {C:attention}debuffed{} after scoring",
+                "Bütün {C:attention}Oynanmış{} kartlar {C:attention}geçersiz kılınır{}",
             },
             ch_c_discard_cost={
-                "Discards each cost {C:money}$#1#{}",
+                "Çıkarma başına {C:money}$#1#{} ödenir",
             },
             ch_c_flipped_cards={
-                "{C:green}1 in #1#{} cards are drawn face down",
+                "{C:green}Her #1# kartın biri{} ters çevrilir",
             },
             ch_c_inflation={
-                "Permanently raise prices by {C:money}$1{} on every purchase",
+                "Her satın almada fiyatlar kalıcı olarak {C:money}$1{} artar",
             },
             ch_c_minus_hand_size_per_X_dollar={
-                "Hold {C:red}-1{} cards in hand for every {C:money}$#1#{} you have",
+                "Sahip olduğun her {C:money}$#1#{} için {C:red}-1{} karta sahip olursun",
             },
             ch_c_no_extra_hand_money={
-                "Extra {C:blue}Hands{} no longer earn money",
+                "Artık ekstra {C:blue}Eller{} para kazandırmaz",
             },
             ch_c_no_interest={
-                "Earn no {C:attention}Interest{} at end of round",
+                "Tur sonu {C:attention}Faiz{} kazanılmaz",
             },
             ch_c_no_reward={
-                "All {C:attention}Blinds{} give no reward money",
+                "{C:attention}Bahisler{} para ödülü vermez",
             },
             ch_c_no_reward_specific={
-                "{C:attention}#1# Blinds{} give no reward money",
+                "{C:attention}#1# Bahisleri{} para ödülü vermez",
             },
             ch_c_no_shop_jokers={
-                "Jokers no longer appear in the {C:attention}shop",
+                "{C:attention}Mağazada Joker satılmaz",
             },
             ch_c_none={
-                "{C:inactive}None",
+                "{C:inactive}Yok",
             },
             ch_c_set_eternal_ante={
-                "When ante {C:attention}#1#{} boss is defeated, all Jokers become {C:attention}eternal",
+                "Bop {C:attention}#1#{} boss yenildiğinde, tüm Jokerelr {C:attention}ebedi olur",
             },
             ch_c_set_joker_slots_ante={
-                "When ante {C:attention}#1#{} boss is defeated, set Joker slots to {C:attention}0",
+                "Bop {C:attention}#1#{} boss yenildiğinde, Joker slotları {C:attention}0 olur",
             },
             ch_c_set_seed={
-                "1 attempt with set Seed: {C:inactive}{Hidden}",
+                "Tohum ile tek deneme: {C:inactive}{Hidden}",
             },
-            ch_m_consumable_slots={
-                "{C:attention}#1#{} Consumable Slots",
+            ch_m_consumable_slots={ 
+                "{C:attention}#1#{} Consumable Slots", /* kullanılabilirler slotu? buna bi şey bulamadım */
             },
             ch_m_discards={
-                "{C:red}#1#{} discards per round",
+                "Tur başına {C:red}#1#{} çıkarma",
             },
             ch_m_dollars={
-                "Start with {C:money}$#1#",
+                "{C:money}$#1# ile başla",
             },
             ch_m_hand_size={
-                "{C:attention}#1#{} hand size",
+                "{C:attention}#1#{} el boyutu",
             },
             ch_m_hands={
-                "{C:blue}#1#{} hands per round",
+                "Tur başına {C:blue}#1#{} el",
             },
             ch_m_joker_slots={
-                "{C:attention}#1#{} Joker Slots",
+                "{C:attention}#1#{} Joker Slotu",
             },
             ch_m_none={
-                "{C:inactive}None",
+                "{C:inactive}Yok",
             },
         },
     },
