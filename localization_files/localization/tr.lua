@@ -2112,13 +2112,13 @@ return {
                 name="Sabitli",
                 text={
                     "Bu Joker,",
-                    "en  soldaki yuvada",
+                    "en soldaki yuvada",
                     "sabitlidir",
                 },
             },
             playing_card={
                 text={
-                    "#2# {C:light_black}#1#{V:1}",
+                    "#2#{C:light_black}#1#{V:1}",
                 },
             },
             purple_seal={
@@ -3743,7 +3743,7 @@ return {
         labels={
             blue_seal="Mavi Mühür",
             common="Sıradan",
-            eternal="Ezeli",
+            eternal="Ebedi",
             foil="Folyo",
             gold_seal="Altın Mühür",
             holographic="Holografik",
@@ -3911,10 +3911,10 @@ return {
             Queen="Kız",
         },
         suits_plural={
-            Clubs="Sinekler",
-            Diamonds="Karolar",
-            Hearts="Kupalar",
-            Spades="Maçalar",
+            Clubs="Sinek",
+            Diamonds="Karo",
+            Hearts="Kupa",
+            Spades="Maça",
         },
         suits_singular={
             Clubs="Sinek",
@@ -4065,9 +4065,8 @@ return {
                 "şekilde oyununu güçlendirir!",
             },
             sb_1={
-                "Selam! Benim adım",
-                "{C:attention}Jimbo{}, Sana oyunu oynamayı",
-                "öğretmek için buradayım!",
+                "Selam! Benim adım {C:attention}Jimbo{}",
+                "Sana oyunu öğretmek için buradayım!",
             },
             sb_2={
                 "Hedefin, yeterince",
@@ -4170,7 +4169,7 @@ return {
                 "{C:green}Her #1# kartın biri{} ters çevrilir",
             },
             ch_c_inflation={
-                "Her satın almada fiyatlar kalıcı olarak {C:money}1${} artar",
+                "Her satın almada fiyatlar kalıcı olarak {C:money}$1{} artar",
             },
             ch_c_minus_hand_size_per_X_dollar={
                 "Sahip olduğun her {C:money}$#1#{} için {C:red}-1{} karta sahip olursun",
@@ -4194,7 +4193,7 @@ return {
                 "{C:inactive}Yok",
             },
             ch_c_set_eternal_ante={
-                "Bop {C:attention}#1#{} usta yenildiğinde, tüm Jokerler {C:attention}ebedi olur",
+                "Bop {C:attention}#1#{} usta yenildiğinde, tüm Jokerler {C:attention}Ebedi olur",
             },
             ch_c_set_joker_slots_ante={
                 "Bop {C:attention}#1#{} usta yenildiğinde, Joker slotları {C:attention}0 olur",
