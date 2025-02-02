@@ -2118,7 +2118,7 @@ return {
             },
             playing_card={
                 text={
-                    "#2#{C:light_black}#1#{V:1}",
+                    "{C:light_black}#1#{V:1} #2#",
                 },
             },
             purple_seal={
