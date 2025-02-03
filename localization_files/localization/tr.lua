@@ -1139,42 +1139,39 @@ return {
             j_matador={
                 name="Matador",
                 text={
-                    "Earn {C:money}$#1#{} if played",
-                    "hand triggers the",
-                    "{C:attention}Boss Blind{} ability",
+                    "Oynanan el {C:attention}Usta Bahis'in{} özelliğini",
+                    "her tetiklendiğinde {C:money}$#1#{} verir",
                 },
                 unlock={
-                    "Defeat a Boss Blind",
-                    "in {E:1,C:attention}1 hand{} without",
-                    "using any discards",
+                    "Çıkarma kullanmadan ve {E:1,C:attention}1 el{}",
+                    "kullanarak Usta Bahis'i yen",
                 },
             },
             j_merry_andy={
                 name="Şakşakçı Andy",
                 text={
-                    "{C:red}+#1#{} discards",
-                    "each round,",
-                    "{C:red}#2#{} hand size",
+                    "Her tur {C:red}+#1#{} Çıkarma",
+                    "C:red}#2#{} el boyutu",
                 },
                 unlock={
-                    "Win a run in {E:1,C:attention}#1#",
-                    "or fewer rounds",
+                    "Oyunu {E:1,C:attention}#1# ya da",
+                    "daha az turda bitir",
                 },
             },
             j_midas_mask={
                 name="Midas Maskesi",
                 text={
-                    "All played {C:attention}face{} cards",
-                    "become {C:attention}Gold{} cards",
-                    "when scored",
+                    "Oynanan {C:attention}resimli{} kartlar",
+                    "skorlandıklarında {C:attention}Altın{} karta",
+                    "dönüşür",
                 },
             },
             j_mime={
                 name="Pandomim",
                 text={
-                    "Retrigger all",
-                    "card {C:attention}held in",
-                    "{C:attention}hand{} abilities",
+                    
+                    "{C:attention}Elde tutulan{} tüm kart",
+                    "özelliklerini yeniden tetikle",
                 },
             },
             j_misprint={
