@@ -1171,7 +1171,7 @@ return {
                 text={
                     
                     "{C:attention}Elde tutulan{} tüm kart",
-                    "özelliklerini yeniden tetikle",
+                    "özelliklerini yeniden tetikler",
                 },
             },
             j_misprint={
