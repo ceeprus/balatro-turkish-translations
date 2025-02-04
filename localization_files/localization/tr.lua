@@ -660,7 +660,7 @@ return {
                 text={
                     "{C:attention}Bahis{} seçildiğinde sağındaki",
                     "Joker'i yok edip satış bedelinin",
-                    "{C:attention}iki katı{} kadar {C:red}çarpan{} verir",
+                    "{C:attention}iki katı{} kadar {C:red}Çarpan{} verir",
                     "{C:inactive}(Şu anda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
             },
@@ -733,8 +733,8 @@ return {
             j_credit_card={
                 name="Kredi Kartı",
                 text={
-                    "{C:red}-$#1#{} kadar",
-                    "borca girebilirsin",
+                    "{C:red}-$#1#{}'ye kadar",
+                    "harcama yapılabilmesini sağlar",
                 },
             },
             j_delayed_grat={
@@ -1061,7 +1061,7 @@ return {
                 name="Neşeli Joker",
                 text={
                     "Oynanan el {C:attention}#2#{}",
-                    "içeriyorasa {C:red}+#1#{} Çarpan",
+                    "içeriyorasa {C:red}+#1#{} Çarpan verir",
                 },
             },
             j_juggler={
@@ -1073,8 +1073,8 @@ return {
             j_loyalty_card={
                 name="Sadakat Kartı",
                 text={
-                    "Oynanan her {C:attention}#2#{} el başına",
-                    "{X:red,C:white} X#1# {} Çarpan",
+                    "Oynanan her {C:attention}#2#{} elde bir",
+                    "{X:red,C:white} X#1# {} Çarpan verir",
                     "{C:inactive}#3#",
                 },
             },
@@ -1130,7 +1130,7 @@ return {
                 name="Mermer Joker",
                 text={
                     "{C:attention}Bahis{} her seçildiğinde",
-                    "desteye bir {C:attention}Taş{} kartı ekler",
+                    "desteye bir {C:attention}Taş Kart{} ekler",
                 },
             },
             j_matador={
@@ -1286,7 +1286,7 @@ return {
                 text={
                     "{C:attention}En düşük{} seviyeli kartın",
                     "seviyesinin {C:attention}iki katını",
-                    "Çarpan olarak ekler",
+                    "Çarpan olarak verir",
                 },
             },
             j_ramen={
@@ -1372,298 +1372,280 @@ return {
             j_satellite={
                 name="Uydu",
                 text={
-                    "Earn {C:money}$#1#{} at end of",
-                    "round per unique {C:planet}Planet",
-                    "card used this run",
-                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
+                    "Tur sonu, oyunda kullanılan {C:planet}Gezegen",
+                    "kartı başına {C:money}$#1#{} verir",
+                    "{C:inactive}(Şu anda {C:money}$#2#{C:inactive})",
                 },
                 unlock={
-                    "Have {E:1,C:money}$#1#",
-                    "or more",
+                    "{E:1,C:money}$#1# veya",
+                    "daha fazlasına sahip ol",
                 },
             },
             j_scary_face={
                 name="Korkunç Yüz",
                 text={
-                    "Played {C:attention}face{} cards",
-                    "give {C:chips}+#1#{} Chips",
-                    "when scored",
+                    "Oynanan {C:attention}resimli{} kartlar,",
+                    "skor verdiklerinde {C:chips}+#1#{} Fiş verir",
                 },
             },
             j_scholar={
                 name="Mezun",
                 text={
-                    "Played {C:attention}Aces{}",
-                    "give {C:chips}+#2#{} Chips",
-                    "and {C:mult}+#1#{} Mult",
-                    "when scored",
+                    "Oynanan {C:attention}As{} kartları, skor",
+                    "verdiklerinde {C:chips}+#2#{} Fiş",
+                    "ve {C:mult}+#1#{} Çarpan verir",
                 },
             },
             j_seance={
                 name="Seans",
                 text={
-                    "If {C:attention}poker hand{} is a",
-                    "{C:attention}#1#{}, create a",
-                    "random {C:spectral}Spectral{} card",
-                    "{C:inactive}(Must have room)",
+                    "Eğer oynanan {C:attention}poker eli",
+                    "{C:attention}#1#{} ise rastgele",
+                    "bir {C:spectral}Spektral{} kart",
+                    "oluşturur",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             j_seeing_double={
-                name="Diplopi",
+                name="Çift Görme",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand has a scoring",
-                    "{C:clubs}Club{} card and a scoring",
-                    "card of any other {C:attention}suit",
+                    "Oynanan elde skor veren bir {C:clubs}Maça{}",
+                    "ve başka {C:attention}sembollü{} bir kart bulunuyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
-                    "Play a hand",
-                    "that contains",
-                    "{E:1,C:attention}#1#",
+                    "{E:1,C:attention}#1# içeren",
+                    "bir el oyna",
                 },
             },
             j_selzer={
                 name="Maden Suyu",
                 text={
-                    "Retrigger all",
-                    "cards played for",
-                    "the next {C:attention}#1#{} hands",
+                    "Sonraki {C:attention}#1#{} elde oynanan",
+                    "kartlar yeniden skor verir",
                 },
             },
             j_shoot_the_moon={
                 name="Kızkaçıran",
                 text={
-                    "Each {C:attention}Queen{}",
-                    "held in hand",
-                    "gives {C:mult}+#1#{} Mult",
+                    "Elde tutulan her {C:attention}Kız{}",
+                    "{C:mult}+#1#{} Çarpan verir",
                 },
                 unlock={
-                    "Play every {E:1,C:attention}Heart",
-                    "in your deck in",
-                    "a single round",
+                    "Destendeki tüm {E:1,C:attention}Kupa",
+                    "kartlarını tek turda oyna",
                 },
             },
             j_shortcut={
                 name="Kestirme",
                 text={
-                    "Allows {C:attention}Straights{} to be",
-                    "made with gaps of {C:attention}1 rank",
-                    "{C:inactive}(ex: {C:attention}10 8 6 5 3{C:inactive})",
+                    "{C:attention}1{} seviye boşluklarla {C:attention}Kent{}",
+                    "poker elinin oynanabilmesini sağlar",
+                    "{C:inactive}(örn: {C:attention}10 8 6 5 3{C:inactive})",
                 },
             },
             j_sixth_sense={
                 name="Altıncı His",
                 text={
-                    "If {C:attention}first hand{} of round is",
-                    "a single {C:attention}6{}, destroy it and",
-                    "create a {C:spectral}Spectral{} card",
-                    "{C:inactive}(Must have room)",
+                    "Turun {C:attention}ilk eli{} yalnızca",
+                    "bir {C:attention}6{} ise, onu yok eder",
+                    "ve {C:spectral}Spektral{} kart oluşturur",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             j_sly={
                 name="Sinsi Joker",
                 text={
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2# içeriyorsa",
+                    "{C:chips}+#1#{} Fiş verir",
                 },
             },
             j_smeared={
                 name="Silik Joker",
                 text={
-                    "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
-                    "count as the same suit,",
-                    "{C:spades}Spades{} and {C:clubs}Clubs",
-                    "count as the same suit",
+                    "{C:hearts}Kupalar{} ve {C:diamonds}Karolar",
+                    "aynı sembol,",
+                    "{C:spades}Sinekler{} and {C:clubs}Maçalar",
+                    "aynı sembol sayılır",
                 },
                 unlock={
-                    "Have at least {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} in",
-                    "your deck",
+                    "Destende en az {E:1,C:attention}#2#{}",
+                    "adet {C:attention}#1#",
+                    "bulundur",
                 },
             },
             j_smiley={
                 name="Gülücük",
                 text={
-                    "Played {C:attention}face{} cards",
-                    "give {C:mult}+#1#{} Mult",
-                    "when scored",
+                    "Oynanan {C:attention}resimli{} kartlar",
+                    "skor verdiklerine {C:mult}+#1#{} Çarpan verir",
                 },
             },
             j_sock_and_buskin={
                 name="Komedi ve Trajedi",
                 text={
-                    "Retrigger all",
-                    "played {C:attention}face{} cards",
+                    "Oynanan tüm {C:attention}resimli{} kartlar",
+                    "yeniden skor verir",
                 },
                 unlock={
-                    "Play a total of",
-                    "{C:attention,E:1}#1#{} face cards",
+                    "Toplamda {C:attention,E:1}#1#{}",
+                    "resimli kart oyna",
                     "{C:inactive}(#2#)",
                 },
             },
             j_space={
                 name="Astronot Joker",
                 text={
-                    "{C:green}#1# in #2#{} chance to",
-                    "upgrade level of",
-                    "played {C:attention}poker hand{}",
+                    "{C:green}#1#/#2#{} olasılıkla",
+                    "oynanan {C:attention}poker eliin{}",
+                    "seviyesini yükseltir",
                 },
             },
             j_splash={
                 name="Şapırtı",
                 text={
-                    "Every {C:attention}played card",
-                    "counts in scoring",
+                    "{C:attention}Oynanan her kart",
+                    "skor verir",
                 },
             },
             j_square={
                 name="Kare Joker",
                 text={
-                    "This Joker gains {C:chips}+#2#{} Chips",
-                    "if played hand has",
-                    "exactly {C:attention}4{} cards",
-                    "{C:inactive}(Currently {C:chips}#1#{C:inactive} Chips)",
+                    "Bu Joker, oynanan el {C:attention}4{} kart",
+                    "içeriyorsa {C:chips}+#2#{} Fiş kazanır",
+                    "{C:inactive}(Şu anda {C:chips}#1#{C:inactive} Fiş)",
                 },
             },
             j_steel_joker={
                 name="Çelik Joker",
                 text={
-                    "Gives {X:mult,C:white} X#1# {} Mult",
-                    "for each {C:attention}Steel Card",
-                    "in your {C:attention}full deck",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu Joker, desteye eklenen",
+                    "her {C:attention}Çelik Kart{} başına",
+                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_stencil={
                 name="Joker Kalıbı",
                 text={
-                    "{X:red,C:white} X1 {} Mult for each",
-                    "empty {C:attention}Joker{} slot",
-                    "{s:0.8}Joker Kalıbı included",
-                    "{C:inactive}(Currently {X:red,C:white} X#1# {C:inactive})",
+                    "Bu Joker, her boş {C:attention}Joker{} yuvası",
+                    "başına {X:red,C:white} X1 {} Çarpan kazanır",
+                    "{s:0.8}Joker Kalıbı dahil",
+                    "{C:inactive}(Şu anda {X:red,C:white} X#1# {C:inactive})",
                 },
             },
             j_stone={
                 name="Taş Joker",
                 text={
-                    "Gives {C:chips}+#1#{} Chips for",
-                    "each {C:attention}Stone Card",
-                    "in your {C:attention}full deck",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
+                    "Bu Joker, desteye eklenen",
+                    "her {C:attention}Taş Kart{} başına",
+                    "{C:chips}+#1#{} Fiş kazanır",
+                    "{C:inactive}(Şu anda {C:chips}+#2#{C:inactive} Fiş)",
                 },
             },
             j_stuntman={
                 name="Dublör",
                 text={
-                    "{C:chips}+#1#{} Chips,",
-                    "{C:attention}-#2#{} hand size",
+                    "{C:chips}+#1#{} Fiş",
+                    "{C:attention}-#2#{} el boyutu",
                 },
                 unlock={
-                    "In one hand,",
-                    "earn at least",
-                    "{E:1,C:attention}#1#{} chips",
+                    "Tek elde en az",
+                    "{E:1,C:attention}#1#{} Fiş kazan",
                 },
             },
             j_supernova={
                 name="Süpernova",
                 text={
-                    "Adds the number of times",
-                    "{C:attention}poker hand{} has been",
-                    "played this run to Mult",
+                    "Oynanan {C:attention}poker eli{}",
+                    "sayısı kadar Çarpan verir",
                 },
             },
             j_superposition={
                 name="Süperpozisyon",
                 text={
-                    "Create a {C:tarot}Tarot{} card if",
-                    "poker hand contains an",
-                    "{C:attention}Ace{} and a {C:attention}Straight{}",
-                    "{C:inactive}(Must have room)",
+                    "Oynanan poker eli, {C:attention}As{} ve",
+                    "{C:attention}Kent{} içeriyorsa,",
+                    "bir {C:tarot}Tarot{} kartı oluşturur",
+                    "{C:inactive}(Boş yuva olmalı)",
                 },
             },
             j_swashbuckler={
                 name="Barbaros",
                 text={
-                    "Adds the sell value",
-                    "of all other owned",
-                    "{C:attention}Jokers{} to Mult",
-                    "{C:inactive}(Currently {C:mult}+#1#{C:inactive} Mult)",
+                    "Sahip olunan diğer {C:attention}Jokerlerin",
+                    "satış bedeli kadar Çarpan verir",
+                    "{C:inactive}(Şu anda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
                 unlock={
-                    "Sell a total of",
-                    "{C:attention,E:1}#1#{} Joker cards",
+                    "Toplam {C:attention,E:1}#1#{} Joker",
+                    "kartı sat",
                     "{C:inactive}(#2#)",
                 },
             },
             j_throwback={
                 name="Parti",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult for each",
-                    "{C:attention}Blind{} skipped this run",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu Joker, geçilen her {C:attention}Bahis{}",
+                    "başına {X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
                 unlock={
-                    "Continue a saved run",
-                    "from the main menu",
+                    "Ana menü üzerinden",
+                    "kayıtlı bir oyuna devam et",
                 },
             },
             j_ticket={
                 name="Altın Bilet",
                 text={
-                    "Played {C:attention}Gold{} cards",
-                    "earn {C:money}$#1#{} when scored",
+                    "Oynanan {C:attention}Altın{} kartlar",
+                    "skor verdiklerinde {C:money}$#1#{} verir",
                 },
                 unlock={
-                    "Play a 5 card hand",
-                    "that contains only",
-                    "{C:attention,E:1}Gold{} cards",
+                    "5 adet {C:attention,E:1}Altın{} kart",
+                    "içeren bir el oyna"
                 },
             },
             j_to_the_moon={
                 name="Göğe Doğru",
                 text={
-                    "Earn an extra {C:money}$#1#{} of",
-                    "{C:attention}interest{} for every {C:money}5${} you",
-                    "have at end of round",
+                    "Tur sonu her {C:money}$5{} başına",
+                    "ekstra {C:money}$#1#{} {C:attention}faiz{} verir",
                 },
             },
             j_todo_list={
                 name="Yapılacaklar Listesi",
                 text={
-                    "Earn {C:money}$#1#{} if {C:attention}poker hand{}",
-                    "is a {C:attention}#2#{},",
-                    "poker hand changes",
-                    "at end of round",
+                    "Oynanan {C:attention}poker eli{} {C:attention}#2#{}",
+                    "ise {C:money}$#1#{} verir,",
+                    "her tur poker eli değişir",
                 },
             },
             j_trading={
                 name="Koleksiyon Kartı",
                 text={
-                    "If {C:attention}first discard{} of round",
-                    "has only {C:attention}1{} card, destroy",
-                    "it and earn {C:money}$#1#",
+                    "Turun {C:attention}ilk çıkarması{} yalnızca",
+                    "bir {C:attention}1{} kart içeriyorsa,",
+                    "onu yok eder ve {C:money}$#1# verir",
                 },
             },
             j_tribe={
                 name="Kabile",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2# içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#1#{} oynamadan",
+                    "bir oyun kazan",
                 },
             },
             j_triboulet={
                 name="Triboulet",
                 text={
-                    "Played {C:attention}Kings{} and",
-                    "{C:attention}Queens{} each give",
-                    "{X:mult,C:white} X#1# {} Mult when scored",
+                    "Oynanan her {C:attention}Papaz{} ve",
+                    "{C:attention}Kız{} skor verdiğinde",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -1672,60 +1654,57 @@ return {
             j_trio={
                 name="Üçlü",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "Oynanan el {C:attention}#2# içeriyorsa",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#1#{} oynamadan",
+                    "bir oyun kazan",
                 },
             },
             j_troubadour={
                 name="Ozan",
                 text={
-                    "{C:attention}+#1#{} hand size,",
-                    "{C:blue}-#2#{} hand each round",
+                    "{C:attention}+#1#{} el boyutu,",
+                    "her tur {C:blue}-#2#{} el boyutu",
                 },
                 unlock={
-                    "Win {C:attention,E:1}#1#{} consecutive",
-                    "rounds by playing",
-                    "only 1 hand",
+                    "Yalnızca tek el oynayarak",
+                    "üst üste {C:attention,E:1}#1#{}",
+                    "oyun kazan",
                 },
             },
             j_trousers={
                 name="Yedek Pantolon",
                 text={
-                    "This Joker gains {C:mult}+#1#{} Mult",
-                    "if played hand contains",
-                    "a {C:attention}#2#",
-                    "{C:inactive}(Currently {C:red}+#3#{C:inactive} Mult)",
+                    "Bu Joker, oynanan {C:attention}#2#{}",
+                    "başına {C:mult}+#1#{} Çarpan kazanır",
+                    "{C:inactive}(Şu anda {C:red}+#3#{C:inactive} Çarpan)",
                 },
             },
             j_turtle_bean={
                 name="İri Fasulye",
                 text={
-                    "{C:attention}+#1#{} hand size,",
-                    "reduces by",
-                    "{C:red}#2#{} every round",
+                    "{C:attention}+#1#{} el boyutu,",
+                    "her tur {C:red}#2#{} azalır",
                 },
             },
             j_vagabond={
                 name="Sefil",
                 text={
-                    "Create a {C:purple}Tarot{} card",
-                    "if hand is played",
-                    "with {C:money}$#1#{} or less",
+                    "El, {C:money}$#1#{} veya daha az",
+                    "ile oynanıyorsa {C:purple}Tarot{}",
+                    "kartı oluşturur",
                 },
             },
             j_vampire={
                 name="Vampir",
                 text={
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "per scoring {C:attention}Enhanced card{} played,",
-                    "removes card {C:attention}Enhancement",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Bu Joker, oynanan ve skor veren her",
+                    "{C:attention}Gelişmiş kart{} başına",
+                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "ve kart {C:attention}Geliştirmesi silinir",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_walkie_talkie={
@@ -1752,7 +1731,7 @@ return {
                 name="Kurnaz Joker",
                 text={
                     "Oynanan el {C:attention}#2# içeriyorsa",
-                    "{C:chips}+#1#{} Fiş veri",
+                    "{C:chips}+#1#{} Fiş verir",
                 },
             },
             j_wrathful_joker={
@@ -2411,7 +2390,7 @@ return {
                 name="Mühür",
                 text={
                     "Eldeki tüm kartları",
-                    "rastgele tek bir {C:attention}sete",
+                    "rastgele tek bir {C:attention}sembole",
                     "dönüştürür",
                 },
             },
@@ -3103,7 +3082,7 @@ return {
                     "{C:money}$#1#{} daha ucuz",
                 },
                 unlock={
-                    "Mağazadaki ürünleri",
+                    "Mağazayı",
                     "{C:attention}#1#{} kez değiştir",
                     "{C:inactive}(#2#)",
                 },
@@ -3524,7 +3503,7 @@ return {
             k_voucher="Kupon",
             k_vouchers_cap="KUPONLAR",
             k_wins="Kazanmalar",
-            k_x_base="Temel X",
+            k_x_base=" Temel X",
             ml_bloom_opt={
                 "Kapalı",
                 "Açık",
