@@ -584,7 +584,7 @@ return {
                 name="Yanmış Joker",
                 text={
                     "Her tur, {C:attention}çıkarılan",
-                    "ilk poker elini geliştirir",
+                    "ilk poker elinin seviyesini yükseltir",
                 },
                 unlock={
                     "{E:1,C:attention}#1#{} kart sat",
@@ -1046,8 +1046,8 @@ return {
                     "{C:inactive}(Şu anda {C:attention}#2#{C:inactive}/#1#)",
                 },
                 unlock={
-                    "{E:1,C:attention}4'ten{} fazla",
-                    "Joker'e sahip olmadan bir oyun kazan",
+                    "{E:1,C:attention}4'ten{} fazla Joker'e",
+                    "sahip olmadan bir oyun kazan",
                 },
             },
             j_joker={
@@ -1699,9 +1699,9 @@ return {
             j_vampire={
                 name="Vampir",
                 text={
-                    "Bu Joker, oynanan ve skor veren her",
-                    "{C:attention}Gelişmiş kart{} başına",
-                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "Bu Joker, oynanan ve skor veren",
+                    "her {C:attention}Gelişmiş kart{}",
+                    "başına {X:mult,C:white} X#1# {} Çarpan kazanır",
                     "ve kart {C:attention}Geliştirmesi silinir",
                     "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
@@ -2702,7 +2702,7 @@ return {
                 name="İmparatoriçe",
                 text={
                     "Seçili {C:attention}#1#{} kartı",
-                    "{C:attention}#2# özelliğiyle güçlendirir",
+                    "{C:attention}#2#{} özelliğiyle güçlendirir",
                 },
             },
             c_fool={
@@ -2775,15 +2775,15 @@ return {
             c_moon={
                 name="Ay",
                 text={
-                    "En fazla {C:attention}#1#{} seçili",
-                    "kartı {V:1}#2#{} sembolüne dönüştürür",
+                    "En fazla {C:attention}#1#{} seçili kartı",
+                    "{V:1}#2#{} sembolüne dönüştürür",
                 },
             },
             c_star={
                 name="Yıldız",
                 text={
-                    "En fazla {C:attention}#1#{} seçili",
-                    "kartı {V:1}#2#{} sembolüne dönüştürür",
+                    "En fazla {C:attention}#1#{} seçili kartı",
+                    "{V:1}#2#{} sembolüne dönüştürür",
                 },
             },
             c_strength={
@@ -2797,8 +2797,8 @@ return {
             c_sun={
                 name="Güneş",
                 text={
-                    "En fazla {C:attention}#1#{} seçili",
-                    "kartı {V:1}#2#{} sembolüne dönüştürür",
+                    "En fazla {C:attention}#1#{} seçili kartı",
+                    "{V:1}#2#{} sembolüne dönüştürür",
                 },
             },
             c_temperance={
@@ -2829,8 +2829,8 @@ return {
             c_world={
                 name="Yeryüzü",
                 text={
-                    "En fazla {C:attention}#1#{} seçili",
-                    "kartı {V:1}#2#{} sembolüne dönüştürür",
+                    "En fazla {C:attention}#1#{} seçili kartı",
+                    "{V:1}#2#{} sembolüne dönüştürür",
                 },
             },
         },
@@ -3537,7 +3537,7 @@ return {
             },
             ml_edition_seal_enhancement_explanation={
                 "Oyun kartlarında yalnızca birer",
-                "Geliştirme, Baskı ve Mühür bulunabilir.",
+                "geliştirme, baskı ve mühür bulunabilir.",
             },
             ml_eternal={
                 "Ebedî",
