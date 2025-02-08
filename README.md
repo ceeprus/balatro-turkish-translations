@@ -37,6 +37,16 @@ A HUGE thank you to the French Localization community who made this all possible
 
 If you are interested in replicating the same work for another language, **feel free to fork our repository**! You can also be interested in [the pipeline we used for localizing sprites](https://github.com/ceeprus/balatro-sprites-i18n).
 
+## Preview
+<div style="display: flex; gap: 10px;">
+  <img src="https://i.imgur.com/S4jt2kx.png" alt="p1" width="500">
+  <img src="https://i.imgur.com/3PKsK80.png" alt="p2" width="500">
+  <img src="https://i.imgur.com/rgT6JDA.png" alt="p3" width="500">
+  <img src="https://i.imgur.com/laOnQFf.png" alt="p4" width="500">
+  <img src="https://i.imgur.com/LUNAR5y.png" alt="p5" width="500">
+  <img src="https://i.imgur.com/edeDJ6n.png" alt="p6" width="500">
+</div>
+
 ## License
 
 This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
