@@ -1602,7 +1602,7 @@ return {
                 name="Altın Bilet",
                 text={
                     "Skor veren her {C:attention}Altın{}",
-                    "kartlar {C:money}$#1#{} verir",
+                    "kart başına {C:money}$#1#{} verir",
                 },
                 unlock={
                     "5 adet {C:attention,E:1}Altın{} kart",
