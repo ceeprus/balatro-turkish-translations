@@ -1379,7 +1379,7 @@ return {
                     "{C:inactive}(Şu anda {C:money}$#2#{C:inactive})",
                 },
                 unlock={
-                    "{E:1,C:money}$#1# veya",
+                    "{E:1,C:money}$#1#{} veya",
                     "daha fazlasına sahip ol",
                 },
             },
