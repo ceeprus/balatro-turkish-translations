@@ -527,8 +527,8 @@ return {
             j_blue_joker={
                 name="Mavi Joker",
                 text={
-                    "{C:attention}Destede{} kalan her",
-                    "kart için {C:chips}+#1#{} Fiş verir",
+                    "{C:attention}Destede{} bulunan her",
+                    "kart başına {C:chips}+#1#{} Fiş verir",
                     "{C:inactive}(Şu anda {C:chips}+#2#{C:inactive} Fiş)",
                 },
             },
@@ -595,8 +595,7 @@ return {
                 name="Kartvizit",
                 text={
                     "Skor veren {C:attention}resimli{} kartlar",
-                    "{C:green}#1#/#2#{} olasılıkla",
-                    "{C:money}2${} verir",
+                    "{C:green}#1#/#2#{} olasılıkla {C:money}2${} verir",
                 },
             },
             j_caino={
@@ -713,7 +712,7 @@ return {
                 text={
                     "Bu Joker, kullanılan her {C:planet}Gezegen{} kartı",
                     "başına {X:mult,C:white} X#1# {} Çarpan kazanır",
-                    "{C:inactive}(Şuanda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
+                    "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
             j_crafty={
@@ -1325,7 +1324,7 @@ return {
                 name="Aylak",
                 text={
                     "{C:attention}Bahis{} her seçildiğinde",
-                    "{C:attention}#1#{} adet {C:blue}Yaygın{C:attention} Joker oluşturur",
+                    "{C:attention}#1#{} adet {C:blue}Yaygın{C:attention} Joker{} oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
             },
@@ -1617,7 +1616,7 @@ return {
                 text={
                     "Oynanan poker eli {C:attention}#2#{}",
                     "ise {C:money}$#1#{} verir,",
-                    "her tur poker eli değişir",
+                    "poker eli her tur değişir",
                 },
             },
             j_trading={
@@ -3485,7 +3484,7 @@ return {
             k_stake="Pot",
             k_stake_level="Pot Seviyesi",
             k_standard_pack="Standart Paket",
-            k_suit="Takım",
+            k_suit="Sembol",
             k_swapped_ex="Değiştirildi!",
             k_tarot="Tarot",
             k_trophies_disabled="Kupalar Devre Dışı",
@@ -3694,26 +3693,26 @@ return {
                 "Bir Set ve bir Per",
             },
             ["High Card"]={
-                "Oynanılan el buradaki diğer poker elleriyle",
-                "uyuşmuyorsa, sadece en yüksek seviyeli kart skor verir",
+                "Oynanan el diğer poker elleriyle uyuşmuyorsa,",
+                "yalnızca en yüksek seviyeli kart skor verir",
             },
             Pair={
                 "Aynı seviyeli 2 kart",
             },
             ["Royal Flush"]={
-                "Peş peşe sayılarla aynı sembollü 5 kart",
+                "Peş peşe seviyelerle aynı sembollü 5 kart",
             },
             Straight={
-                "Peş peşe sayılarla 5 kart",
+                "Peş peşe seviyelerle 5 kart",
             },
             ["Straight Flush"]={
-                "Peş peşe sayılarla aynı sembollü 5 kart",
+                "Peş peşe seviyelerle aynı sembollü 5 kart",
             },
             ["Three of a Kind"]={
                 "Aynı seviyeli 3 kart",
             },
             ["Two Pair"]={
-                "Farklı sayıya veya sembole sahip 2 Per",
+                "Farklı seviyeye veya sembole sahip 2 Per",
             },
         },
         poker_hands={
