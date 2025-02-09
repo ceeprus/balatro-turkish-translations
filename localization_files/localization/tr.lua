@@ -621,8 +621,9 @@ return {
             j_card_sharp={
                 name="Kumarbaz",
                 text={
-                    "Skor veren {C:attention}poker eli{} daha önce",
-                    "oynandıysa {X:mult,C:white} X#1# {} Çarpan verir",
+                    "Skor veren {C:attention}poker eli{},",
+                    "bu tur daha önce oynandıysa,",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_cartomancer={
@@ -815,8 +816,8 @@ return {
             j_egg={
                 name="Yumurta",
                 text={
-                    "Tur sonunda {C:money}$#1#{}",
-                    "{C:attention}satış bedeli{}",
+                    "Bu Joker, tur sonunda",
+                    "{C:money}$#1#{} {C:attention}satış bedeli{}",
                     "kazanır",
                 },
             },
@@ -1379,7 +1380,7 @@ return {
                     "{C:inactive}(Şu anda {C:money}$#2#{C:inactive})",
                 },
                 unlock={
-                    "{E:1,C:money}$#1# veya",
+                    "{E:1,C:money}$#1#{} veya",
                     "daha fazlasına sahip ol",
                 },
             },
@@ -1465,9 +1466,9 @@ return {
             j_smeared={
                 name="Silik Joker",
                 text={
-                    "{C:hearts}Kupalar{} ve {C:diamonds}Karolar",
+                    "{C:diamonds}Karolar ve {C:hearts}Kupalar{}",
                     "aynı sembol,",
-                    "{C:spades}Sinekler{} ve {C:clubs}Maçalar",
+                    "{C:clubs}Maçalar ve {C:spades}Sinekler{}",
                     "aynı sembol sayılır",
                 },
                 unlock={
@@ -1695,8 +1696,8 @@ return {
                 name="Sefil",
                 text={
                     "El, {C:money}$#1#{} veya daha az",
-                    "ile oynanıyorsa {C:purple}Tarot{}",
-                    "kartı oluşturur",
+                    "para ile oynanıyorsa",
+                    "{C:purple}Tarot{} kartı oluşturur",
                 },
             },
             j_vampire={
