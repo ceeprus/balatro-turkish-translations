@@ -1337,8 +1337,8 @@ return {
                 name="Şovmen",
                 text={
                     "{C:attention}Joker{}, {C:planet}Gezegen{}, {C:spectral}Spektral{}",
-                    "ve {C:tarot}Tarot{} kartları birden çok",
-                    "kez bulunabilir",
+                    "ve {C:tarot}Tarot{} kartları",
+                    "birden çok kez bulunabilir",
                 },
                 unlock={
                     "{E:1,C:attention}#1#. seviye",
