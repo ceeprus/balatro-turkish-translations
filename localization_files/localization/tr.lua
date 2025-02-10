@@ -714,8 +714,8 @@ return {
                 name="Takımyıldız",
                 text={
                     "Bu Joker, kullanılan",
-                    "her {C:planet}Gezegen{} kartı",
-                    "başına {X:mult,C:white} X#1# {} Çarpan kazanır",
+                    "her {C:planet}Gezegen{} kartı başına",
+                    "{X:mult,C:white} X#1# {} Çarpan kazanır",
                     "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
