@@ -517,7 +517,7 @@ return {
                 name="Kantaşı",
                 text={
                     "{C:green}#1#/#2#{} olasılıkla",
-                    "Skor veren {C:hearts}Kupa{} kartları",
+                    "skor veren {C:hearts}Kupa{} kartları",
                     "{X:mult,C:white} X#3# {} Çarpan verir",
                 },
                 unlock={
@@ -966,8 +966,8 @@ return {
                 name="Vasat",
                 text={
                     "Skor veren her",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, veya {C:attention}5{}",
-                    "sayılı kart yeniden skor verir",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, veya {C:attention}5{} sayılı",
+                    " kart yeniden skor verir",
                 },
             },
             j_half={
@@ -1000,7 +1000,7 @@ return {
             j_hiker={
                 name="Dağcı",
                 text={
-                    "Oynanan her {C:attention}kart{}",
+                    "Skor veren her {C:attention}kart{}",
                     "kalıcı olarak {C:chips}+#1#{} Fiş kazanır",
                 },
             },
@@ -1167,8 +1167,7 @@ return {
             j_midas_mask={
                 name="Midas Maskesi",
                 text={
-                    "Oynanan {C:attention}resimli{} kartlar",
-                    "skor verdiklerinde",
+                    "Skor veren {C:attention}resimli{} kartlar",
                     "{C:attention}Altın{} karta dönüşür",
                 },
             },
@@ -1584,7 +1583,7 @@ return {
                 name="Barbaros",
                 text={
                     "Sahip olunan diğer {C:attention}Jokerlerin",
-                    "satış bedeli kadar Çarpan verir",
+                    "satış bedeli kadar çarpan verir",
                     "{C:inactive}(Şu anda {C:mult}+#1#{C:inactive} Çarpan)",
                 },
                 unlock={
