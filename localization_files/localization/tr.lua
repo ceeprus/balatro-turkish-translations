@@ -425,8 +425,8 @@ return {
             j_8_ball={
                 name="Bilardo Topu",
                 text={
-                    "Her {C:attention}8{} oynandığında",
-                    "{C:green}#1#/#2#{} olasılıkla",
+                    "Skor veren her {C:attention}8{} sayılı",
+                    "kart başına {C:green}#1#/#2#{} olasılıkla",
                     "{C:tarot}Tarot{} kartı oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
@@ -744,8 +744,8 @@ return {
                 name="Bekletilmiş Ödeme",
                 text={
                     "Tur sonunda hiç",
-                    "{C:attention}çıkarma{} kullanılmadıysa",
-                    "{C:money}$#1#{} verir",
+                    "çıkarma kullanılmadıysa, kalan",
+                    "{C:attention}çıkarma{} başına {C:money}$#1#{} verir",
                 },
             },
             j_devious={
@@ -1318,7 +1318,7 @@ return {
                 name="Rezerve Park Yeri",
                 text={
                     "Elde tutulan her {C:attention}resimli{}",
-                    "kart {C:green}#2#/#3#{} olasılıkla",
+                    "kart başına {C:green}#2#/#3#{} olasılıkla",
                     "{C:money}$#1#{} verir",
                 },
             },
@@ -2440,14 +2440,14 @@ return {
                 text={
                     "Mağazada {C:attention}Ebedî{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(Satılamaz veya yok edilemez)",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_blue={
                 name="Mavi Pot",
                 text={
                     "{C:red}-1{} Çıkarma",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_gold={
@@ -2455,7 +2455,7 @@ return {
                 text={
                     "Mağazada {C:attention}Kiralık{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(Tur başına {C:money,s:0.8}$3{C:inactive,s:0.8})",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_green={
@@ -2463,7 +2463,7 @@ return {
                 text={
                     "Turu geçmek için gereken skor,",
                     "her {C:attention}Bop{} sonrası daha hızlı yükselir",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_orange={
@@ -2471,7 +2471,7 @@ return {
                 text={
                     "Mağazada {C:attention}Dayanıksız{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(5 Tur sonra geçersiz kılınır)",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_purple={
@@ -2479,7 +2479,7 @@ return {
                 text={
                     "Gereken skor oranı her",
                     "{C:attention}Bop'ta{} daha hızlı artar",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_red={
@@ -2487,7 +2487,7 @@ return {
                 text={
                     "{C:attention}Küçük Bahis{}",
                     "ödül parası vermez",
-                    "{s:0.8}Önceki tüm bahislerin özellikleri geçerlidir",
+                    "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_white={
@@ -3397,7 +3397,7 @@ return {
             k_active_ex="Aktif!",
             k_again_ex="Tekrar!",
             k_all_hands="Tüm Eller",
-            k_also_applied="Ayrıca uygulandı",
+            k_also_applied="Geçerli olan diğer etkiler",
             k_ante="Bop",
             k_ante_cap="BOP",
             k_arcana_pack="Arkana Paketi",
@@ -3513,7 +3513,7 @@ return {
             k_voucher="Kupon",
             k_vouchers_cap="KUPONLAR",
             k_wins="Kazanmalar",
-            k_x_base="X Skor",
+            k_x_base="X Temel Skor",
             ml_bloom_opt={
                 "Kapalı",   
                 "Açık",
@@ -3649,7 +3649,7 @@ return {
             ph_up_ante_1="Bop Artışı",
             ph_up_ante_2="Tüm bahisleri yükseltir",
             ph_up_ante_3="Tüm bahisleri yeniler",
-            ph_vouchers_redeemed="Bu oyun kullanılan kuponlar",
+            ph_vouchers_redeemed="Bu oyunda kullanılan kuponlar",
             ph_you_win="KAZANDIN!",
             ph_you_win_demo="DEMO'YU KAZANDIN!",
         },
@@ -3853,17 +3853,17 @@ return {
             bb_2={
                 "{C:attention}Etiket{} kazanmak için",
                 "{C:attention}bahsi{} atlayabilirsin. Her",
-                "{C:attention}Etiketin{} farklı bir",
+                "{C:attention}etiketin{} farklı bir",
                 "özelliği vardır.",
             },
             bb_3={
                 "Ama {C:attention}Usta Bahis'e",
-                "dikkat et. Her birinin farklı bir",
+                "dikkat et. Her birinin sıra dışı bir",
                 "özelliğe sahip olduğunu unutma.",
             },
             bb_4={
-                "Eğer yenersen, {C:attention}Bop{}",
-                "seviyesi yükselir ve tüm",
+                "Eğer Usta Bahis'i yenersen,",
+                "{C:attention}Bop{} seviyesi yükselir ve tüm",
                 "{C:attention}bahisler{} daha da zorlaşır.",
             },
             bb_5={
@@ -3871,13 +3871,13 @@ return {
                 "{C:attention}Bop'u{} yen!",
             },
             fh_1={
-                "{C:attention}Poker elleri oynayarak",
-                "{C:blue}fiş kazanabilirsin.",
+                "{C:attention}Poker elleri{} oynayarak",
+                "{C:blue}fiş{} kazanabilirsin.",
             },
             fh_2={
-                "Her {C:attention}Poker eli{} sabit",
-                "miktarda {C:red}Çarpana ve",
-                "{C:blue}Fişe sahiptir",
+                "Her {C:attention}poker eli{} sabit",
+                "miktarda {C:red}çarpana{} ve",
+                "{C:blue}fişe{} sahiptir",
             },
             fh_3={
                 "{C:attention}Poker ellerini",
@@ -3913,13 +3913,13 @@ return {
             },
             fh_7={
                 "Dikkat et! Her tur kısıtlı sayıda",
-                "{C:blue}el ve {C:red}çıkarma{}",
+                "{C:blue}el{} ve {C:red}çıkarma{}",
                 "sayısına sahipsin.",
             },
             fh_8={
                 "Bu turu kazanmak için",
                 "{C:blue}el{} sayısı bitmeden",
-                "{C:attention}300 Fiş{} topla",
+                "{C:attention}300 Fiş{} topla.",
                 "Bol şans!",
             },
             s_1={
@@ -3933,12 +3933,12 @@ return {
                 "{C:attention}Kuponlar{} yeniden stoklanır.",
             },
             s_11={
-                "Ve her mağazada iki",
-                "{C:booster}güçlendirici paketlerine{}",
-                "de bak. İçleri ağzına kadar dolu!",
+                "Her mağazada bulunan",
+                "{C:booster}güçlendirici paketlerine{} de bak",
+                "İçleri ağzına kadar dolu!",
             },
             s_12={
-                "Hadi {C:attention}bir sonraki tura{}",
+                "Hadi, {C:attention}bir sonraki tura{}",
                 "geçelim!",
             },
             s_2={
@@ -3949,11 +3949,11 @@ return {
                 "Bu yakışıklı şeytanı",
                 "almaya çalış!",
                 "Mağazadan {C:attention}'SATIN AL'{}",
-                "yerine kaydırarak götür.",
+                "yerine sürükleyerek götür.",
             },
             s_3={
                 "Bu, oyun boyunca elde edebileceğin",
-                "{C:attention}#1# {C:attention}Jokerden{} biri.",
+                "{C:attention}#1#{} {C:attention}Jokerden{} biri.",
                 "Her {C:attention}Joker",
                 "farklı bir özelliğe sahiptir.",
             },
@@ -3967,7 +3967,7 @@ return {
                 "bulundurabilirsin",
             },
             s_6={
-                "Şimdi {C:attention}Mağazadan",
+                "Şimdi {C:attention}mağazadan",
                 "diğer kartı al",
             },
             s_7={
@@ -3977,14 +3977,14 @@ return {
                 "güçlendirir! Elinde bulundur.",
             },
             s_8={
-                "Tek seferde {C:attention}2 kullanılabilir",
+                "Tek seferde {C:attention}2 adet kullanılabilir",
                 "kart taşıyabilirsin.",
             },
             s_9={
                 "Yeterince para biriktirirsen",
                 "{C:attention}kupon{} satın alabilirsin.",
-                "{C:attention}Kuponlar{} pasif özelliklerle",
-                "oyununu güçlendirir!",
+                "{C:attention}Kuponlar{}, oyununu güçlendiren",
+                "pasif özelliklere sahiptir!",
             },
             sb_1={
                 "Selam! Benim adım {C:attention}Jimbo{}.",
@@ -3993,10 +3993,10 @@ return {
             sb_2={
                 "Hedefin, yeterince",
                 "{C:blue}fiş{} toplayarak",
-                "rakip {C:attention}Bahis'i{} yenmek.",
+                "rakip {C:attention}bahsi{} yenmek.",
             },
             sb_3={
-                "Bu gördüğün C:blue}Küçük Bahis{},",
+                "Bu gördüğün {C:blue}Küçük Bahis{},",
                 "yalnızca {C:attention}300 Fiş{}",
                 "toplayarak bu bahsi yenebilirsin",
             },
@@ -4006,12 +4006,12 @@ return {
             },
             sh_1={
                 "Daha fazla kart aldığında onları",
-                "istediğin gibi sıralayabileceğini hatırla.",
+                "istediğin gibi sıralayabileceğini unutma.",
                 "{C:attention}Jokerler{} soldan sağa",
                 "doğru tetiklenir.",
             },
             sh_2={
-                "Ve kullanılabilirlerini",
+                "Ve kullanılabilir kartlarını",
                 "{C:attention}KULLANDIĞINA{} emin ol!",
             },
             sh_3={
@@ -4045,7 +4045,7 @@ return {
             deck_preview_wheel_plural="#1# kartın ters çevrilmesinden dolayı seviyeler daha düşük olabilir",
             deck_preview_wheel_singular="#1# kartın ters çevrilmesinden dolayı seviyeler daha düşük olabilir",
             interest="Her $#2# başına #1# faiz (en fazla #3#)",
-            loyalty_active="Aktif!",
+            loyalty_active="Etkin!",
             loyalty_inactive="#1# kaldı",
             ml_foil_desc={
                 "Folyo",
