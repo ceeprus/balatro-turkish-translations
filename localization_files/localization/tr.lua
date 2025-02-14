@@ -2545,7 +2545,7 @@ return {
             tag_economy={
                 name="Ekonomik Etiket",
                 text={
-                    "Paranı ikiye katlar",
+                    "Parayı ikiye katlar",
                     "{C:inactive}(En fazla {C:money}$#1#{C:inactive})",
                 },
             },
@@ -2575,7 +2575,7 @@ return {
             tag_handy={
                 name="El Etiketi",
                 text={
-                    "Oynanan her {C:blue}el{} başına",
+                    "Oynanmış her {C:blue}el{} başına",
                     "{C:money}$#1#{} verir",
                     "{C:inactive}(Toplam {C:money}$#2#{C:inactive})",
                 },
@@ -2592,7 +2592,7 @@ return {
                 name="Yatırım Etiketi",
                 text={
                     "Usta Bahis'i yendikten",
-                    "sonra {C:money}$#1#{} kazan",
+                    "sonra {C:money}$#1#{} verir",
                 },
             },
             tag_juggle={
@@ -2621,7 +2621,7 @@ return {
                 name="Yörüngesel Etiket",
                 text={
                     "{C:attention}#1#{} elini",
-                    "{C:attention}#2#{} seviye yükselt",
+                    "{C:attention}#2#{} seviye yükseltir",
                 },
             },
             tag_polychrome={
@@ -2642,7 +2642,7 @@ return {
             tag_skip={
                 name="Hız Etiketi",
                 text={
-                    "Atlanmış bahis başına",
+                    "Atlanmış her bahis başına",
                     "{C:money}$#1#{} verir",
                     "{C:inactive}(Toplam {C:money}$#2#{C:inactive})",
                 },
@@ -2658,7 +2658,7 @@ return {
                 name="Toptancı Etiketi",
                 text={
                     "En fazla {C:attention}#1#",
-                    "{C:blue}Sıradan{} Joker oluştur",
+                    "{C:blue}Sıradan{} Joker oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
             },
