@@ -2,7 +2,7 @@
 
 ## Gereksinimler
 
-Öncelikle şunları kontrol edin :
+Öncelikle şunları kontrol edin:
 
 - **Windows** kullanıyorsunuz. (veya, [başka bir yöntem](INSTALL.md))
 - Balatro **Steam** ile yüklü.
@@ -11,19 +11,19 @@
 ## Kurulum
 
 - Dosyayı indirin [Balatro_TR_Windows.bat](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Balatro_TR_Windows.bat)
-- Ve indirmiş olduğunuz `Balatro_TR_Windows.bat`'ye **Çift Tıkla** <br />
-  Windows Defender komut dosyasının çalışmasını engelleyebilir. Önce _Ek bilgi_ ardından _Yine de çalıştır_ seçeneğine tıklayın.
-- Oyun görüntülerini çevirmek istediğinizi onaylamak için _Y_ (veya _N_) yanıtını verin.
-- **Balatro'yu Steam'den başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+- İndirmiş olduğunuz `Balatro_TR_Windows.bat` odsyasına **çift tıklayın** <br />
+  Windows Defender dosyanın çalışmasını engelleyebilir. Önce _Ek bilgi_ ardından _Yine de çalıştır_ seçeneğine tıklayın.
+- Sprite'ları (kartlar, paketler vs.) çevirmek istediğinizi onaylamak için _Y_ (veya _N_) yanıtını verin.
+- **Balatro'yu Steam'den başlatın** ve sağ alttan Türkçe dilini seçin. Tebrikler, Balatro için Türkçe yamayı yüklediniz 🥳
 
-Görüntüleri çevirmeyi seçtiyseniz, çevir düğmesinin üzerinde bir Kebap fotoğrafı olup olmadığını kontrol ederek çevrilen görüntülerin yüklendiğini onaylayabilirsiniz.
+Oyun içindeki "Çevir" tuşunun üstünde kebap varsa sprite'lar başarıyla çevrilmiş demektir.
 
-> [!CAUTION]
-> Eğer oyununuz `C:\` üzerinde her zamanki yerde kurulu değilse, scriptimiz size `Balatro.exe`nin nerede olduğunu soracaktır. Bunu Steam'den, kütüphanenizdeki Balatro'ya \*\*sağ tıklayarak, ardından _Yönet_ ve _Yerel dosyalara göz at_ ile bulabilirsiniz.
+> [!UYARI]
+> Eğer oyununuz `C:\` üzerinde her zamanki yerde kurulu değilse, script size `Balatro.exe`nin nerede olduğunu soracaktır. Bunu Steam'den, kütüphanenizdeki Balatro'ya \*\*sağ tıklayarak, ardından _Yönet_ ve _Yerel dosyalara göz at_ ile bulabilirsiniz.
 
-> [!NOTE]
-> Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yeniden indirmek için buraya geri gelmeyi unutmayın: oyunun tekrar düzgün bir şekilde çevrilmesi için yeniden başlatmanız gerekecektir.
+> [!NOT]
+> Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yamanın güncel halini yeniden indirmek için buraya geri gelip işlemleri yeniden uygulayın.
 
-Çeviriyi beğendiyseniz, arkadaşlarınıza, yayıncılara ve favori youtuberlarınıza bundan bahsetmekten çekinmeyin, böylece onlar da bundan keyif alabilir!
+Çeviriyi beğendiyseniz paylaşmayı unutmayın! Teşekkürler 🤍
 
-[↩ Proje ana sayfasına dönün](https://github.com/ceeprus/balatro-turkish-translations)
+[↩ Proje ana sayfasına dön](https://github.com/ceeprus/balatro-turkish-translations)
