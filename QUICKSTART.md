@@ -18,10 +18,10 @@
 
 Oyun içindeki "Çevir" tuşunun üstünde kebap varsa sprite'lar başarıyla çevrilmiş demektir.
 
-> [!UYARI]
+> [!CAUTION]
 > Eğer oyununuz `C:\` üzerinde her zamanki yerde kurulu değilse, script size `Balatro.exe`nin nerede olduğunu soracaktır. Bunu Steam'den, kütüphanenizdeki Balatro'ya \*\*sağ tıklayarak, ardından _Yönet_ ve _Yerel dosyalara göz at_ ile bulabilirsiniz.
 
-> [!NOT]
+> [!NOTE]
 > Kurulum tamamlandıktan sonra dosyayı silebilirsiniz. Oyun güncellendiğinde yamanın güncel halini yeniden indirmek için buraya geri gelip işlemleri yeniden uygulayın.
 
 Çeviriyi beğendiyseniz paylaşmayı unutmayın! Teşekkürler 🤍
