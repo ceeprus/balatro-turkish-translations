@@ -6,7 +6,7 @@ A humble community-made version of the Turkish localization of Balatro.
 
 _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), and buy it to support its creator!_
 
-## Nasıl kurulur ?
+## Kurulum
 
 ### [Size en uygun modu indirin](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
 
@@ -24,10 +24,10 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 ### Installers
 
-| Category                              | Status | Comment                        |
-| ------------------------------------- | ------ | ------------------------------ |
-| [Easy, 1-click script](QUICKSTART.md) | ✔️     | Çalışıyor, çevirisi yapılmadı. |
-| [Manuel](INSTALL.md)                  | ✔️     | Çalışıyor, çevirisi yapılmadı. |
+| Category                              | Status | Comment     |
+| ------------------------------------- | ------ | ----------- |
+| [Easy, 1-click script](QUICKSTART.md) | ✔️     | Çalışıyor. |
+| [Manuel](INSTALL.md)                  | ✔️     | Çalışıyor. |
 
 ## Contributing
 
