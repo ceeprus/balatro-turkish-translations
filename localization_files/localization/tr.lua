@@ -190,8 +190,8 @@ return {
             bl_flint={
                 name="Çakmak Taşı",
                 text={
-                    "Poker ellerinin sabit",
-                    "fiş ve çarpan sayıları yarıya iner",
+                    "Poker ellerinin sabit fiş ve",
+                    "çarpan sayıları yarıya iner",
                 },
             },
             bl_goad={
@@ -410,7 +410,7 @@ return {
                 name="Taş Kart",
                 text={
                     "{C:chips}+#1#{} Fiş",
-                    "sayısı veya sembolü yok",
+                    "seviyesi ve sembolü yok",
                 },
             },
             m_wild={
@@ -508,7 +508,7 @@ return {
             j_blackboard={
                 name="Kara Tahta",
                 text={
-                    "Elinde tuttuğun tüm kartlar",
+                    "Elde tutulan tüm kartlar",
                     "{C:spades}#2#{} veya {C:clubs}#3#{} ise",
                     "{X:red,C:white} X#1# {} Çarpan verir",
                 },
@@ -584,8 +584,8 @@ return {
             j_burnt={
                 name="Yanmış Joker",
                 text={
-                    "Her tur", 
-                    "{C:attention}çıkarılan{} ilk poker elinin",
+                    "Her tur, {C:attention}çıkarılan{}", 
+                    "ilk poker elinin",
                     "seviyesini yükseltir",
                 },
                 unlock={
@@ -758,8 +758,8 @@ return {
             j_diet_cola={
                 name="Diyet Kola",
                 text={
-                    "Bu kartı satarak",
-                    "ücretsiz {C:attention}#1#{} kazan",
+                    "Bu Joker, satıldığında",
+                    "ücretsiz {C:attention}#1#{} verir",
                 },
             },
             j_dna={
@@ -1409,8 +1409,7 @@ return {
                 text={
                     "Eğer oynanan {C:attention}poker eli",
                     "{C:attention}#1#{} ise rastgele",
-                    "bir {C:spectral}Spektral{} kart",
-                    "oluşturur",
+                    "bir {C:spectral}Spektral{} kart oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
             },
@@ -2868,7 +2867,7 @@ return {
                 name="Akraba İndirimi",
                 text={
                     "Mağazadaki tüm kart ve",
-                    "paketler {C:attention}#1#%{} indirimli olur",
+                    "paketler {C:attention}%#1#{} indirimli olur",
                 },
             },
             v_crystal_ball={
@@ -2938,7 +2937,7 @@ return {
                 name="Tasfiye",
                 text={
                     "Mağazadaki tüm kart ve",
-                    "paketler {C:attention}#1#%{} indirimlidir",
+                    "paketler {C:attention}%#1#{} indirimli olur",
                 },
                 unlock={
                     "Bir oyunda en",
@@ -3088,8 +3087,8 @@ return {
             v_reroll_glut={
                 name="Değişim Açlığı",
                 text={
-                    "Değiştirme fiyatı",
-                    "{C:money}$#1#{} daha ucuz",
+                    "Mağaza değiştirme fiyatı",
+                    "{C:money}$#1#{} daha ucuz olur",
                 },
                 unlock={
                     "Mağazayı",
@@ -3100,8 +3099,8 @@ return {
             v_reroll_surplus={
                 name="Değişimci",
                 text={
-                    "Değiştirme fiyatı",
-                    "{C:money}$#1#{} daha ucuz",
+                    "Mağaza değiştirme fiyatı",
+                    "{C:money}$#1#{} daha ucuz olur",
                 },
             },
             v_retcon={
