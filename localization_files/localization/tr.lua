@@ -955,7 +955,7 @@ return {
                 },
             },
             j_gros_michel={
-                name="Çürük Muz",
+                name="Çikita Muz",
                 text={
                     "{C:mult}+#1#{} Çarpan",
                     "Tur sonu {C:green}#2#/#3#{} olasılıkla",
