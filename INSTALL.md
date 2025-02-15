@@ -19,7 +19,7 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 9. Aynı şekilde `resources/textures` klasöründeki oyun görsellerini de 3. adımda indirdiğiniz arşivin `localization/assets` klasöründekilerle değiştirin. **Yalnızca arşivimizdeki mevcut resimleri değiştirin ve diğerlerini silmeyin.**
 10. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-> [!ÖNEMLİ]
+> [!IMPORTANT]
 > Oyun her güncellendiğinde dosyalar da güncellenmelidir.
 
 [↩ Proje ana sayfasına dönün](https://github.com/ceeprus/balatro-turkish-translations)
