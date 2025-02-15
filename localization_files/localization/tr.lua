@@ -621,7 +621,7 @@ return {
                 },
             },
             j_card_sharp={
-                name="Kumarbaz",
+                name="Usta Kumarbaz",
                 text={
                     "Skor veren {C:attention}poker eli{},",
                     "bu tur daha önce oynandıysa,",
@@ -955,7 +955,7 @@ return {
                 },
             },
             j_gros_michel={
-                name="Çürük Muz",
+                name="Çikita Muz",
                 text={
                     "{C:mult}+#1#{} Çarpan",
                     "Tur sonu {C:green}#2#/#3#{} olasılıkla",
@@ -1323,7 +1323,7 @@ return {
                 },
             },
             j_ride_the_bus={
-                name="Durak",
+                name="Devam Et Kaptan",
                 text={
                     "Bu Joker, skor veren {C:attention}resimli{} kart",
                     "olmadan oynanan her {C:attention}ardışık{} el",
