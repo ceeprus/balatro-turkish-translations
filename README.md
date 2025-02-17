@@ -1,6 +1,6 @@
-# Balatro Türkçe Yama
-
 [![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
+
+# Balatro Türkçe Yama
 
 Balatro'nun topluluk yapımı Türkçe yaması.
 
@@ -8,13 +8,15 @@ _[playbalatro.com](https://www.playbalatro.com/) web sitesinden oyun hakkında b
 
 ## Kurulum
 
-### [Size en uygun dosyayı indirin](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
+### [Dosyayı indir](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
 
 - [Windows kullanıyorsanız](QUICKSTART.md).
 
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
 
-## Çeviri durumu (Sürüm v1.0.1n)
+## Yama durumu (Sürüm v1.0.1n)
+
+### Oyun içi
 
 ✔️ Yazılar - %100
 
