@@ -688,8 +688,8 @@ return {
             j_chicot={
                 name="Chicot",
                 text={
-                    "{C:attention}Usta Bahislerini{}",
-                    "geçersiz kılar",
+                    "{C:attention}Usta Bahislerinin{}",
+                    "etkilerini geçersiz kılar",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
