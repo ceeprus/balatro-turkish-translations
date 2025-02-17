@@ -675,7 +675,7 @@ return {
                 },
                 unlock={
                     "{C:attention,E:1}Altın mühürlü{} bir",
-                    "{C:attention}altın{} karta sahip ol",
+                    "{C:attention}Altın Kart'a{} sahip ol",
                 },
             },
             j_chaos={
@@ -688,8 +688,8 @@ return {
             j_chicot={
                 name="Chicot",
                 text={
-                    "{C:attention}Usta Bahislerini{}",
-                    "geçersiz kılar",
+                    "{C:attention}Usta Bahislerinin{}",
+                    "etkilerini geçersiz kılar",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -1157,7 +1157,7 @@ return {
                 name="Şakşakçı Andy",
                 text={
                     "Her tur {C:red}+#1#{} Çıkarma",
-                    "{C:red}#2#{} el boyutu",
+                    "ve {C:red}#2#{} el boyutu",
                 },
                 unlock={
                     "Oyunu {E:1,C:attention}#1#{} veya",
@@ -1168,7 +1168,7 @@ return {
                 name="Midas Maskesi",
                 text={
                     "Skor veren {C:attention}resimli{} kartlar",
-                    "{C:attention}Altın{} karta dönüşür",
+                    "{C:attention}Altın Kart'a{} dönüşür",
                 },
             },
             j_mime={
@@ -1381,8 +1381,8 @@ return {
             j_satellite={
                 name="Uydu",
                 text={
-                    "Tur sonu, oyunda kullanılan {C:planet}Gezegen",
-                    "kartı başına {C:money}$#1#{} verir",
+                    "Tur sonu, oyunda kullanılan",
+                    "{C:planet}Gezegen{} kartı başına {C:money}$#1#{} verir",
                     "{C:inactive}(Şu anda {C:money}$#2#{C:inactive})",
                 },
                 unlock={
@@ -1416,9 +1416,9 @@ return {
             j_seeing_double={
                 name="Çift Görme",
                 text={
-                    "Oynanan elde skor veren bir {C:clubs}Maça{}",
-                    "ve başka {C:attention}sembollü{} bir kart bulunuyorsa",
-                    "{X:mult,C:white} X#1# {} Çarpan verir",
+                    "Oynanan elde skor veren",
+                    "{C:clubs}Sinek{} ve başka {C:attention}sembollü{} bir kart",
+                    "bulunuyorsa {X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
                     "{E:1,C:attention}#1#{} içeren",
@@ -1606,11 +1606,11 @@ return {
             j_ticket={
                 name="Altın Bilet",
                 text={
-                    "Skor veren her {C:attention}Altın{}",
-                    "kart başına {C:money}$#1#{} verir",
+                    "Skor veren her {C:attention}Altın Kart",
+                    "başına {C:money}$#1#{} verir",
                 },
                 unlock={
-                    "5 adet {C:attention,E:1}Altın{} kart",
+                    "5 adet {C:attention,E:1}Altın Kart",
                     "içeren bir el oyna"
                 },
             },
@@ -1652,7 +1652,7 @@ return {
                 name="Triboulet",
                 text={
                     "Skor veren her",
-                    "{C:attention}Papaz{} ve {C:attention}Kız{}",
+                    "{C:attention}Papaz{} ve {C:attention}Kız{} başına",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
                 unlock={
@@ -1868,7 +1868,7 @@ return {
                 },
             },
             eternal={
-                name="Ebedî",
+                name="Ebedi",
                 text={
                     "Satılamaz veya",
                     "yok edilemez",
@@ -2437,7 +2437,7 @@ return {
             stake_black={
                 name="Siyah Pot",
                 text={
-                    "Mağazada {C:attention}Ebedî{} Jokerler bulunabilir",
+                    "Mağazada {C:attention}Ebedi{} Jokerler bulunabilir",
                     "{C:inactive,s:0.8}(Satılamaz veya yok edilemez)",
                     "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
@@ -2994,10 +2994,10 @@ return {
                 },
             },
             v_omen_globe={
-                name="Kahin Küresi",
+                name="Kâhin Küresi",
                 text={
                     "{C:spectral}Spektral{} kartlar",
-                    "{C:attention}Arkana Paketlerinden",
+                    "{C:attention}Arkana paketlerinden",
                     "çıkabilir",
                 },
                 unlock={
@@ -3550,7 +3550,7 @@ return {
                 "geliştirme, baskı ve mühür bulunabilir.",
             },
             ml_eternal={
-                "Ebedî",
+                "Ebedi",
                 "Satılamaz veya",
                 "yok edilemez",
             },
@@ -3666,7 +3666,7 @@ return {
         labels={
             blue_seal="Mavi Mühür",
             common="Sıradan",
-            eternal="Ebedî",
+            eternal="Ebedi",
             foil="Folyo",
             gold_seal="Altın Mühür",
             holographic="Holografik",
@@ -4072,7 +4072,7 @@ return {
         },
         v_text={
             ch_c_all_eternal={
-                "Bütün Jokerler {C:eternal}Ebedî{} olur",
+                "Bütün Jokerler {C:eternal}Ebedi{} olur",
             },
             ch_c_chips_dollar_cap={
                 "{C:blue}Fişler{}, toplam {C:money}${} miktarını geçemez",
@@ -4114,7 +4114,7 @@ return {
                 "{C:inactive}Yok",
             },
             ch_c_set_eternal_ante={
-                "Bop {C:attention}#1#{} usta yenildiğinde, tüm Jokerler {C:attention}Ebedî{} olur",
+                "Bop {C:attention}#1#{} usta yenildiğinde, tüm Jokerler {C:attention}Ebedi{} olur",
             },
             ch_c_set_joker_slots_ante={
                 "Bop {C:attention}#1#{} usta yenildiğinde, Joker slotları {C:attention}0{} olur",
