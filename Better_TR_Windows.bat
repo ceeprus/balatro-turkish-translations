@@ -1,8 +1,7 @@
 :: Balatro Turkish Translations
 ::
 :: Balatro icin TR dil paketi kurulum scripti
-:: Ceviride yardimda bulunmak icin Discord (Balatro TR - Dil modu sunucumuza katilabilirsiniz: https://discord.gg/dfy7b3zsVN 
-:: Tum guncel kaynaklara buradan ulagabilirsiniz : https://github.com/ceeprus/balatro-turkish-translations
+:: Tum guncel kaynaklara buradan ulasabilirsiniz : https://github.com/ceeprus/balatro-turkish-translations
 ::
 :: Bu dosya oyuna mod eklemek icin Balamod kullanmaktadir (https://github.com/balamod/balamod)
 ::
@@ -10,8 +9,8 @@
 ::    ==================================
 ::    ==  Kayboldun mug Panik yapma!  ==
 ::    ==================================
-::    Geri donun ve sizi buraya getiren baglantiya SAg TIKLAYIN, ardindan gBaglantiyi farkli kaydet...
-::    Ardindan kurulumu baglatmak icin indirilen dosyaya cift tiklayin.
+::    Geri donun ve sizi buraya getiren baglantiya sag tıklayin, ardindan baglantiyi farkli kaydet...
+::    Ardindan kurulumu tamamlamak icin indirilen dosyaya cift tiklayin.
 ::
 ::
 ::
@@ -29,15 +28,15 @@ echo ==     TR Dil paketinin yuklenmesi     ==
 echo ==        Ceviriler ve resimler        ==
 echo =========================================
 
-:: Kullanici sorusu: Turkce resimler kullanilmali mig
+:: Kullanici sorusu: Turkce resimler kullanilmali mi
 echo.
 echo.
 CHOICE /C YN /M "Gorselleri Turkce olarak mi kullanmak istiyorsunuz"
 if %errorlevel% equ 2 (
-    echo Goruntuleri Ekleme
+    echo Goruntuleri Ekleme x
     set "download_assets=false"
 ) else (
-    echo Goruntuleri Ekle
+    echo Goruntuleri Ekle y
     set "download_assets=true"
 )
 
@@ -64,7 +63,7 @@ if not exist "!steamLibraryFile!" (
     )
 )
 
-:: Gecici klasorleri olugturma
+:: Gecici klasorleri olusturma
 if not exist "%resourcesFolder%" mkdir "%resourcesFolder%"
 if not exist "%resourcesFolder%\resources\textures" mkdir "%resourcesFolder%\resources\textures"
 if not exist "%resourcesFolder%\resources\textures\1x" mkdir "%resourcesFolder%\resources\textures\1x"
@@ -73,7 +72,7 @@ if not exist "%resourcesFolder%\resources\textures\2x" mkdir "%resourcesFolder%\
 :: En son Balamod surumunun adini alma
 for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/balamod/balamod/releases/latest' -TimeoutSec 10).tag_name; $tag"') do set latestTag=%%a
 
-:: Dosya adlarinin ve baglantilarinin olugturulmasi. Yalnizca windows dosyasi balamod-v.y.z-windows.exe olarak adlandirildigi surece gecerlidir.
+:: Dosya adlarinin ve baglantilarinin olusturulmasi. Yalnizca windows dosyasi balamod-v.y.z-windows.exe olarak adlandirildigi surece gecerlidir.
 set "balamodFile=balamod-%latestTag%-windows.exe"
 set "balamodFileUrl=https://github.com/balamod/balamod/releases/download/%latestTag%/%balamodFile%"
 set "tr_repository=https://raw.githubusercontent.com/ceeprus/balatro-turkish-translations/main/localization_files"
@@ -111,7 +110,7 @@ if not exist "%resourcesFolder%\%balamodFile%" (
 
 :: TR dil paketi indiriliyor
 echo.
-echo TR modunu indiriliyor...
+echo TR dil modu indiriliyor...
 echo.
 
 curl --ssl-no-revoke -L -o "%resourcesFolder%/tr.lua" %tr_translation%
