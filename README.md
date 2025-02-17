@@ -1,43 +1,40 @@
-# Balatro Turkish Translation
+# Balatro Türkçe Yama
 
 [![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
 
-A humble community-made version of the Turkish localization of Balatro.
+Balatro'nun topluluk yapımı Türkçe yaması.
 
-_Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), and buy it to support its creator!_
+_[playbalatro.com](https://www.playbalatro.com/) web sitesinden oyun hakkında bilgi edinebilirsiniz ve oyunu satın alarak gelişiriciyi destekleyebilirsiniz!_
 
 ## Kurulum
 
-### [Size en uygun modu indirin](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
+### [Size en uygun dosyayı indirin](https://github.com/ceeprus/balatro-turkish-translations/releases/latest)
 
 - [Windows kullanıyorsanız](QUICKSTART.md).
 
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
 
-## Current state
+## Çeviri durumu (Sürüm v1.0.1n)
 
-### Translations
+✔️ Yazılar - %100
+✔️ Görseller (Sprites) - %100
 
-✔️ Sprite'ların %100'ü Türkçe'ye çevrildi.
+### Kurulum dosyaları
 
-✔️ v1.0.1n — 100% of the game is translated in Turkish.
+| Kategori                              | Durum          |
+| ------------------------------------- | -------------- |
+| [Tek tıkla kurulum](QUICKSTART.md)    | ✔️ Çalışıypr  | 
+| [Manuel](INSTALL.md)                  | ✔️ Çalışıyor. |
 
-### Installers
+## Katkılar
 
-| Category                              | Status | Comment     |
-| ------------------------------------- | ------ | ----------- |
-| [Easy, 1-click script](QUICKSTART.md) | ✔️     | Çalışıyor. |
-| [Manuel](INSTALL.md)                  | ✔️     | Çalışıyor. |
+Çeviride bir hata görürseniz veya başka bir öneriniz varsa, bunları bildirmekten çekinmeyin!
 
-## Contributing
+Dosyaların tümü, Fransız çeviri grubunun oluşturduğu [yamadan](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/) alınmıştır. Projenin başlamasını mümkün kıldıkları için Fransız çeviri topluluğuna teşekkür ederiz <3
 
-Contributions are always welcome!
+Aynı yamayı başka bir dil için yapmak istyorsanız, **projeyi forklayabilirsiniz!**. Ayrıca [sprite'ları yerelleştirmek için kullandığımız projeye](https://github.com/ceeprus/balatro-sprites-i18n) de göz atabilirsiniz.
 
-A HUGE thank you to the French Localization community who made this all possible by creating [their mod](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/).
-
-If you are interested in replicating the same work for another language, **feel free to fork our repository**! You can also be interested in [the pipeline we used for localizing sprites](https://github.com/ceeprus/balatro-sprites-i18n).
-
-## Preview
+## Oyun içi görüntüler
 <div style="display: flex; gap: 10px;">
   <img src="https://i.imgur.com/S4jt2kx.png" alt="p1" width="500">
   <img src="https://i.imgur.com/3PKsK80.png" alt="p2" width="500">
@@ -47,6 +44,6 @@ If you are interested in replicating the same work for another language, **feel 
   <img src="https://i.imgur.com/edeDJ6n.png" alt="p6" width="500">
 </div>
 
-## License
+## Lisans
 
-This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Bu proje (**Balatro oyunundan alınan görseller hariç**) MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasına göz atınız.
