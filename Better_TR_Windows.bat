@@ -101,7 +101,7 @@ set "tr_assets8BitDeck_opt22x=%tr_repository%/resources/textures/2x/8BitDeck_opt
 :: Balamod indir
 if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
-    echo Balamod gondiriliyor...
+    echo Balamod indiriliyor...
     echo.
     curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
     echo.
