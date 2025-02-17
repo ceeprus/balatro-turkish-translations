@@ -17,14 +17,15 @@ _[playbalatro.com](https://www.playbalatro.com/) web sitesinden oyun hakkında b
 ## Çeviri durumu (Sürüm v1.0.1n)
 
 ✔️ Yazılar - %100
+
 ✔️ Görseller (Sprites) - %100
 
 ### Kurulum dosyaları
 
 | Kategori                              | Durum          |
 | ------------------------------------- | -------------- |
-| [Tek tıkla kurulum](QUICKSTART.md)    | ✔️ Çalışıypr  | 
-| [Manuel](INSTALL.md)                  | ✔️ Çalışıyor. |
+| [Tek tıkla kurulum](QUICKSTART.md)    | ✔️ Çalışıyor  | 
+| [Manuel](INSTALL.md)                  | ✔️ Çalışıyor |
 
 ## Katkılar
 
@@ -32,7 +33,9 @@ _[playbalatro.com](https://www.playbalatro.com/) web sitesinden oyun hakkında b
 
 Dosyaların tümü, Fransız çeviri grubunun oluşturduğu [yamadan](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/) alınmıştır. Projenin başlamasını mümkün kıldıkları için Fransız çeviri topluluğuna teşekkür ederiz <3
 
-Aynı yamayı başka bir dil için yapmak istyorsanız, **projeyi forklayabilirsiniz!**. Ayrıca [sprite'ları yerelleştirmek için kullandığımız projeye](https://github.com/ceeprus/balatro-sprites-i18n) de göz atabilirsiniz.
+Aynı yamayı başka bir dil için yapmak istyorsanız, **projeyi fork'layabilirsiniz!**. Ayrıca [sprite'ları yerelleştirmek için kullandığımız projeye](https://github.com/ceeprus/balatro-sprites-i18n) de göz atabilirsiniz.
+
+## Katkıda Bulunanlar
 
 ## Oyun içi görüntüler
 <div style="display: flex; gap: 10px;">
@@ -46,4 +49,4 @@ Aynı yamayı başka bir dil için yapmak istyorsanız, **projeyi forklayabilirs
 
 ## Lisans
 
-Bu proje (**Balatro oyunundan alınan görseller hariç**) MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasına göz atınız.
+Bu proje (**Balatro oyununa ait görseller hariç**) MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasına göz atınız.
