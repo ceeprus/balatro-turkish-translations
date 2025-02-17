@@ -3425,7 +3425,7 @@ return {
             k_dwarf_planet="Cüce Gezegen",
             k_eaten_ex="Yenildi!",
             k_edition="Baskı",
-            k_effective="Efektif",
+            k_effective="Geçerli",
             k_empty_caps="BOŞ",
             k_enter_name="Ad Girin",
             k_enter_seed="Tohum Girin",
