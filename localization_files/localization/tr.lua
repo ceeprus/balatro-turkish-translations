@@ -625,7 +625,7 @@ return {
             j_card_sharp={
                 name="Usta Kumarbaz",
                 text={
-                    "Skor veren {C:attention}poker eli{},",
+                    "Oynanan {C:attention}poker eli{},",
                     "bu tur daha önce oynandıysa,",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
@@ -812,8 +812,8 @@ return {
                 name="Alacakaranlık",
                 text={
                     "Turun {C:attention}son{} elinde",
-                    "skor veren kartlar",
-                    "{C:attention}yeniden{} skor verir",
+                    "oynanan kartlar",
+                    "{C:attention}yeniden{} tetiklenir",
                 },
             },
             j_egg={
@@ -880,7 +880,7 @@ return {
             j_flower_pot={
                 name="Saksı",
                 text={
-                    "Skor veren el",
+                    "Oynanan el",
                     "{C:diamonds}Karo{}, {C:hearts}Kupa{}, {C:spades}Maça{} ve {C:clubs}Sinek{}",
                     "sembollü kartlar içeriyorsa",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
@@ -950,8 +950,10 @@ return {
             j_green_joker={
                 name="Yeşil Joker",
                 text={
-                    "Oynanan her el için {C:mult}+#1#{} Çarpan",
-                    "Her çıkarma için {C:mult}-#2#{} Çarpan",
+                    "Oynanan her el başına",
+                    "{C:mult}+#1#{} Çarpan,",
+                    "her çıkarma başına",
+                    "{C:mult}-#2#{} Çarpan",
                     "{C:inactive}(Şu anda {C:mult}+#3#{C:inactive} Çarpan)",
                 },
             },
@@ -966,9 +968,9 @@ return {
             j_hack={
                 name="Vasat",
                 text={
-                    "Skor veren her",
+                    "Oynanan her",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, veya {C:attention}5{} sayılı",
-                    " kart yeniden skor verir",
+                    "kart yeniden tetiklenir",
                 },
             },
             j_half={
@@ -1432,7 +1434,7 @@ return {
                 text={
                     "Sıradaki {C:attention}#1#{} el boyunca",
                     "oynanan kartlar",
-                    "yeniden skor verir",
+                    "yeniden tetiklenir",
                 },
             },
             j_shoot_the_moon={
@@ -1495,7 +1497,7 @@ return {
                 name="Komedi ve Trajedi",
                 text={
                     "Oynanan tüm {C:attention}resimli{} kartlar",
-                    "yeniden skor verir",
+                    "yeniden tetiklenir",
                 },
                 unlock={
                     "Toplam {C:attention,E:1}#1#{}",
@@ -1514,14 +1516,14 @@ return {
             j_splash={
                 name="Şapırtı",
                 text={
-                    "{C:attention}Oynanan her kart",
+                    "{C:attention}Oynanan tüm kartlar",
                     "skor verir",
                 },
             },
             j_square={
                 name="Kare Joker",
                 text={
-                    "{C:attention}4{} kartla oynanan her el",
+                    "{C:attention}4{} adet kartla oynanan her el",
                     "başına {C:chips}+#2#{} Fiş kazanır",
                     "{C:inactive}(Şu anda {C:chips}#1#{C:inactive} Fiş)",
                 },
