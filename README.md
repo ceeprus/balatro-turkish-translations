@@ -14,7 +14,7 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
 
-## Güncel durum
+## Current state
 
 ### Translations
 
