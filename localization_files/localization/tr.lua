@@ -474,8 +474,8 @@ return {
             j_astronomer={
                 name="Gökbilimci",
                 text={ 
-                    "Mağazadaki tüm {C:planet}Gezegen{} kartları",
-                    "ve {C:planet}Gökyüzü paketleri{}",
+                    "Mağazadaki tüm {C:planet}Gezegen{}",
+                    "kartları ve {C:planet}Gökyüzü paketleri{}",
                     "{C:attention}ücretsiz{} olur",
                 },
                 unlock={
@@ -690,7 +690,7 @@ return {
             j_chicot={
                 name="Chicot",
                 text={
-                    "{C:attention}Usta Bahis{}'in",
+                    "Tüm {C:attention}Usta Bahislerin{}",
                     "etkilerini geçersiz kılar",
                 },
                 unlock={
@@ -2648,7 +2648,7 @@ return {
             tag_top_up={
                 name="Toptancı Etiketi",
                 text={
-                    "En fazla {C:attention}#1# adet",
+                    "En fazla {C:attention}#1#{} adet",
                     "{C:blue}Sıradan{} Joker oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
