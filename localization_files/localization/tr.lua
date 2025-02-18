@@ -625,8 +625,8 @@ return {
             j_card_sharp={
                 name="Usta Kumarbaz",
                 text={
-                    "Oynanan {C:attention}poker eli{},",
-                    "bu tur daha önce oynandıysa,",
+                    "Oynanan {C:attention}poker eli{}",
+                    "bu tur daha önce oynandıysa",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
