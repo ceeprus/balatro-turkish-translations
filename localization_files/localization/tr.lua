@@ -906,8 +906,8 @@ return {
                 name="Hediye Kartı",
                 text={
                     "Tur sonu {C:attention}satış bedelinin",
-                    "{C:money}$#1#{} kadarını tüm {C:attention}Joker{}",
-                    "ve {C:attention}kullanılabilir{} kartlarına ekler",
+                    "{C:money}$#1#{}kadarını tüm {C:attention}Joker{} ve",
+                    "{C:attention}kullanılabilir{} kartlarına ekler",
                 },
             },
             j_glass={
@@ -2895,14 +2895,14 @@ return {
             v_grabber={
                 name="Yardım Eli",
                 text={
-                    "Her tur {C:blue}+#1#{} El",
+                    "Her tur {C:blue}+#1#{} el",
                 },
             },
             v_hieroglyph={
                 name="Hiyeroglif",
                 text={
                     "{C:attention}-#1#{} Bop",
-                    "Her tur {C:blue}-#1#{} El",
+                    "Her tur {C:blue}-#1#{} el",
                 },
             },
             v_hone={
@@ -2964,7 +2964,7 @@ return {
             v_nacho_tong={
                 name="Kaşık Cips",
                 text={
-                    "Her tur {C:blue}+#1#{} El",
+                    "Her tur {C:blue}+#1#{} el",
                 },
                 unlock={
                     "Toplam {C:attention}#1#{}",
