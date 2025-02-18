@@ -14,20 +14,20 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
 
-## Current state
+## Güncel durum
 
 ### Translations
 
-✔️ Sprite'ların %100'ü Türkçe'ye çevrildi.
+✔️ 100% of the sprites have been translated into Turkish.
 
-✔️ v1.0.1n — 100% of the game is translated in Turkish.
+✔️ v1.0.1n — 100% of the game is translated into Turkish.
 
 ### Installers
 
 | Category                              | Status | Comment     |
 | ------------------------------------- | ------ | ----------- |
-| [Easy, 1-click script](QUICKSTART.md) | ✔️     | Çalışıyor. |
-| [Manuel](INSTALL.md)                  | ✔️     | Çalışıyor. |
+| [Easy, 1-click script](QUICKSTART.md) | ✔️     |  |
+| [Manual](INSTALL.md)                  | ✔️     |  |
 
 ## Contributing
 
