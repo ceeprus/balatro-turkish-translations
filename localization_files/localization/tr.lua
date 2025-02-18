@@ -11,10 +11,9 @@ return {
             b_anaglyph={
                 name="Anaglif Deste",
                 text={
-                    "Her",
-                    "{C:attention}Usta Bahis{}'i, yendiğinde bir",
-                    "{C:attention,T:tag_double}#1#",
-					"kazan",
+                    "{C:attention}Usta Bahis{}'i her",
+                    "yendiğinde",
+                    "{C:attention,T:tag_double}#1#{} kazan",
                 },
             },
             b_black={
@@ -71,7 +70,7 @@ return {
                 name="Büyülü Deste",
                 text={
                     "{C:tarot,T:v_crystal_ball}#1#{} kuponu",
-                    "ve {C:attention}2{} adet {C:tarot,T:c_fool}#2#{}",
+                    "ve {C:attention}2{} adet {C:tarot,T:c_fool}#2#",
                     "ile başla",
                 },
             },
@@ -92,9 +91,10 @@ return {
             b_plasma={
                 name="Plazma Destesi",
                 text={
-                    "Oynanan elin skorunu hesaplarken {C:blue}fişleri{} ve",
-                    "{C:red}çarpanları{} dengele",
-                    "{C:red}X#1#{} bahis büyüklüğü",
+                    "Oynanan elin",
+                    "{C:blue}fiş{} ve {C:red}çarpan{}",
+                    "sayıları dengelenir",
+                    "{C:red}X#1#{} temel bahis büyüklüğü",
                 },
             },
             b_red={
@@ -473,10 +473,10 @@ return {
             },
             j_astronomer={
                 name="Gökbilimci",
-                text={
-                    "Mağazadaki tüm {C:planet}Gezegen{}",
-                    "kartları ve {C:planet}Gökyüzü paketleri{}",
-                    "{C:attention}ücretsiz olur",
+                text={ 
+                    "Mağazadaki tüm {C:planet}Gezegen{} kartları",
+                    "ve {C:planet}Gökyüzü paketleri{}",
+                    "{C:attention}ücretsiz{} olur",
                 },
                 unlock={
 				    "Tüm {E:1,C:planet}Gezegen{}",
@@ -616,8 +616,9 @@ return {
                 name="Kamp Ateşi",
                 text={
                     "{C:attention}Satılan{} her kart başına",
-                    "{X:mult,C:white}X#1#{} Çarpan kazanır, {C:attention}Usta Bahis{}",
-                    "her yenildiğinde çarpan sıfırlanır",
+                    "{X:mult,C:white}X#1#{} Çarpan kazanır, ",
+                    "{C:attention}Usta Bahis{} her yenildiğinde",
+                    "çarpan sıfırlanır",
                     "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
             },
@@ -689,7 +690,7 @@ return {
             j_chicot={
                 name="Chicot",
                 text={
-                    "{C:attention}Usta Bahislerinin{}",
+                    "{C:attention}Usta Bahis{}'in",
                     "etkilerini geçersiz kılar",
                 },
                 unlock={
@@ -908,7 +909,7 @@ return {
                 name="Hediye Kartı",
                 text={
                     "Tur sonu {C:attention}satış bedelinin",
-                    "{C:money}$#1#{}kadarını tüm {C:attention}Joker{} ve",
+                    "{C:money}$#1#{} kadarını tüm {C:attention}Joker{} ve",
                     "{C:attention}kullanılabilir{} kartlarına ekler",
                 },
             },
@@ -1029,8 +1030,8 @@ return {
                 name="Dondurma",
                 text={
                     "{C:chips}+#1#{} Fiş",
-                    "Oynanan her el başına",
-                    "{C:chips}-#2#{} Fiş",
+                    "Oynanan her el",
+                    "başına {C:chips}-#2#{} Fiş",
                 },
             },
             j_idol={
@@ -1175,7 +1176,6 @@ return {
             j_mime={
                 name="Pandomim",
                 text={
-                    
                     "{C:attention}Elde tutulan{} tüm kart",
                     "özelliklerini yeniden tetikler",
                 },
@@ -1270,7 +1270,7 @@ return {
                 name="Perkeo",
                 text={
                     "{C:attention}Mağaza{} sonunda elde bulunan",
-                    "rastgele {C:attention}1{} {C:attention}kullanılabilir{} kartın",
+                    "{C:attention}1{} rastgele {C:attention}kullanılabilir{} kartın",
                     "{C:dark_edition}Negatif{} kopyasını oluşturur",
                 },
                 unlock={
@@ -1430,8 +1430,8 @@ return {
             j_selzer={
                 name="Maden Suyu",
                 text={
-                    "Sıradaki {C:attention}#1#{} el",
-                    "boyunca oynanan kartlar",
+                    "Sıradaki {C:attention}#1#{} el boyunca",
+                    "oynanan kartlar",
                     "yeniden skor verir",
                 },
             },
@@ -1498,7 +1498,7 @@ return {
                     "yeniden skor verir",
                 },
                 unlock={
-                    "Toplamda {C:attention,E:1}#1#{}",
+                    "Toplam {C:attention,E:1}#1#{}",
                     "resimli kart oyna",
                     "{C:inactive}(#2#)",
                 },
@@ -1779,7 +1779,7 @@ return {
             blue_seal={
                 name="Mavi Mühür",
                 text={
-                    "Tur sonuna kadar elde tutulursa",
+                    "Tur sonu elde tutulduysa",
                     "son oynanan {C:attention}poker elinin",
                     "{C:planet}Gezegen{} kartını oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
@@ -1918,121 +1918,115 @@ return {
             p_arcana_jumbo={
                 name="Jumbo Arkana Paketi",
                 text={
-                    "{C:attention}#2#{} {C:tarot}Tarot{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:tarot}Tarot{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_arcana_mega={
                 name="Mega Arkana Paketi",
                 text={
-                    "{C:attention}#2#{} {C:tarot}Tarot{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:tarot}Tarot{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_arcana_normal={
                 name="Arkana Paketi",
                 text={
-                    "{C:attention}#2#{} {C:tarot}Tarot{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:tarot}Tarot{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_buffoon_jumbo={
                 name="Jumbo Soytarı Paketi",
                 text={
-                    "{C:attention}#2#{} {C:joker}Joker{}",
-                    "kartından en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Joker{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             p_buffoon_mega={
                 name="Mega Soytarı Paketi",
                 text={
-                    "{C:attention}#2#{} {C:joker}Joker{}",
-                    "kartından en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Joker{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             p_buffoon_normal={
                 name="Soytarı Paketi",
                 text={
-                    "{C:attention}#2#{} {C:joker}Joker{}",
-                    "kartından en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Joker{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             p_celestial_jumbo={
                 name="Jumbo Gökyüzü Paketi",
                 text={
-                    "{C:attention}#2#{} {C:planet}Gezegen{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:planet}Gezegen{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_celestial_mega={
                 name="Mega Gökyüzü Paketi",
                 text={
-                    "{C:attention}#2#{} {C:planet}Gezegen{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:planet}Gezegen{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_celestial_normal={
                 name="Gökyüzü Paketi",
                 text={
-                    "{C:attention}#2#{} {C:planet}Gezegen{} kartından",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:planet}Gezegen{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_spectral_jumbo={
                 name="Jumbo Spektral Paket",
                 text={
-                    "{C:attention}#2#{} {C:spectral}Spektral{} karttan",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:spectral}Spektral{} karttan",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_spectral_mega={
                 name="Mega Spektral Paket",
                 text={
-                    "{C:attention}#2#{} {C:spectral}Spektral{} karttan",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:spectral}Spektral{} karttan",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_spectral_normal={
                 name="Spektral Paket",
                 text={
-                    "{C:attention}#2#{} {C:spectral}Spektral{} karttan",
-                    "en fazla {C:attention}#1#{} tanesini",
-                    "seç ve anında kullan",
+                    "{C:attention}#2#{} adet {C:spectral}Spektral{} karttan",
+                    "en fazla {C:attention}#1#{} tanesini seç",
+                    "ve anında kullan",
                 },
             },
             p_standard_jumbo={
                 name="Jumbo Standart Paket",
                 text={
-                    "{C:attention}#2#{} {C:attention}Oyun{} kartından",
-                    "en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Oyun{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             p_standard_mega={
                 name="Mega Standart Paket",
                 text={
-                    "{C:attention}#2#{} {C:attention}Oyun{} kartından",
-                    "en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Oyun{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             p_standard_normal={
                 name="Standart Paket",
                 text={
-                    "{C:attention}#2#{} {C:attention}Oyun{} kartından",
-                    "en fazla {C:attention}#1#{}",
-                    "tanesini seç",
+                    "{C:attention}#2#{} adet {C:attention}Oyun{} kartından",
+                    "en fazla {C:attention}#1#{} tanesini seç",
                 },
             },
             perishable={
@@ -2097,7 +2091,7 @@ return {
                 name="Kiralık",
                 text={
                     "Tur sonu {C:money}$#1#{}",
-                    "kaybet",
+                    "kaybedilir",
                 },
             },
             undiscovered_booster={
@@ -2451,7 +2445,7 @@ return {
                 name="Altın Pot",
                 text={
                     "Mağazada {C:attention}Kiralık{} Jokerler bulunabilir",
-                    "{C:inactive,s:0.8}(Tur başına {C:money,s:0.8}$3{C:inactive,s:0.8})",
+                    "{C:inactive,s:0.8}(Tur başına {C:money,s:0.8}$3{} kaybedilir{C:inactive,s:0.8})",
                     "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
@@ -2467,15 +2461,15 @@ return {
                 name="Turuncu Pot",
                 text={
                     "Mağazada {C:attention}Dayanıksız{} Jokerler bulunabilir",
-                    "{C:inactive,s:0.8}(5 Tur sonra geçersiz kılınır)",
+                    "{C:inactive,s:0.8}(5 tur sonra geçersiz kılınır)",
                     "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
             stake_purple={
                 name="Mor Pot",
                 text={
-                    "Gereken skor oranı her",
-                    "{C:attention}Bop'ta{} daha hızlı artar",
+                    "Turu geçmek için gereken skor,",
+                    "her {C:attention}Bop{} sonrası daha hızlı yükselir",
                     "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },
@@ -2498,7 +2492,7 @@ return {
             tag_boss={
                 name="Usta Etiketi",
                 text={
-                    "{C:attention}Usta Bahis'i",
+                    "{C:attention}Usta Bahis{}'i",
                     "değiştirir",
                 },
             },
@@ -2639,8 +2633,8 @@ return {
             tag_skip={
                 name="Hız Etiketi",
                 text={
-                    "Atlanmış her bahis başına",
-                    "{C:money}$#1#{} verir",
+                    "Atlanmış her bahis",
+                    "başına {C:money}$#1#{} verir",
                     "{C:inactive}(Toplam {C:money}$#2#{C:inactive})",
                 },
             },
@@ -2654,7 +2648,7 @@ return {
             tag_top_up={
                 name="Toptancı Etiketi",
                 text={
-                    "En fazla {C:attention}#1#",
+                    "En fazla {C:attention}#1# adet",
                     "{C:blue}Sıradan{} Joker oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
@@ -2670,7 +2664,7 @@ return {
                 name="Kupon Etiketi",
                 text={
                     "Sıradaki mağazaya 1 adet",
-                    "{C:voucher}Kupon{} ekler",
+                    "{C:attention}Kupon{} ekler",
                 },
             },
         },
@@ -2849,8 +2843,8 @@ return {
                     "{C:dark_edition}+1{} Joker yuvası",
                 },
                 unlock={
-                    "Toplamda {C:attention}#1#{} adet",
-                    "{C:voucher}Boş Kupon{} satın al",
+                    "Toplam {C:attention}#1#{} adet",
+                    "{C:attention}Boş Kupon{} satın al",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -2941,7 +2935,7 @@ return {
                 },
                 unlock={
                     "Bir oyunda en az",
-                    "{C:attention}#1#{C:voucher} kupon{} satın al",
+                    "{C:attention}#1#{} adet {C:attention} kupon{} satın al",
                 },
             },
             v_magic_trick={
@@ -2987,7 +2981,7 @@ return {
                 unlock={
                     "{C:planet}Gökyüzü paketlerinden{}",
                     "çıkan toplam {C:attention}#1#{} adet",
-                    "{C:planet}Gezegen{} kartı kullan",
+                    "{C:planet}Gezegen{} kartını kullan",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3001,7 +2995,7 @@ return {
                 unlock={
                     "{C:tarot}Arkana paketlerinden{}",
                     "çıkan toplam {C:attention}#1#{} adet",
-                    "{C:tarot}Tarot{} kartı kullan",
+                    "{C:tarot}Tarot{} kartını kullan",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3019,8 +3013,7 @@ return {
                     "{C:attention}+1{} kart yuvası",
                 },
                 unlock={
-                    "Mağazada toplamda",
-                    "{C:money}$#1#{} harca",
+                    "Toplam {C:money}$#1#{} harca",
                     "{C:inactive}($#2#)",
                 },
             },
@@ -3064,7 +3057,7 @@ return {
                     "{C:attention}#1#X{} daha sık bulunur",
                 },
                 unlock={
-                    "Mağazadan toplamda",
+                    "Mağazadan toplam",
                     "{C:attention}#1#{C:planet} Gezegen{} kartı",
                     "satın al",
                     "{C:inactive}(#2#)",
@@ -3076,7 +3069,7 @@ return {
                     "Her tur {C:red}+#1#{} Çıkarma",
                 },
                 unlock={
-                    "Toplamda {C:attention}#1#{}",
+                    "Toplam {C:attention}#1#{}",
                     "kart çıkar",
                     "{C:inactive}(#2#)",
                 },
@@ -3133,7 +3126,7 @@ return {
                     "{C:attention}#1#X{} daha sık bulunur",
                 },
                 unlock={
-                    "Mağazadan toplamda",
+                    "Mağazadan toplam",
                     "{C:attention}#1#{C:tarot} Tarot{} kartı",
                     "satın al",
                     "{C:inactive}(#2#)",
