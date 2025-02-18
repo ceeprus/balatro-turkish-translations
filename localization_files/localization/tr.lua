@@ -1523,7 +1523,8 @@ return {
             j_square={
                 name="Kare Joker",
                 text={
-                    "{C:attention}4{} adet kartla oynanan her el",
+                    "{C:attention}4{} adet kartla",
+                    "oynanan her el",
                     "başına {C:chips}+#2#{} Fiş kazanır",
                     "{C:inactive}(Şu anda {C:chips}#1#{C:inactive} Fiş)",
                 },
