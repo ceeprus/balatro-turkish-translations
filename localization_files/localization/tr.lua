@@ -848,7 +848,7 @@ return {
             j_faceless={
                 name="Yüzsüz Joker",
                 text={
-                    "En az {C:attention}#2#{} veya daha fazla",
+                    "{C:attention}#2#{} adet veya daha fazla",
                     "{C:attention}resimli{} kart çıkarıldığında",
                     "{C:money}$#1#{} verir",
                 },
