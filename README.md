@@ -20,14 +20,14 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 ✔️ 100% of the sprites have been translated into Turkish.
 
-✔️ v1.0.1n — 100% of the game is translated into Turkish.
+✔️ v1.0.1o — 100% of the game is translated into Turkish.
 
 ### Installers
 
-| Category                              | Status | Comment     |
-| ------------------------------------- | ------ | ----------- |
-| [Easy, 1-click script](QUICKSTART.md) | ✔️     |  |
-| [Manual](INSTALL.md)                  | ✔️     |  |
+| Category                              | Status | Comment |
+| ------------------------------------- | ------ | ------- |
+| [Easy, 1-click script](QUICKSTART.md) | ✔️     |         |
+| [Manual](INSTALL.md)                  | ✔️     |         |
 
 ## Contributing
 
@@ -38,6 +38,7 @@ A HUGE thank you to the French Localization community who made this all possible
 If you are interested in replicating the same work for another language, **feel free to fork our repository**! You can also be interested in [the pipeline we used for localizing sprites](https://github.com/ceeprus/balatro-sprites-i18n).
 
 ## Preview
+
 <div style="display: flex; gap: 10px;">
   <img src="https://i.imgur.com/S4jt2kx.png" alt="p1" width="500">
   <img src="https://i.imgur.com/3PKsK80.png" alt="p2" width="500">
