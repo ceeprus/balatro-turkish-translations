@@ -386,9 +386,9 @@ return {
                 name="Şanslı Kart",
                 text={
                     "{C:green}#1#/#3#{} olasılıkla",
-                    "{C:mult}+#2#{} Çarpan kazan",
+                    "{C:mult}+#2#{} Çarpan verir",
                     "{C:green}#1#/#5#{} olasılıkla",
-                    "{C:money}$#4#{} kazan",
+                    "{C:money}$#4#{} verir",
                 },
             },
             m_mult={
@@ -425,8 +425,8 @@ return {
             j_8_ball={
                 name="Bilardo Topu",
                 text={
-                    "Skor veren her {C:attention}8{} sayılı",
-                    "kart başına {C:green}#1#/#2#{} olasılıkla",
+                    "Skor veren her {C:attention}8",
+                    "başına {C:green}#1#/#2#{} olasılıkla",
                     "{C:tarot}Tarot{} kartı oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
@@ -502,8 +502,9 @@ return {
             j_baseball={
                 name="Beyzbol Kartı",
                 text={
-                    "Her {C:green}Sıra Dışı{} Joker",
-                    "başına {X:mult,C:white} X#1# {} Çarpan verir",
+                    "Sahip olunan her",
+                    "{C:green}Sıra Dışı{} Joker başına",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_blackboard={
@@ -517,8 +518,9 @@ return {
             j_bloodstone={
                 name="Kantaşı",
                 text={
-                    "Skor veren {C:hearts}Kupa{} sembollü",
-                    "kartlar, {C:green}#1#/#2#{} olasılıkla",
+                    "Skor veren her {C:hearts}Kupa{}",
+                    "sembollü kart başına",
+                    "{C:green}#1#/#2#{} olasılıkla",
                     "{X:mult,C:white} X#3# {} Çarpan verir",
                 },
                 unlock={
@@ -581,7 +583,8 @@ return {
                 text={
                     "{C:attention}Bahis{} seçildiğinde",
                     "{C:blue}+#1#{} el verir,",
-                    "{C:attention}çıkarma sayısı 0 olur",
+                    "{C:attention}çıkarma sayısı",
+                    "{C:attention}0 olur",
                 },
             },
             j_burnt={
@@ -599,14 +602,15 @@ return {
             j_business={
                 name="Kartvizit",
                 text={
-                    "Skor veren {C:attention}resimli{} kartlar",
+                    "Skor veren her",
+                    "{C:attention}resimli{} kart başına",
                     "{C:green}#1#/#2#{} olasılıkla {C:money}$2{} verir",
                 },
             },
             j_caino={
                 name="Canio",
                 text={
-                    "Yok edilen {C:attention}resimli{} kart",
+                    "Yok edilen her {C:attention}resimli{} kart",
                     "başına {X:mult,C:white} X#1# {} Çarpan kazanır",
                     "{C:inactive}(Şu anda {X:mult,C:white} X#2# {C:inactive} Çarpan)",
                 },
@@ -647,8 +651,8 @@ return {
             j_castle={
                 name="Kale",
                 text={
-                    "Çıkarılan {V:1}#2#{} sembollü kart",
-                    "başına {C:chips}+#1#{} Fiş kazanır",
+                    "Çıkarılan her {V:1}#2#{} sembollü",
+                    "kart başına {C:chips}+#1#{} Fiş kazanır",
                     "sembol her tur değişir",
                     "{C:inactive}(Şu anda {C:chips}+#3#{C:inactive} Fiş)",
                 },
@@ -657,8 +661,8 @@ return {
                 name="Anamur Muzu",
                 text={
                     "{X:mult,C:white} X#1# {} Çarpan",
-                    "Tur sonu {C:green}#2#/#3#{} olasılıkla",
-                    "yok olur",
+                    "Tur sonu {C:green}#2#/#3#",
+                    "olasılıkla yok olur",
                 },
             },
             j_ceremonial={
@@ -710,8 +714,8 @@ return {
             j_cloud_9={
                 name="Neşeli 9",
                 text={
-                    "{C:attention}Destedeki{C:attention} 9{} sayılı kart",
-                    "başına her tur {C:money}$#1#{} verir",
+                    "Tur sonu, {C:attention}destedeki",
+                    "her {C:attention}9{} başına {C:money}$#1#{} verir",
                     "{C:inactive}(Şu anda {C:money}$#2#{}{C:inactive})",
                 },
             },
@@ -824,7 +828,7 @@ return {
             j_egg={
                 name="Yumurta",
                 text={
-                    "Her tur sonunda",
+                    "Her tur sonu",
                     "{C:money}$#1#{} {C:attention}satış bedeli",
                     "kazanır",
                 },
@@ -849,9 +853,9 @@ return {
             j_faceless={
                 name="Yüzsüz Joker",
                 text={
-                    "{C:attention}#2#{} adet veya daha fazla",
-                    "{C:attention}resimli{} kart çıkarıldığında",
-                    "{C:money}$#1#{} verir",
+                    "Çıkarılan her {C:attention}#2#{} veya",
+                    "daha fazla {C:attention}resimli{} kart",
+                    "başına {C:money}$#1#{} verir",
                 },
             },
             j_family={
@@ -870,7 +874,7 @@ return {
                 name="Fibonacci",
                 text={
                     "Skor veren her",
-                    "{C:attention}As{}, {C:attention}2{}, {C:attention}3{}, {C:attention}5{}, ya da {C:attention}8",
+                    "{C:attention}As{}, {C:attention}2{}, {C:attention}3{}, {C:attention}5{}, veya {C:attention}8",
                     "başına {C:mult}+#1#{} Çarpan verir",
                 },
             },
@@ -907,7 +911,7 @@ return {
                 name="4 Parmak",
                 text={
                     "{C:attention}Floş{} ve {C:attention}Kent",
-                    "poker elleri {C:attention}4{} kartla",
+                    "{C:attention}4{} adet kartla",
                     "oynanabilir",
                 },
             },
@@ -942,7 +946,8 @@ return {
             j_golden={
                 name="Altın Joker",
                 text={
-                    "Tur sonu {C:money}$#1#{} verir",
+                    "Tur sonu",
+                    "{C:money}$#1#{} verir",
                 },
             },
             j_greedy_joker={
@@ -975,8 +980,8 @@ return {
                 name="Vasat",
                 text={
                     "Oynanan her",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, veya {C:attention}5{} sayılı",
-                    "kart yeniden tetiklenir",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, veya {C:attention}5{}",
+                    "yeniden tetiklenir",
                 },
             },
             j_half={
@@ -1186,8 +1191,9 @@ return {
             j_mime={
                 name="Pandomim",
                 text={
-                    "{C:attention}Elde tutulan{} tüm kart",
-                    "özelliklerini yeniden tetikler",
+                    "{C:attention}Elde tutulan{} tüm",
+                    "kart özelliklerini",
+                    "yeniden tetikler",
                 },
             },
             j_misprint={
@@ -1290,15 +1296,16 @@ return {
             j_photograph={
                 name="Fotoğraf",
                 text={
-                    "Oynanan ilk {C:attention}resimli kart,",
-                    "skor verdiğinde {X:mult,C:white} X#1# {} Çarpan verir",
+                    "Skor veren",
+                    "ilk {C:attention}resimli kart",
+                    "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
             j_popcorn={
                 name="Patlamış Mısır",
                 text={
                     "{C:mult}+#1#{} Çarpan",
-                    "Oynanan tur başına",
+                    "Her tur sonu",
                     "{C:mult}-#2#{} Çarpan",
                 },
             },
@@ -1329,9 +1336,9 @@ return {
             j_reserved_parking={
                 name="Rezerve Park Yeri",
                 text={
-                    "Elde tutulan her {C:attention}resimli",
-                    "kart başına {C:green}#2#/#3#{} olasılıkla",
-                    "{C:money}$#1#{} verir",
+                    "Elde tutulan her",
+                    "{C:attention}resimli{} kart başına",
+                    "{C:green}#2#/#3#{} olasılıkla {C:money}$2{} verir",
                 },
             },
             j_ride_the_bus={
@@ -1394,8 +1401,9 @@ return {
             j_satellite={
                 name="Uydu",
                 text={
-                    "Tur sonu, oyunda kullanılan",
-                    "{C:planet}Gezegen{} kartı başına {C:money}$#1#{} verir",
+                    "Tur sonu, kullanılan",
+                    "her {C:planet}Gezegen{} kartı",
+                    "başına {C:money}$#1#{} verir",
                     "{C:inactive}(Şu anda {C:money}$#2#{C:inactive})",
                 },
                 unlock={
@@ -1420,7 +1428,7 @@ return {
             j_seance={
                 name="Seans",
                 text={
-                    "Eğer oynanan {C:attention}poker eli",
+                    "Oynanan {C:attention}poker eli",
                     "{C:attention}#1#{} ise rastgele",
                     "bir {C:spectral}Spektral{} kart oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
@@ -1470,9 +1478,10 @@ return {
             j_sixth_sense={
                 name="Altıncı His",
                 text={
-                    "Turun {C:attention}ilk eli{} yalnızca",
-                    "bir {C:attention}6{} ise, onu yok eder",
-                    "ve {C:spectral}Spektral{} kart oluşturur",
+                    "Oynanan {C:attention}ilk el",
+                    "yalnızca {C:attention}6{} içeriyorsa,",
+                    "onu yok eder ve bir",
+                    "{C:spectral}Spektral{} kart oluşturur",
                     "{C:inactive}(Boş yuva olmalı)",
                 },
             },
@@ -1499,8 +1508,8 @@ return {
             j_smiley={
                 name="Gülücük",
                 text={
-                    "Skor veren {C:attention}resimli{} kartlar",
-                    "{C:mult}+#1#{} Çarpan verir",
+                    "Skor veren her {C:attention}resimli{} kart",
+                    "başına {C:mult}+#1#{} Çarpan verir",
                 },
             },
             j_sock_and_buskin={
@@ -1516,7 +1525,7 @@ return {
                 },
             },
             j_space={
-                name="Astronot Joker",
+                name="Uzay Jokeri",
                 text={
                     "{C:green}#1#/#2#{} olasılıkla",
                     "oynanan {C:attention}poker elinin",
@@ -1619,7 +1628,8 @@ return {
             j_ticket={
                 name="Altın Bilet",
                 text={
-                    "Skor veren her {C:attention}Altın Kart",
+                    "Skor veren",
+                    "her {C:attention}Altın Kart",
                     "başına {C:money}$#1#{} verir",
                 },
                 unlock={
@@ -1646,8 +1656,8 @@ return {
                 name="Koleksiyon Kartı",
                 text={
                     "Turun {C:attention}ilk çıkarması{} yalnızca",
-                    "bir {C:attention}1{} kart içeriyorsa,",
-                    "onu yok eder ve {C:money}$#1#{} verir",
+                    "{C:attention}1{} kart içeriyorsa, onu",
+                    "yok eder ve {C:money}$#1#{} verir",
                 },
             },
             j_tribe={
@@ -1687,7 +1697,8 @@ return {
                 name="Ozan",
                 text={
                     "{C:attention}+#1#{} el boyutu,",
-                    "her tur {C:blue}-#2#{} el boyutu",
+                    "her tur",
+                    "{C:blue}-#2#{} el boyutu",
                 },
                 unlock={
                     "Yalnızca tek el oynayarak",
@@ -1712,9 +1723,9 @@ return {
             j_vagabond={
                 name="Sefil",
                 text={
-                    "El, {C:money}$#1#{} veya daha az",
-                    "para ile oynanıyorsa",
-                    "{C:purple}Tarot{} kartı oluşturur",
+                    "{C:money}$#1#{} veya daha az para",
+                    "ile oynanan her el başına",
+                    "bir {C:purple}Tarot{} kartı oluşturur",
                 },
             },
             j_vampire={
@@ -1730,15 +1741,16 @@ return {
                 name="Telsiz",
                 text={
                     "Skor veren her",
-                    "{C:attention}10{} veya {C:attention}4{} sayılı kart",
-                    "{C:chips}+#1#{} Fiş ve {C:mult}+#2#{} Çarpan verir",
+                    "{C:attention}10{} veya {C:attention}4{} başına",
+                    "{C:chips}+#1#{} Fiş ve",
+                    "{C:mult}+#2#{} Çarpan verir"
                 },
             },
             j_wee={
                 name="Mini Joker",
                 text={
-                    "Skor veren her",
-                    "{C:attention}2{} sayılı kart başına",
+                    "Skor veren",
+                    "her {C:attention}2{} başına",
                     "{C:chips}+#2#{} Fiş kazanır",
                     "{C:inactive}(Şu anda {C:chips}+#1#{C:inactive} Fiş)",
                 },
@@ -2046,8 +2058,8 @@ return {
             perishable={
                 name="Dayanıksız",
                 text={
-                    "{C:attention}#1#{} tur",
-                    "sonra geçersiz kılınır",
+                    "{C:attention}#1#{} tur sonra",
+                    "geçersiz kılınır",
                     "{C:inactive}({C:attention}#2#{C:inactive} tur kaldı)",
                 },
             },
@@ -2468,7 +2480,7 @@ return {
                 name="Altın Pot",
                 text={
                     "Mağazada {C:attention}Kiralık{} Jokerler bulunabilir",
-                    "{C:inactive,s:0.8}(Tur başına {C:money,s:0.8}$3{} kaybedilir{C:inactive,s:0.8})",
+                    "{C:inactive,s:0.8}(Tur sonu {C:money,s:0.8}$3{} kaybedilir{C:inactive,s:0.8})",
                     "{s:0.8}Önceki tüm potların etkileri geçerlidir",
                 },
             },

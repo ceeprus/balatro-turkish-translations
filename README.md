@@ -17,11 +17,11 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 ## Current state
 
-### Translations
+### Translations (v1.0.1o)
 
 ✔️ 100% of the sprites have been translated into Turkish.
 
-✔️ v1.0.1o — 100% of the game is translated into Turkish.
+✔️ 100% of the game is translated into Turkish.
 
 ### Installers
 

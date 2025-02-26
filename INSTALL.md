@@ -6,7 +6,7 @@ Balatro'nun Türkçe çevirisini kullanmanın birçok yolu vardır; size en uygu
 
 Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın Windows**](QUICKSTART.md).
 
-### Balatro.exe üzerinde 7zip kullanarak
+### Balatro.exe üzerinde 7zip kullanarak (Manuel kurulum)
 
 1. [7zip](https://7-zip.org/) indirin. Hayır, WinRAR çalışmıyor.
 2. **Balatro'yu kapatın.**
@@ -19,12 +19,12 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 9. Aynı şekilde `resources/textures` klasöründeki oyun görsellerini de 3. adımda indirdiğiniz arşivin `localization/assets` klasöründekilerle değiştirin. **Yalnızca arşivimizdeki mevcut resimleri değiştirin ve diğerlerini silmeyin.**
 10. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
-### Gamepass KURULUM
+### Gamepass Kurulum
 
 1. **Balatro'yu kapatın.**
-2. XBOX Uygulamasını açın.
+2. XBOX uygulamasını açın.
 3. Arşivi indirin [Balatro_TR_Manual_Install_XBOX.zip](https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Balatro_TR_Manual_Install_XBOX.zip)
-4. Balatro'nun yüklü olduğu klasöre gidin. (Örn.: `XboxGames\Balatro\Content\`). <br/> Balatro'nun nerede olduğunu bilmiyorsanız, XBOX Uygulamasından Balatro simgesine sağ tıkladıktan sonra sırasıyla: _Yönet_ > _Dosyalar_ > _Gözat _ seçeneğine basabilirsiniz.
+4. Balatro'nun yüklü olduğu klasöre gidin. (Örn.: `XboxGames\Balatro\Content\`). <br/> Balatro'nun nerede olduğunu bilmiyorsanız, XBOX Uygulamasından Balatro simgesine sağ tıkladıktan sonra sırasıyla: _Yönet_ > _Dosyalar_ > _Gözat _ seçeneğine tıklayın.
 5. Adım 3'te indirdiğiniz arşivdeki `Assets` dosyasını sürükleyip bırakın ve dosyanın kopyasını onaylayın.
 6. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
