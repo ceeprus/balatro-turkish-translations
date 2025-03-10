@@ -11,8 +11,8 @@ return {
             b_anaglyph={
                 name="Anaglif Deste",
                 text={
-                    "{C:attention}Usta Bahis{}'i her",
-                    "yendiğinde",
+                    "{C:attention}Usta Bahis{}'i",
+                    "her yendiğinde",
                     "{C:attention,T:tag_double}#1#{} kazan",
                 },
             },
@@ -494,8 +494,8 @@ return {
             j_baron={
                 name="Baron",
                 text={
-                    "Elde bulunan her",
-                    "{C:attention}Papaz{} başına",
+                    "Elde tutulan",
+                    "her {C:attention}Papaz{} başına",
                     "{X:mult,C:white} X#1# {} Çarpan verir",
                 },
             },
@@ -774,8 +774,8 @@ return {
             j_dna={
                 name="DNA",
                 text={
-                    "Turun {C:attention}ilk elinde",
-                    "yalnızca {C:attention}1{} kart oynandıysa,",
+                    "Oynanan {C:attention}ilk el",
+                    "yalnızca {C:attention}1{} kart içeriyorsa,",
                     "o kartın kopyasını desteye",
                     "ve mevcut {C:attention}ele{} ekler",
                 },
@@ -1066,7 +1066,8 @@ return {
                 text={
                     "Bu Joker, {C:attention}#1#{} tur sonra",
                     "satılırsa sahip olunan",
-                    "rastgele bir Joker'i {C:attention}kopyalar",
+                    "rastgele bir Joker'in",
+                    "{C:attention}kopyasını{} oluşturur",
                     "{C:inactive}(Şu anda {C:attention}#2#{C:inactive}/#1#)",
                 },
                 unlock={
@@ -1285,7 +1286,7 @@ return {
             j_perkeo={
                 name="Perkeo",
                 text={
-                    "{C:attention}Mağaza{} sonunda elde bulunan",
+                    "{C:attention}Mağaza{} sonunda sahip olunan",
                     "{C:attention}1{} rastgele {C:attention}kullanılabilir{} kartın",
                     "{C:dark_edition}Negatif{} kopyasını oluşturur",
                 },
@@ -1697,8 +1698,7 @@ return {
                 name="Ozan",
                 text={
                     "{C:attention}+#1#{} el boyutu,",
-                    "her tur",
-                    "{C:blue}-#2#{} el boyutu",
+                    "her tur {C:blue}-#2#{} el",
                 },
                 unlock={
                     "Yalnızca tek el oynayarak",
@@ -1901,8 +1901,8 @@ return {
             gold_seal={
                 name="Altın Mühür",
                 text={
-                    "Bu kart, skor",
-                    "verdiğinde {C:money}$3{} verir",
+                    "Skor verdiğinde",
+                    "{C:money}$3{} verir",
                 },
             },
             gold_sticker={
@@ -2095,8 +2095,8 @@ return {
             red_seal={
                 name="Kırmızı Mühür",
                 text={
-                    "Kartın {C:attention}yeniden",
-                    "skor vermesini sağlar",
+                    "Kart {C:attention}yeniden",
+                    "skor verir",
                 },
             },
             red_sticker={
@@ -2894,7 +2894,7 @@ return {
             v_blank={
                 name="Boş Kupon",
                 text={
-                    "{C:inactive}Hiçbir şey yapmıyor.",
+                    "{C:inactive}Hiçbir işe yaramıyor.",
 		            "{C:inactive}Sanırım?",
                 },
             },
@@ -2928,7 +2928,7 @@ return {
                     "mağazada {C:attention}#1#X{} daha sık bulunur",
                 },
                 unlock={
-                    "En az {C:attention}#1#",
+                    "En az {C:attention}#1#{} adet",
                     "{C:dark_edition}Folyo{}, {C:dark_edition}Holografik{} veya",
                     "{C:dark_edition}Polikrom{} baskılı {C:attention}Joker{}'e",
                     "sahip ol",
@@ -2978,7 +2978,7 @@ return {
                 },
                 unlock={
                     "Bir oyunda en az",
-                    "{C:attention}#1#{} adet {C:attention} kupon{} satın al",
+                    "{C:attention}#1#{} adet {C:attention}kupon{} satın al",
                 },
             },
             v_magic_trick={
@@ -3018,8 +3018,8 @@ return {
                 text={
                     "{C:attention}Kullanılabilir{} yuvasındaki",
                     "{C:planet}Gezegen{} kartları,",
-                    "belirttikleri {C:attention}poker eline",
-                    "{X:red,C:white}X#1#{} verir",
+                    "belirttikleri {C:attention}poker eli",
+                    "için {X:red,C:white}X#1#{} Çarpan verir",
                 },
                 unlock={
                     "{C:planet}Gökyüzü paketlerinden",
@@ -3031,9 +3031,9 @@ return {
             v_omen_globe={
                 name="Kâhin Küresi",
                 text={
-                    "{C:spectral}Spektral{} kartlar",
-                    "{C:attention}Arkana paketlerinden",
-                    "çıkabilir",
+                    "{C:attention}Arkana paketlerinde",
+                    "{C:spectral}Spektral{} kart",
+                    "bulunabilir",
                 },
                 unlock={
                     "{C:tarot}Arkana paketlerinden",
@@ -3073,7 +3073,7 @@ return {
                 },
                 unlock={
                     "El boyutunu",
-                    "{C:attention}#1#{} karta düşür",
+                    "{C:attention}#1#{}'e düşür",
                 },
             },
             v_petroglyph={
@@ -3144,7 +3144,8 @@ return {
                     "değiştirme başına {C:money}$#1#",
                 },
                 unlock={
-                    "{C:attention}#1#{} bahis keşfet",
+                    "{C:attention}#1#{} tür",
+                    "bahis keşfet",
                 },
             },
             v_seed_money={
@@ -3444,7 +3445,7 @@ return {
             k_balanced="Dengelendi",
             k_banned_cards="Yasaklı Kartlar",
             k_banned_tags="Yasaklı Etiketler",
-            k_base_cap="TEMEL",
+            k_base_cap="TEMEL SKOR",
             k_base_cards="Temel Kartlar",
             k_best_hand="En İyi El",
             k_booster="Güçlendirici",
