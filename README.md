@@ -13,7 +13,7 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 - [Windows kullanıyorsanız](QUICKSTART.md).
 
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
-  _XBOX Gamepass kullanıcıları manuel kurulum yapmak zorundadır._
+  _XBOX Gamepass ve Nintendo Switch kullanıcıları manuel kurulum yapmak zorundadır._
 
 ## Current state
 
