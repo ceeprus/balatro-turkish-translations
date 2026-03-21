@@ -28,6 +28,15 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 5. Adım 3'te indirdiğiniz arşivdeki `Assets` dosyasını sürükleyip bırakın ve dosyanın kopyasını onaylayın.
 6. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
+### Nintendo Switch Kurulum
+> [!IMPORTANT]
+> Nintendo Switch kurulumu için Atmosphère donanım yazılımı kurulu olmalıdır. [Yazılımı kurmak için bu adımları izleyebilirsiniz.](https://switch.hacks.guide)
+
+1. SD kartınızın kök dizinine girin ve `atmosphere/contents/` klasörüne erişin.
+2. `0100CD801CE5E000` adlı bir klasör oluşturun ve bu klasör içinde `romfs` içinde bir klasör daha oluşturun.
+3. `localization_switch` klasörünün içindeki dosyaları oluşturduğunuz klasöre kopyalayın ve sisteminizi yeniden başlatın.
+4. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
 > [!IMPORTANT]
 > Oyun her güncellendiğinde dosyalar da güncellenmelidir.
 
