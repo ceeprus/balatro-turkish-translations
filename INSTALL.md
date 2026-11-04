@@ -19,6 +19,23 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 9. Aynı şekilde `resources/textures` klasöründeki oyun görsellerini de 3. adımda indirdiğiniz arşivin `localization/assets` klasöründekilerle değiştirin. **Yalnızca arşivimizdeki mevcut resimleri değiştirin ve diğerlerini silmeyin.**
 10. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
 
+### macOS Kurulum (Apple Arcade / Balatro+)
+
+> [!NOTE]
+> Apple Arcade sürümü (1.0.1o) ile denendi. Steam'in Mac sürümü için de betikte bir yol var ama **denenmedi**.
+
+1. **Balatro'yu kapatın.**
+2. Bu repoyu indirin ([ZIP](https://github.com/ceeprus/balatro-turkish-translations/archive/refs/heads/main.zip)) ve klasörü açın.
+3. Terminal'de klasöre gidip betiği çalıştırın: `bash Balatro_TR_macOS.sh`
+4. Betik orijinal `/Applications/Balatro.app`'e dokunmaz. Türkçe kopyayı `~/Applications/Balatro TR.app` olarak, başlatıcıyı da `~/Applications/Balatro Türkçe.app` olarak kurar.
+5. Oyunu **her zaman `Balatro Türkçe.app` ile açın.** Başlatıcı oyunu bir Terminal penceresi üzerinden açar.
+6. Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
+> [!WARNING]
+> Yamalı kopyanın Apple imzası bozulur. `Balatro TR.app`'e doğrudan çift tıklarsanız macOS "hasar görmüş" der; **Çöp Sepeti'ne Taşı'ya basmayın**, pencereyi kapatıp başlatıcıyı kullanın.
+
+Neden kopya? Apple Arcade sürümünün `game.lua` dosyası Steam'inkinden farklıdır; repodaki `game.lua` ile değiştirmek oyunu bozar. Betik yalnızca dil listesine Türkçe satırını ekler ve eksik metinler için İngilizce yedek yükler. Kayıtlar iCloud üzerinden orijinal oyunla ortak kalır.
+
 ### Gamepass Kurulum
 
 1. **Balatro'yu kapatın.**

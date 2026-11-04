@@ -12,6 +12,8 @@ _Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), an
 
 - [Windows kullanıyorsanız](QUICKSTART.md).
 
+- [macOS kullanıyorsanız (Apple Arcade / Balatro+)](INSTALL.md#macos-kurulum-apple-arcade--balatro).
+
 - [Windows kullanmıyorsanız veya manuel olarak yapmak istiyorsanız](INSTALL.md).
   _XBOX Gamepass ve Nintendo Switch kullanıcıları manuel kurulum yapmak zorundadır._
 
