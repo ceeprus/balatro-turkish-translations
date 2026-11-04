@@ -17,7 +17,7 @@
 
 set -euo pipefail
 
-REPO_ZIP="https://github.com/ceeprus/balatro-turkish-translations/releases/latest/download/Balatro_TR_Manual_Install.zip"
+REPO_ZIP="https://github.com/ceeprus/balatro-turkish-translations/archive/refs/heads/main.zip"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ARCADE_APP="/Applications/Balatro.app"
 STEAM_APP="$HOME/Library/Application Support/Steam/steamapps/common/Balatro/Balatro.app"
@@ -30,23 +30,26 @@ echo "==        macOS kurulum betigi         =="
 echo "========================================="
 echo
 
-# 1) Ceviri dosyalari: repo icindeyse onlari kullan, degilse son surumu indir
+# 1) Ceviri dosyalari: repo icindeyse onlari kullan, degilse repoyu indir
+#    localization_files        -> Steam
+#    localization_files_macOS  -> Apple Arcade (Balatro+)
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
-if [ -f "$SCRIPT_DIR/localization_files/localization/tr.lua" ]; then
-    SRC="$SCRIPT_DIR/localization_files"
-    echo "Ceviri dosyalari: $SRC"
+if [ -f "$SCRIPT_DIR/localization_files_macOS/localization/tr.lua" ]; then
+    ROOT="$SCRIPT_DIR"
 else
     echo "Ceviri dosyalari indiriliyor..."
     curl -fsSL -o "$WORK/tr.zip" "$REPO_ZIP"
     unzip -q "$WORK/tr.zip" -d "$WORK/src"
-    SRC="$WORK/src"
+    ROOT="$(find "$WORK/src" -maxdepth 1 -mindepth 1 -type d | head -1)"
 fi
+echo "Ceviri dosyalari: $ROOT"
+[ -f "$ROOT/localization_files_macOS/game.lua" ] || { echo "HATA: indirilen dosyalarda localization_files_macOS yok. Repoyu indirip betigi repo klasorunden calistirin."; exit 1; }
 
 read -r -p "Gorseller Turkce olsun mu? [E/h] " ans
 case "${ans:-E}" in [hHnN]*) ASSETS=false ;; *) ASSETS=true ;; esac
 
-copy_assets() {  # $1 = hedef oyun klasoru
+copy_assets() {  # $1 = hedef oyun klasoru (SRC once ayarlanmali)
     cp "$SRC/localization/tr.lua" "$1/localization/tr.lua"
     cp "$SRC/resources/fonts/m6x11plus.ttf" "$1/resources/fonts/m6x11plus.ttf"
     if $ASSETS; then
@@ -67,10 +70,18 @@ if [ -f "$ARCADE_APP/Contents/Resources/game/game.lua" ]; then
     cp -Rp "$ARCADE_APP" "$TR_APP"
     chmod -R u+w "$TR_APP"
     GAME="$TR_APP/Contents/Resources/game"
+    SRC="$ROOT/localization_files_macOS"
     copy_assets "$GAME"
 
-    # Arcade game.lua'si Steam'inkinden farkli: dosyayi degistirmek yerine
-    # yalnizca Turkce dil satirini ve Ingilizce yedekli yuklemeyi ekle.
+    # Arcade game.lua'si Steam'inkinden farkli. Surum ayniysa hazir yamali
+    # game.lua kullanilir; degilse oyunun kendi game.lua'sina yalnizca Turkce
+    # dil satiri ve Ingilizce yedekli yukleme eklenir.
+    GAME_VER="$(head -1 "$GAME/version.jkr" 2>/dev/null || true)"
+    if [ "$GAME_VER" = "$(head -1 "$SRC/VERSION")" ]; then
+    echo "Oyun surumu $GAME_VER: hazir game.lua kullaniliyor"
+    cp "$SRC/game.lua" "$GAME/game.lua"
+    else
+    echo "Oyun surumu '$GAME_VER' farkli: game.lua yamalaniyor"
     TRLINE="$(grep -F "['tr'] = {" "$SRC/game.lua" | head -1)"
     [ -n "$TRLINE" ] || { echo "HATA: game.lua icinde tr satiri yok"; exit 1; }
     TRLINE="$TRLINE" awk '
@@ -88,6 +99,7 @@ if [ -f "$ARCADE_APP/Contents/Resources/game/game.lua" ]; then
         END { if (!done_lang || !done_load) exit 3 }
     ' "$GAME/game.lua" > "$WORK/game.lua" || { echo "HATA: game.lua yamalanamadi (oyun surumu farkli olabilir)"; exit 1; }
     cp "$WORK/game.lua" "$GAME/game.lua"
+    fi
 
     # Imza bozuldugu icin kopya Finder'dan acilmaz ve bir uygulamanin alt sureci
     # olarak baslatilinca macOS onu oldurur. Terminal uzerinden calisinca aciliyor;
@@ -115,6 +127,7 @@ if [ -f "$LOVE" ]; then
     echo "UYARI: Steam surumu icin bu betik denenmedi."
     read -r -p "Devam edilsin mi? [e/H] " go
     case "${go:-H}" in [eEyY]*) ;; *) echo "Iptal edildi."; exit 0 ;; esac
+    SRC="$ROOT/localization_files"
     [ -f "$LOVE.yedek" ] || cp "$LOVE" "$LOVE.yedek"
     echo "Yedek: $LOVE.yedek"
     mkdir -p "$WORK/pack/localization" "$WORK/pack/resources/fonts" "$WORK/pack/resources/textures/1x" "$WORK/pack/resources/textures/2x"

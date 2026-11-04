@@ -6,6 +6,10 @@ Balatro'nun Türkçe çevirisini kullanmanın birçok yolu vardır; size en uygu
 
 Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın Windows**](QUICKSTART.md).
 
+## Hiçbir şey bilmiyorum (ve macOS kullanıyorum)
+
+Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın macOS**](QUICKSTART_macOS.md).
+
 ### Balatro.exe üzerinde 7zip kullanarak (Manuel kurulum)
 
 1. [7zip](https://7-zip.org/) indirin. Hayır, WinRAR çalışmıyor.
@@ -34,7 +38,7 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 > [!WARNING]
 > Yamalı kopyanın Apple imzası bozulur. `Balatro TR.app`'e doğrudan çift tıklarsanız macOS "hasar görmüş" der; **Çöp Sepeti'ne Taşı'ya basmayın**, pencereyi kapatıp başlatıcıyı kullanın.
 
-Neden kopya? Apple Arcade sürümünün `game.lua` dosyası Steam'inkinden farklıdır; repodaki `game.lua` ile değiştirmek oyunu bozar. Betik yalnızca dil listesine Türkçe satırını ekler ve eksik metinler için İngilizce yedek yükler. Kayıtlar iCloud üzerinden orijinal oyunla ortak kalır.
+Neden kopya ve ayrı klasör? Apple Arcade sürümünün `game.lua` dosyası Steam'inkinden farklıdır; `localization_files` içindeki `game.lua` ile değiştirmek oyunu bozar. Arcade dosyaları `localization_files_macOS/` klasöründedir. Oyun sürümü `VERSION` dosyasıyla aynıysa hazır `game.lua` kullanılır; değilse betik oyunun kendi `game.lua`'sına yalnızca Türkçe dil satırını ve İngilizce yedekli yüklemeyi ekler. Kayıtlar iCloud üzerinden orijinal oyunla ortak kalır.
 
 ### Gamepass Kurulum
 
