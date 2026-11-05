@@ -6,6 +6,10 @@ Balatro'nun Türkçe çevirisini kullanmanın birçok yolu vardır; size en uygu
 
 Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın Windows**](QUICKSTART.md).
 
+## Hiçbir şey bilmiyorum (ve macOS kullanıyorum)
+
+Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın macOS**](QUICKSTART_macOS.md).
+
 ### Balatro.exe üzerinde 7zip kullanarak (Manuel kurulum)
 
 1. [7zip](https://7-zip.org/) indirin. Hayır, WinRAR çalışmıyor.
@@ -18,6 +22,22 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 8. `game.lua`yı orjinal dosyası ile değiştirin.
 9. Aynı şekilde `resources/textures` klasöründeki oyun görsellerini de 3. adımda indirdiğiniz arşivin `localization/assets` klasöründekilerle değiştirin. **Yalnızca arşivimizdeki mevcut resimleri değiştirin ve diğerlerini silmeyin.**
 10. **Oyunu başlatın** Henüz yapmadıysanız, sağ alttaki düğmeyi kullanarak Türkçe dilini seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
+### macOS Kurulum (Apple Arcade / Balatro+)
+
+> [!NOTE]
+> Apple Arcade sürümü (1.0.1o) ile denendi. Steam'in Mac sürümü için de betikte bir yol var ama **denenmedi**.
+
+Kolay yol: [QUICKSTART_macOS.md](QUICKSTART_macOS.md) (`bash Balatro_TR_macOS.sh`).
+
+Elle kurulum:
+
+1. Balatro'yu en az bir kez açıp **kapatın**.
+2. Finder'da `Git > Klasöre Git` ile şu klasörü açın: `~/Library/Containers/com.playstack.balatroarcade/Data/Library/Application Support/game/`
+3. `localization_files_macOS` klasörünün içindekileri (`game.lua`, `localization`, `resources`) bu klasöre kopyalayın.
+4. **Oyunu başlatın** ve Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
+Neden `Balatro.app`'in içine değil? Uygulama Apple imzalıdır; içindeki dosyalar değişince macOS onu "hasar görmüş" sayar. LÖVE dosyaları önce kayıt klasöründen okuduğu için uygulamaya dokunmaya gerek yoktur. Apple Arcade'in `game.lua`'sı Steam'inkinden farklı olduğundan `localization_files_macOS/game.lua` tam bir oyun dosyası değil, oyunun kendi `game.lua`'sını okuyup Türkçe dil satırını ve İngilizce yedekli yüklemeyi ekleyen bir yükleyicidir.
 
 ### Gamepass Kurulum
 
