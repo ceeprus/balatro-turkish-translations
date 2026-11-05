@@ -28,17 +28,16 @@ Buraya bak 👉 [**Balatro'nun TR çevirisini yüklemek için buraya tıklayın 
 > [!NOTE]
 > Apple Arcade sürümü (1.0.1o) ile denendi. Steam'in Mac sürümü için de betikte bir yol var ama **denenmedi**.
 
-1. **Balatro'yu kapatın.**
-2. Bu repoyu indirin ([ZIP](https://github.com/ceeprus/balatro-turkish-translations/archive/refs/heads/main.zip)) ve klasörü açın.
-3. Terminal'de klasöre gidip betiği çalıştırın: `bash Balatro_TR_macOS.sh`
-4. Betik orijinal `/Applications/Balatro.app`'e dokunmaz. Türkçe kopyayı `~/Applications/Balatro TR.app` olarak, başlatıcıyı da `~/Applications/Balatro Türkçe.app` olarak kurar.
-5. Oyunu **her zaman `Balatro Türkçe.app` ile açın.** Başlatıcı oyunu bir Terminal penceresi üzerinden açar.
-6. Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+Kolay yol: [QUICKSTART_macOS.md](QUICKSTART_macOS.md) (`bash Balatro_TR_macOS.sh`).
 
-> [!WARNING]
-> Yamalı kopyanın Apple imzası bozulur. `Balatro TR.app`'e doğrudan çift tıklarsanız macOS "hasar görmüş" der; **Çöp Sepeti'ne Taşı'ya basmayın**, pencereyi kapatıp başlatıcıyı kullanın.
+Elle kurulum:
 
-Neden kopya ve ayrı klasör? Apple Arcade sürümünün `game.lua` dosyası Steam'inkinden farklıdır; `localization_files` içindeki `game.lua` ile değiştirmek oyunu bozar. Arcade dosyaları `localization_files_macOS/` klasöründedir. Oyun sürümü `VERSION` dosyasıyla aynıysa hazır `game.lua` kullanılır; değilse betik oyunun kendi `game.lua`'sına yalnızca Türkçe dil satırını ve İngilizce yedekli yüklemeyi ekler. Kayıtlar iCloud üzerinden orijinal oyunla ortak kalır.
+1. Balatro'yu en az bir kez açıp **kapatın**.
+2. Finder'da `Git > Klasöre Git` ile şu klasörü açın: `~/Library/Containers/com.playstack.balatroarcade/Data/Library/Application Support/game/`
+3. `localization_files_macOS` klasörünün içindekileri (`game.lua`, `localization`, `resources`) bu klasöre kopyalayın.
+4. **Oyunu başlatın** ve Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro'yu Türkçe'ye çevirdin 🥳
+
+Neden `Balatro.app`'in içine değil? Uygulama Apple imzalıdır; içindeki dosyalar değişince macOS onu "hasar görmüş" sayar. LÖVE dosyaları önce kayıt klasöründen okuduğu için uygulamaya dokunmaya gerek yoktur. Apple Arcade'in `game.lua`'sı Steam'inkinden farklı olduğundan `localization_files_macOS/game.lua` tam bir oyun dosyası değil, oyunun kendi `game.lua`'sını okuyup Türkçe dil satırını ve İngilizce yedekli yüklemeyi ekleyen bir yükleyicidir.
 
 ### Gamepass Kurulum
 

@@ -6,7 +6,7 @@
 
 - **macOS** kullanıyorsunuz. (veya, [başka bir yöntem](INSTALL.md))
 - Balatro+ **Apple Arcade** ile yüklü (`/Applications/Balatro.app`).
-- Balatro oyununuz **güncel**.
+- Balatro'yu **en az bir kez açıp kapattınız** (kayıt klasörü o zaman oluşur).
 
 > [!NOTE]
 > Betik Apple Arcade sürümü (1.0.1o) ile denendi. Steam'in Mac sürümü için de bir yol var ama **denenmedi**.
@@ -19,21 +19,25 @@
   ```bash
   bash Balatro_TR_macOS.sh
   ```
+  macOS "Terminal başka uygulamaların verilerine erişmek istiyor" diye sorarsa izin verin.
 - Sprite'ları (kartlar, paketler vs.) çevirmek istediğinizi onaylamak için _E_ (veya _H_) yanıtını verin.
-- Oyunu **`~/Applications/Balatro Türkçe.app`** ile açın ve Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro için Türkçe yamayı yüklediniz 🥳
+- **Balatro'yu her zamanki gibi açın** ve Ayarlar > Dil menüsünden Türkçe'yi seçin. Tebrikler, Balatro için Türkçe yamayı yüklediniz 🥳
 
 ## Betik ne yapar?
 
-- Orijinal `/Applications/Balatro.app`'e **dokunmaz**. Türkçe kopyayı `~/Applications/Balatro TR.app` olarak kurar.
-- Oyun sürümü `localization_files_macOS/VERSION` ile aynıysa hazır `game.lua`'yı kullanır. Farklıysa oyunun kendi `game.lua`'sına yalnızca Türkçe dil satırını ve İngilizce yedekli yüklemeyi ekler. Çevirisi olmayan metinler İngilizce görünür.
-- Kopyanın Apple imzası bozulduğu için macOS onu doğrudan açmaz. `Balatro Türkçe.app` başlatıcısı oyunu bir Terminal penceresi üzerinden açar; pencereyi kapatabilirsiniz, oyun kapanmaz.
-- Kayıtlar iCloud üzerinden orijinal oyunla ortak kalır.
+- `Balatro.app`'e **dokunmaz**; uygulamanın imzası bozulmaz, "hasar görmüş" uyarısı çıkmaz.
+- LÖVE oyun motoru dosyaları önce oyunun kayıt klasöründen okur. Betik çeviri dosyalarını oraya kopyalar:
+  `~/Library/Containers/com.playstack.balatroarcade/Data/Library/Application Support/game/`
+- Oradaki `game.lua` küçük bir yükleyicidir. Oyunun kendi `game.lua`'sını okuyup dil listesine Türkçe'yi ve eksik metinler için İngilizce yedeği ekler. Bu yüzden oyun güncellendiğinde de çalışmaya devam etmesi beklenir.
+- Kayıtlarınıza (iCloud dahil) dokunulmaz.
 
-> [!CAUTION]
-> `Balatro TR.app`'e doğrudan çift tıklarsanız macOS "hasar görmüş" der. **Çöp Sepeti'ne Taşı'ya basmayın**; pencereyi kapatıp başlatıcıyı kullanın.
+## Kaldırma
 
-> [!NOTE]
-> Oyun güncellendiğinde betiği yeniden çalıştırın. Kopyayı kaldırmak için `~/Applications/Balatro TR.app` ve `~/Applications/Balatro Türkçe.app`'i silmeniz yeterli.
+```bash
+bash Balatro_TR_macOS.sh --kaldir
+```
+
+Yalnızca betiğin kopyaladığı dosyaları siler; kayıtlarınız yerinde kalır.
 
 Çeviriyi beğendiyseniz paylaşmayı unutmayın! Teşekkürler 🤍
 

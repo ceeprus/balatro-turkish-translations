@@ -6,23 +6,21 @@
 #   - Balatro+ (Apple Arcade, /Applications/Balatro.app)  -> denendi (1.0.1o)
 #   - Steam (Balatro.app icinde Balatro.love)              -> denenmedi
 #
-# Kullanim:  bash Balatro_TR_macOS.sh
+# Kullanim:
+#   bash Balatro_TR_macOS.sh           kur / guncelle
+#   bash Balatro_TR_macOS.sh --kaldir  Apple Arcade kurulumunu kaldir
 #
-# Apple Arcade surumu imzali oldugu icin orijinal uygulamaya dokunulmaz:
-#   ~/Applications/Balatro TR.app      (Turkce yamali kopya)
-#   ~/Applications/Balatro Türkçe.app  (oyunu acan baslatici)
-# Yamali kopyanin imzasi bozulur; macOS onu "hasarli" der. Oyunu her zaman
-# "Balatro Türkçe.app" ile acin. Uyaridaki "Cop Sepeti'ne Tasi" dugmesine
-# basmayin: yamali kopya silinir.
+# Apple Arcade: uygulamaya dokunulmaz (imzasi bozulmaz). LOVE once oyunun
+# kayit klasorundeki dosyalari okur; ceviri dosyalari oraya kopyalanir.
 
 set -euo pipefail
 
 REPO_ZIP="https://github.com/ceeprus/balatro-turkish-translations/archive/refs/heads/main.zip"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ARCADE_APP="/Applications/Balatro.app"
+ARCADE_SAVE="$HOME/Library/Containers/com.playstack.balatroarcade/Data/Library/Application Support/game"
 STEAM_APP="$HOME/Library/Application Support/Steam/steamapps/common/Balatro/Balatro.app"
-TR_APP="$HOME/Applications/Balatro TR.app"
-LAUNCHER="$HOME/Applications/Balatro Türkçe.app"
+TEXTURES="8BitDeck.png 8BitDeck_opt2.png BlindChips.png Jokers.png ShopSignAnimation.png Tarots.png Vouchers.png boosters.png icons.png"
 
 echo "========================================="
 echo "==     Balatro Turkish Translations    =="
@@ -30,12 +28,22 @@ echo "==        macOS kurulum betigi         =="
 echo "========================================="
 echo
 
+# Kaldirma: yalnizca bu betigin kopyaladigi dosyalar silinir, kayitlara dokunulmaz
+if [ "${1:-}" = "--kaldir" ]; then
+    [ -d "$ARCADE_SAVE" ] || { echo "Kurulum bulunamadi."; exit 0; }
+    rm -f "$ARCADE_SAVE/game.lua" "$ARCADE_SAVE/localization/tr.lua" "$ARCADE_SAVE/resources/fonts/m6x11plus.ttf"
+    for r in 1x 2x; do for f in $TEXTURES; do rm -f "$ARCADE_SAVE/resources/textures/$r/$f"; done; done
+    find "$ARCADE_SAVE/localization" "$ARCADE_SAVE/resources" -type d -empty -delete 2>/dev/null || true
+    echo "Turkce yama kaldirildi. Kayitlariniz yerinde."
+    exit 0
+fi
+
 # 1) Ceviri dosyalari: repo icindeyse onlari kullan, degilse repoyu indir
 #    localization_files        -> Steam
 #    localization_files_macOS  -> Apple Arcade (Balatro+)
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
-if [ -f "$SCRIPT_DIR/localization_files_macOS/localization/tr.lua" ]; then
+if [ -f "$SCRIPT_DIR/localization_files_macOS/game.lua" ]; then
     ROOT="$SCRIPT_DIR"
 else
     echo "Ceviri dosyalari indiriliyor..."
@@ -49,74 +57,34 @@ echo "Ceviri dosyalari: $ROOT"
 read -r -p "Gorseller Turkce olsun mu? [E/h] " ans
 case "${ans:-E}" in [hHnN]*) ASSETS=false ;; *) ASSETS=true ;; esac
 
-copy_assets() {  # $1 = hedef oyun klasoru (SRC once ayarlanmali)
+copy_assets() {  # $1 = hedef klasor (SRC once ayarlanmali)
+    mkdir -p "$1/localization" "$1/resources/fonts" "$1/resources/textures/1x" "$1/resources/textures/2x"
     cp "$SRC/localization/tr.lua" "$1/localization/tr.lua"
     cp "$SRC/resources/fonts/m6x11plus.ttf" "$1/resources/fonts/m6x11plus.ttf"
     if $ASSETS; then
         for r in 1x 2x; do cp "$SRC/resources/textures/$r/"*.png "$1/resources/textures/$r/"; done
+    else
+        for r in 1x 2x; do for f in $TEXTURES; do rm -f "$1/resources/textures/$r/$f"; done; done
     fi
 }
 
 # 2) Apple Arcade (Balatro+)
 if [ -f "$ARCADE_APP/Contents/Resources/game/game.lua" ]; then
     echo "Apple Arcade surumu bulundu: $ARCADE_APP"
+    if [ ! -d "$ARCADE_SAVE" ]; then
+        echo "HATA: Oyunun kayit klasoru yok. Balatro'yu bir kez acip kapatin, sonra betigi yeniden calistirin."
+        exit 1
+    fi
     pkill -f "/Applications/Balatro.app/Contents/MacOS/Balatro" 2>/dev/null || true
-    pkill -f "Balatro TR.app/Contents/MacOS/Balatro" 2>/dev/null || true
-    mkdir -p "$HOME/Applications"
-    if [ -e "$TR_APP" ]; then
-        echo "Eski yamali kopya yenileniyor: $TR_APP"
-        rm -rf "$TR_APP"
-    fi
-    cp -Rp "$ARCADE_APP" "$TR_APP"
-    chmod -R u+w "$TR_APP"
-    GAME="$TR_APP/Contents/Resources/game"
     SRC="$ROOT/localization_files_macOS"
-    copy_assets "$GAME"
-
-    # Arcade game.lua'si Steam'inkinden farkli. Surum ayniysa hazir yamali
-    # game.lua kullanilir; degilse oyunun kendi game.lua'sina yalnizca Turkce
-    # dil satiri ve Ingilizce yedekli yukleme eklenir.
-    GAME_VER="$(head -1 "$GAME/version.jkr" 2>/dev/null || true)"
-    if [ "$GAME_VER" = "$(head -1 "$SRC/VERSION")" ]; then
-    echo "Oyun surumu $GAME_VER: hazir game.lua kullaniliyor"
-    cp "$SRC/game.lua" "$GAME/game.lua"
-    else
-    echo "Oyun surumu '$GAME_VER' farkli: game.lua yamalaniyor"
-    TRLINE="$(grep -F "['tr'] = {" "$SRC/game.lua" | head -1)"
-    [ -n "$TRLINE" ] || { echo "HATA: game.lua icinde tr satiri yok"; exit 1; }
-    TRLINE="$TRLINE" awk '
-        { print }
-        /\[.ru.\] = \{font/ && !done_lang { print ENVIRON["TRLINE"]; done_lang=1 }
-        /self\.localization = assert\(loadstring\(love\.filesystem\.read\(.localization\/.\.\.G\.SETTINGS\.language/ && !done_load {
-            print "      if G.SETTINGS.language == \x27tr\x27 then"
-            print "        local base = assert(loadstring(love.filesystem.read(\x27localization/en-us.lua\x27)))()"
-            print "        local function merge(b, o) for k, v in pairs(o) do if type(v) == \x27table\x27 and type(b[k]) == \x27table\x27 and #v == 0 then merge(b[k], v) else b[k] = v end end end"
-            print "        merge(base, self.localization)"
-            print "        self.localization = base"
-            print "      end"
-            done_load=1
-        }
-        END { if (!done_lang || !done_load) exit 3 }
-    ' "$GAME/game.lua" > "$WORK/game.lua" || { echo "HATA: game.lua yamalanamadi (oyun surumu farkli olabilir)"; exit 1; }
-    cp "$WORK/game.lua" "$GAME/game.lua"
-    fi
-
-    # Imza bozuldugu icin kopya Finder'dan acilmaz ve bir uygulamanin alt sureci
-    # olarak baslatilinca macOS onu oldurur. Terminal uzerinden calisinca aciliyor;
-    # baslatici bu yuzden icindeki .command dosyasini Terminal'de acar.
-    # (Kopyayi ad-hoc imzalamak da calisir ama iCloud kayitlari yuklenmez.)
-    rm -rf "$LAUNCHER"
-    osacompile -o "$LAUNCHER" -e 'do shell script "open " & quoted form of (POSIX path of (path to me) & "Contents/Resources/baslat.command")'
-    printf '#!/bin/bash\nnohup "%s" >/dev/null 2>&1 &\ndisown\nexit 0\n' "$TR_APP/Contents/MacOS/Balatro" > "$LAUNCHER/Contents/Resources/baslat.command"
-    chmod +x "$LAUNCHER/Contents/Resources/baslat.command"
-    cp "$ARCADE_APP/Contents/Resources/OS X AppIcon.icns" "$LAUNCHER/Contents/Resources/applet.icns" 2>/dev/null || true
-    codesign --force -s - "$LAUNCHER" 2>/dev/null || true
-    touch "$LAUNCHER"
+    copy_assets "$ARCADE_SAVE"
+    # Bu game.lua oyunun kendi game.lua'sini okuyup calisirken yamalar;
+    # bu yuzden oyun guncellendiginde de calismaya devam eder.
+    cp "$SRC/game.lua" "$ARCADE_SAVE/game.lua"
 
     echo
-    echo "Tamam. Oyunu su uygulamayla acin: $LAUNCHER"
-    echo "Ayarlar > Dil menusunden Turkce'yi secin."
-    echo "Oyun guncellenince betigi yeniden calistirin."
+    echo "Tamam. Balatro'yu her zamanki gibi acin, Ayarlar > Dil menusunden Turkce'yi secin."
+    echo "Kaldirmak icin: bash Balatro_TR_macOS.sh --kaldir"
     exit 0
 fi
 
@@ -130,7 +98,7 @@ if [ -f "$LOVE" ]; then
     SRC="$ROOT/localization_files"
     [ -f "$LOVE.yedek" ] || cp "$LOVE" "$LOVE.yedek"
     echo "Yedek: $LOVE.yedek"
-    mkdir -p "$WORK/pack/localization" "$WORK/pack/resources/fonts" "$WORK/pack/resources/textures/1x" "$WORK/pack/resources/textures/2x"
+    mkdir -p "$WORK/pack"
     cp "$SRC/game.lua" "$WORK/pack/game.lua"
     copy_assets "$WORK/pack"
     (cd "$WORK/pack" && zip -qr "$LOVE" .)
